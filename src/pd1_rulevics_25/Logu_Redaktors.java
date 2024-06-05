@@ -2043,6 +2043,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         TestFrame.setVisible(true);
         TestFrame.pack();
         TestFrame.setLocationRelativeTo(null);
+        //test
     }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
