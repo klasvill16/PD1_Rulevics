@@ -93,6 +93,9 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jSeparator8 = new javax.swing.JSeparator();
         jLabel17 = new javax.swing.JLabel();
         jSeparator9 = new javax.swing.JSeparator();
+        jButton22 = new javax.swing.JButton();
+        jSeparator10 = new javax.swing.JSeparator();
+        jSeparator11 = new javax.swing.JSeparator();
         jTabbedPane2 = new javax.swing.JTabbedPane();
         jPanel13 = new javax.swing.JPanel();
         jButton11 = new javax.swing.JButton();
@@ -123,6 +126,12 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jTextField8 = new javax.swing.JTextField();
         jButton17 = new javax.swing.JButton();
         jLabel29 = new javax.swing.JLabel();
+        jPanel33 = new javax.swing.JPanel();
+        jLabel35 = new javax.swing.JLabel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jTable3 = new javax.swing.JTable();
+        jButton23 = new javax.swing.JButton();
+        jButton24 = new javax.swing.JButton();
         TestFrame = new javax.swing.JDialog();
         jPanel15 = new javax.swing.JPanel();
         jPanel16 = new javax.swing.JPanel();
@@ -635,7 +644,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jButton9.setBackground(new java.awt.Color(13, 85, 54));
         jButton9.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
         jButton9.setForeground(new java.awt.Color(255, 255, 255));
-        jButton9.setText("Atzīmes");
+        jButton9.setText("Lietotāju saraksts");
         jButton9.setToolTipText("");
         jButton9.setBorder(null);
 
@@ -664,28 +673,40 @@ public class Logu_Redaktors extends javax.swing.JFrame {
 
         jSeparator9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
+        jButton22.setBackground(new java.awt.Color(13, 85, 54));
+        jButton22.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        jButton22.setForeground(new java.awt.Color(255, 255, 255));
+        jButton22.setText("Atzīmes");
+        jButton22.setToolTipText("");
+        jButton22.setBorder(null);
+
+        jSeparator10.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+
+        jSeparator11.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
         jPanel12Layout.setHorizontalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                .addComponent(jButton10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE))
+            .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addGroup(jPanel12Layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(12, 12, 12)
                 .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jSeparator5)
-                    .addComponent(jSeparator8)
-                    .addComponent(jSeparator7)
-                    .addComponent(jSeparator9))
-                .addContainerGap())
+                    .addComponent(jSeparator8, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jSeparator5, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jSeparator10, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jSeparator11, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jSeparator7, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel12Layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(13, 13, 13)
                 .addComponent(jLabel17)
                 .addGap(4, 4, 4)
                 .addComponent(jSeparator8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -694,14 +715,20 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 .addGap(0, 0, 0)
                 .addComponent(jSeparator5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(1, 1, 1)
-                .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(303, 303, 303)
-                .addComponent(jSeparator7, javax.swing.GroupLayout.PREFERRED_SIZE, 4, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jSeparator10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jSeparator11, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(248, 248, 248)
+                .addComponent(jSeparator7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0))
+                .addContainerGap())
         );
 
         jPanel10.add(jPanel12);
@@ -843,20 +870,23 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jPanel22.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel22.setLayout(null);
 
+        jRadioButton16.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup6.add(jRadioButton16);
         jRadioButton16.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel22.add(jRadioButton16);
-        jRadioButton16.setBounds(20, 50, 19, 20);
+        jRadioButton16.setBounds(20, 50, 21, 21);
 
+        jRadioButton17.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup6.add(jRadioButton17);
         jRadioButton17.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel22.add(jRadioButton17);
-        jRadioButton17.setBounds(20, 90, 20, 20);
+        jRadioButton17.setBounds(20, 90, 20, 21);
 
+        jRadioButton18.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup6.add(jRadioButton18);
         jRadioButton18.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel22.add(jRadioButton18);
-        jRadioButton18.setBounds(20, 130, 19, 20);
+        jRadioButton18.setBounds(20, 130, 21, 21);
 
         jTextField5.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jTextField5.setText("Jautājuma teksts");
@@ -885,7 +915,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jButton17.setToolTipText("");
         jButton17.setBorder(null);
 
-        jLabel29.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        jLabel29.setFont(new java.awt.Font("Segoe UI Black", 0, 24)); // NOI18N
         jLabel29.setForeground(new java.awt.Color(13, 85, 54));
         jLabel29.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel29.setText("TESTU REDIĢĒŠANA");
@@ -904,14 +934,14 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 565, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(174, Short.MAX_VALUE))
+                .addContainerGap(169, Short.MAX_VALUE))
         );
         jPanel23Layout.setVerticalGroup(
             jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel23Layout.createSequentialGroup()
-                .addGap(16, 16, 16)
+                .addGap(35, 35, 35)
                 .addComponent(jLabel29)
-                .addGap(62, 62, 62)
+                .addGap(43, 43, 43)
                 .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel27)
                     .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -919,10 +949,66 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(86, Short.MAX_VALUE))
+                .addContainerGap(102, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("tab3", jPanel23);
+
+        jPanel33.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel33.setLayout(null);
+
+        jLabel35.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel35.setFont(new java.awt.Font("Segoe UI Black", 0, 24)); // NOI18N
+        jLabel35.setForeground(new java.awt.Color(13, 85, 54));
+        jLabel35.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel35.setText("LIETOTĀJU SARAKSTS");
+        jPanel33.add(jLabel35);
+        jLabel35.setBounds(220, 10, 292, 50);
+
+        jTable3.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Vārds", "Uzvārds", "Lietotājvārds", "Parole"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane7.setViewportView(jTable3);
+
+        jPanel33.add(jScrollPane7);
+        jScrollPane7.setBounds(20, 60, 760, 360);
+
+        jButton23.setBackground(new java.awt.Color(13, 85, 54));
+        jButton23.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        jButton23.setForeground(new java.awt.Color(255, 255, 255));
+        jButton23.setText("Izdest lietotāju");
+        jButton23.setToolTipText("");
+        jButton23.setActionCommand("");
+        jButton23.setBorder(null);
+        jPanel33.add(jButton23);
+        jButton23.setBounds(420, 430, 170, 40);
+
+        jButton24.setBackground(new java.awt.Color(13, 85, 54));
+        jButton24.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        jButton24.setForeground(new java.awt.Color(255, 255, 255));
+        jButton24.setText("Saglabāt ");
+        jButton24.setToolTipText("");
+        jButton24.setBorder(null);
+        jPanel33.add(jButton24);
+        jButton24.setBounds(610, 430, 170, 40);
+
+        jTabbedPane2.addTab("tab4", jPanel33);
 
         jPanel10.add(jTabbedPane2);
         jTabbedPane2.setBounds(160, -10, 850, 520);
@@ -937,7 +1023,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         );
         MainFrameTeacherLayout.setVerticalGroup(
             MainFrameTeacherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, 470, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, 475, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         jPanel15.setBackground(new java.awt.Color(255, 255, 255));
@@ -957,21 +1043,21 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jRadioButton1.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jRadioButton1.setText("Atbilde №1");
         jPanel16.add(jRadioButton1);
-        jRadioButton1.setBounds(12, 28, 570, 27);
+        jRadioButton1.setBounds(12, 28, 570, 31);
 
         jRadioButton2.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup2.add(jRadioButton2);
         jRadioButton2.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jRadioButton2.setText("Atbilde №2");
         jPanel16.add(jRadioButton2);
-        jRadioButton2.setBounds(12, 55, 570, 27);
+        jRadioButton2.setBounds(12, 55, 570, 31);
 
         jRadioButton3.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup2.add(jRadioButton3);
         jRadioButton3.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jRadioButton3.setText("Atbilde №3");
         jPanel16.add(jRadioButton3);
-        jRadioButton3.setBounds(12, 82, 570, 27);
+        jRadioButton3.setBounds(12, 82, 570, 31);
 
         jPanel15.add(jPanel16);
         jPanel16.setBounds(10, 250, 600, 120);
@@ -991,21 +1077,21 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jRadioButton4.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jRadioButton4.setText("Atbilde №1");
         jPanel17.add(jRadioButton4);
-        jRadioButton4.setBounds(12, 28, 570, 27);
+        jRadioButton4.setBounds(12, 28, 570, 31);
 
         jRadioButton5.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup1.add(jRadioButton5);
         jRadioButton5.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jRadioButton5.setText("Atbilde №2");
         jPanel17.add(jRadioButton5);
-        jRadioButton5.setBounds(12, 55, 570, 27);
+        jRadioButton5.setBounds(12, 55, 570, 31);
 
         jRadioButton6.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup1.add(jRadioButton6);
         jRadioButton6.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jRadioButton6.setText("Atbilde №3");
         jPanel17.add(jRadioButton6);
-        jRadioButton6.setBounds(12, 82, 570, 27);
+        jRadioButton6.setBounds(12, 82, 570, 31);
 
         jPanel15.add(jPanel17);
         jPanel17.setBounds(10, 120, 600, 120);
@@ -1024,21 +1110,21 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jRadioButton7.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jRadioButton7.setText("Atbilde №1");
         jPanel18.add(jRadioButton7);
-        jRadioButton7.setBounds(12, 28, 570, 27);
+        jRadioButton7.setBounds(12, 28, 570, 31);
 
         jRadioButton8.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup5.add(jRadioButton8);
         jRadioButton8.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jRadioButton8.setText("Atbilde №2");
         jPanel18.add(jRadioButton8);
-        jRadioButton8.setBounds(12, 55, 570, 27);
+        jRadioButton8.setBounds(12, 55, 570, 31);
 
         jRadioButton9.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup5.add(jRadioButton9);
         jRadioButton9.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jRadioButton9.setText("Atbilde №3");
         jPanel18.add(jRadioButton9);
-        jRadioButton9.setBounds(12, 82, 570, 27);
+        jRadioButton9.setBounds(12, 82, 570, 31);
 
         jPanel15.add(jPanel18);
         jPanel18.setBounds(10, 640, 600, 120);
@@ -1058,21 +1144,21 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jRadioButton10.setText("Atbilde №1");
         jRadioButton10.setToolTipText("");
         jPanel19.add(jRadioButton10);
-        jRadioButton10.setBounds(12, 28, 570, 27);
+        jRadioButton10.setBounds(12, 28, 570, 31);
 
         jRadioButton11.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup3.add(jRadioButton11);
         jRadioButton11.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jRadioButton11.setText("Atbilde №2");
         jPanel19.add(jRadioButton11);
-        jRadioButton11.setBounds(12, 55, 570, 27);
+        jRadioButton11.setBounds(12, 55, 570, 31);
 
         jRadioButton12.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup3.add(jRadioButton12);
         jRadioButton12.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jRadioButton12.setText("Atbilde №3");
         jPanel19.add(jRadioButton12);
-        jRadioButton12.setBounds(12, 82, 570, 27);
+        jRadioButton12.setBounds(12, 82, 570, 31);
 
         jPanel15.add(jPanel19);
         jPanel19.setBounds(10, 380, 600, 120);
@@ -1091,21 +1177,21 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jRadioButton13.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jRadioButton13.setText("Atbilde №1");
         jPanel20.add(jRadioButton13);
-        jRadioButton13.setBounds(12, 28, 570, 27);
+        jRadioButton13.setBounds(12, 28, 570, 31);
 
         jRadioButton14.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup4.add(jRadioButton14);
         jRadioButton14.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jRadioButton14.setText("Atbilde №2");
         jPanel20.add(jRadioButton14);
-        jRadioButton14.setBounds(12, 55, 570, 27);
+        jRadioButton14.setBounds(12, 55, 570, 31);
 
         jRadioButton15.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup4.add(jRadioButton15);
         jRadioButton15.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jRadioButton15.setText("Atbilde №3");
         jPanel20.add(jRadioButton15);
-        jRadioButton15.setBounds(12, 82, 570, 27);
+        jRadioButton15.setBounds(12, 82, 570, 31);
 
         jPanel15.add(jPanel20);
         jPanel20.setBounds(10, 510, 600, 120);
@@ -1163,17 +1249,17 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         buttonGroup2.add(jRadioButton19);
         jRadioButton19.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel25.add(jRadioButton19);
-        jRadioButton19.setBounds(20, 40, 19, 20);
+        jRadioButton19.setBounds(20, 40, 21, 21);
 
         buttonGroup2.add(jRadioButton20);
         jRadioButton20.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel25.add(jRadioButton20);
-        jRadioButton20.setBounds(20, 70, 20, 20);
+        jRadioButton20.setBounds(20, 70, 20, 21);
 
         buttonGroup2.add(jRadioButton21);
         jRadioButton21.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel25.add(jRadioButton21);
-        jRadioButton21.setBounds(20, 100, 20, 20);
+        jRadioButton21.setBounds(20, 100, 20, 21);
 
         jTextField11.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jTextField11.setText("2. Ievadiet jautājumu");
@@ -1209,17 +1295,17 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         buttonGroup1.add(jRadioButton22);
         jRadioButton22.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel26.add(jRadioButton22);
-        jRadioButton22.setBounds(20, 40, 20, 20);
+        jRadioButton22.setBounds(20, 40, 20, 21);
 
         buttonGroup1.add(jRadioButton23);
         jRadioButton23.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel26.add(jRadioButton23);
-        jRadioButton23.setBounds(20, 70, 20, 20);
+        jRadioButton23.setBounds(20, 70, 20, 21);
 
         buttonGroup1.add(jRadioButton24);
         jRadioButton24.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel26.add(jRadioButton24);
-        jRadioButton24.setBounds(20, 100, 19, 20);
+        jRadioButton24.setBounds(20, 100, 21, 21);
 
         jTextField10.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jTextField10.setText("1. Ievadiet jautājumu");
@@ -1255,17 +1341,17 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         buttonGroup5.add(jRadioButton25);
         jRadioButton25.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel27.add(jRadioButton25);
-        jRadioButton25.setBounds(20, 40, 20, 20);
+        jRadioButton25.setBounds(20, 40, 20, 21);
 
         buttonGroup5.add(jRadioButton26);
         jRadioButton26.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel27.add(jRadioButton26);
-        jRadioButton26.setBounds(20, 70, 19, 20);
+        jRadioButton26.setBounds(20, 70, 21, 21);
 
         buttonGroup5.add(jRadioButton27);
         jRadioButton27.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel27.add(jRadioButton27);
-        jRadioButton27.setBounds(20, 100, 19, 20);
+        jRadioButton27.setBounds(20, 100, 21, 21);
 
         jTextField14.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jTextField14.setText("5. Ievadiet jautājumu");
@@ -1302,17 +1388,17 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jRadioButton28.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jRadioButton28.setToolTipText("");
         jPanel28.add(jRadioButton28);
-        jRadioButton28.setBounds(20, 40, 20, 20);
+        jRadioButton28.setBounds(20, 40, 20, 21);
 
         buttonGroup3.add(jRadioButton29);
         jRadioButton29.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel28.add(jRadioButton29);
-        jRadioButton29.setBounds(20, 70, 20, 20);
+        jRadioButton29.setBounds(20, 70, 20, 21);
 
         buttonGroup3.add(jRadioButton30);
         jRadioButton30.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel28.add(jRadioButton30);
-        jRadioButton30.setBounds(20, 100, 19, 20);
+        jRadioButton30.setBounds(20, 100, 21, 21);
 
         jTextField12.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jTextField12.setText("3. Ievadiet jautājumu");
@@ -1348,17 +1434,17 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         buttonGroup4.add(jRadioButton31);
         jRadioButton31.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel29.add(jRadioButton31);
-        jRadioButton31.setBounds(20, 40, 20, 20);
+        jRadioButton31.setBounds(20, 40, 20, 21);
 
         buttonGroup4.add(jRadioButton32);
         jRadioButton32.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel29.add(jRadioButton32);
-        jRadioButton32.setBounds(20, 70, 19, 20);
+        jRadioButton32.setBounds(20, 70, 21, 21);
 
         buttonGroup4.add(jRadioButton33);
         jRadioButton33.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jPanel29.add(jRadioButton33);
-        jRadioButton33.setBounds(20, 100, 19, 20);
+        jRadioButton33.setBounds(20, 100, 21, 21);
 
         jTextField13.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jTextField13.setText("4. Ievadiet jautājumu");
@@ -1512,8 +1598,6 @@ public class Logu_Redaktors extends javax.swing.JFrame {
 
         jLabel33.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
         jLabel33.setText("Operācija tika veikta veiksmīgi!");
-
-        jLabel34.setIcon(new javax.swing.ImageIcon("C:\\Users\\klasv\\Desktop\\PD1_Rulevics_25\\src\\images\\successicon1.png")); // NOI18N
 
         InfoLabel.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         InfoLabel.setText("Paziņojuma apraksts");
@@ -1945,6 +2029,9 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
     private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
@@ -1982,6 +2069,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
@@ -2016,6 +2104,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel30;
     private javax.swing.JPanel jPanel31;
     private javax.swing.JPanel jPanel32;
+    private javax.swing.JPanel jPanel33;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
@@ -2061,8 +2150,11 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSeparator jSeparator10;
+    private javax.swing.JSeparator jSeparator11;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
@@ -2074,6 +2166,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable2;
+    private javax.swing.JTable jTable3;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextField jTextField10;
