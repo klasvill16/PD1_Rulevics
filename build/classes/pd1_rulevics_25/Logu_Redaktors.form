@@ -727,21 +727,11 @@
                               <Font name="Segoe UI Semilight" size="16" style="0"/>
                             </Property>
                             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                              <Table columnCount="2" rowCount="5">
-                                <Column editable="true" title="Testa nosaukums" type="java.lang.Object">
-                                  <Data value="EXAMPLE TEST 1"/>
-                                  <Data value="EXAMPLE TEST 2"/>
-                                  <Data value="EXAMPLE TEST 3"/>
-                                  <Data value="EXAMPLE TEST 4"/>
-                                  <Data value="EXAMPLE TEST 5"/>
-                                </Column>
-                                <Column editable="true" title="Atz&#x12b;me par testu" type="java.lang.Object">
-                                  <Data value="5"/>
-                                  <Data value="4"/>
-                                  <Data value="10"/>
-                                  <Data value="6"/>
-                                  <Data value="Nav atz&#x12b;mes"/>
-                                </Column>
+                              <Table columnCount="4" rowCount="0">
+                                <Column editable="false" title="V&#x101;rds" type="java.lang.Object"/>
+                                <Column editable="false" title="Uzv&#x101;rds" type="java.lang.Object"/>
+                                <Column editable="false" title="Testa nosaukums" type="java.lang.Object"/>
+                                <Column editable="false" title="Atz&#x12b;me par testu" type="java.lang.Object"/>
                               </Table>
                             </Property>
                             <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">

@@ -25,6 +25,8 @@ import javax.swing.event.ListSelectionListener;
  */
 public class Logu_Redaktors extends javax.swing.JFrame {
 
+    String globalusername = "";
+    
     static Logu_Redaktors LoginFrame = new Logu_Redaktors();
 
     /**
@@ -591,16 +593,20 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jTable1.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"EXAMPLE TEST 1", "5"},
-                {"EXAMPLE TEST 2", "4"},
-                {"EXAMPLE TEST 3", "10"},
-                {"EXAMPLE TEST 4", "6"},
-                {"EXAMPLE TEST 5", "Nav atzīmes"}
+
             },
             new String [] {
-                "Testa nosaukums", "Atzīme par testu"
+                "Vārds", "Uzvārds", "Testa nosaukums", "Atzīme par testu"
             }
-        ));
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         jTable1.setColumnSelectionAllowed(true);
         jTable1.setRowHeight(35);
         jScrollPane3.setViewportView(jTable1);
@@ -1906,7 +1912,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                         // Izmainisīm tekstu uz saveicinājumu ar lietotāju
                         jLabel13.setText("Labdien, " + userName);
                     }
-
+                    globalusername = userName;
                     this.dispose();
                     showInfo("Jūs esat veiksmīgi pieteicies savā kontā!");
                 } else {
@@ -1914,6 +1920,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 }
                 UsernameField.setText("");
                 PasswordField.setText("");
+                
                 con.close();
             } catch (Exception e) {
                 System.out.println(e.getMessage());
@@ -1959,6 +1966,51 @@ public class Logu_Redaktors extends javax.swing.JFrame {
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         jTabbedPane1.setSelectedIndex(1);
+        DataBase db = new DataBase();
+        
+        ResultSet rs = null;
+        PreparedStatement pst = null;
+        
+        try {
+                Connection con = db.connect();
+                String sqlMarks = "SELECT TestName, Mark FROM test WHERE UserName=?";
+                String sqlUsers = "SELECT FirstName, SecondName FROM test WHERE UserName=?";
+                pst = con.prepareStatement(sqlMarks);
+                pst.setString(1, globalusername);
+                rs = pst.executeQuery();
+                
+                while(rs.next()){
+                    String TestName = rs.getString("TestName");
+                    String Mark = rs.getString("Mark");
+                }
+                if (rs.next()) {
+                    String userType = rs.getString("UserType");
+                    String userName = rs.getString("FirstName");
+
+                    if ("teacher".equals(userType)) {
+                        MainFrameTeacher.setVisible(true);
+                        MainFrameTeacher.pack();
+                        MainFrameTeacher.setLocationRelativeTo(null);
+                        jLabel17.setText("Labdien, " + userName);
+                    } else {
+                        MainFrameStudent.setVisible(true);
+                        MainFrameStudent.pack();
+                        MainFrameStudent.setLocationRelativeTo(null);
+                        // Izmainisīm tekstu uz saveicinājumu ar lietotāju
+                        jLabel13.setText("Labdien, " + userName);
+                    }
+
+                    this.dispose();
+                    showInfo("Jūs esat veiksmīgi pieteicies savā kontā!");
+                } else {
+                    showError("Nevarēja piekļūt kontam!");
+                }
+                UsernameField.setText("");
+                PasswordField.setText("");
+                con.close();
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
@@ -2043,7 +2095,6 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         TestFrame.setVisible(true);
         TestFrame.pack();
         TestFrame.setLocationRelativeTo(null);
-        //test
     }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
