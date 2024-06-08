@@ -91,7 +91,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jList1 = new javax.swing.JList<>();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        TestDescriptionTextArea = new javax.swing.JTextArea();
         jLabel15 = new javax.swing.JLabel();
         jPanel11 = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
@@ -266,6 +266,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
 
         RegisterFrame.setTitle("Reģistrācijas logs");
+        RegisterFrame.setResizable(false);
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setToolTipText("Autorizācijas logs");
@@ -558,14 +559,14 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             }
         });
         jPanel9.add(jButton5);
-        jButton5.setBounds(600, 430, 190, 40);
+        jButton5.setBounds(660, 430, 190, 40);
 
-        jLabel14.setFont(new java.awt.Font("Segoe UI Black", 0, 24)); // NOI18N
+        jLabel14.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(13, 85, 54));
         jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel14.setText("TESTU SARAKSTS");
         jPanel9.add(jLabel14);
-        jLabel14.setBounds(20, 30, 450, 40);
+        jLabel14.setBounds(20, 20, 450, 50);
 
         jList1.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jList1.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
@@ -575,23 +576,23 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jPanel9.add(jScrollPane1);
         jScrollPane1.setBounds(20, 70, 450, 350);
 
-        jTextArea1.setEditable(false);
-        jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextArea1.setLineWrap(true);
-        jTextArea1.setRows(5);
-        jTextArea1.setToolTipText("");
-        jScrollPane2.setViewportView(jTextArea1);
+        TestDescriptionTextArea.setEditable(false);
+        TestDescriptionTextArea.setColumns(20);
+        TestDescriptionTextArea.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        TestDescriptionTextArea.setLineWrap(true);
+        TestDescriptionTextArea.setRows(5);
+        TestDescriptionTextArea.setToolTipText("");
+        jScrollPane2.setViewportView(TestDescriptionTextArea);
 
         jPanel9.add(jScrollPane2);
-        jScrollPane2.setBounds(490, 70, 300, 350);
+        jScrollPane2.setBounds(490, 70, 360, 350);
 
-        jLabel15.setFont(new java.awt.Font("Segoe UI Black", 0, 24)); // NOI18N
+        jLabel15.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(13, 85, 54));
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel15.setText("TESTA APRAKSTS");
         jPanel9.add(jLabel15);
-        jLabel15.setBounds(490, 30, 300, 40);
+        jLabel15.setBounds(490, 20, 360, 50);
 
         jTabbedPane1.addTab("tab1", jPanel9);
 
@@ -630,26 +631,26 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         }
 
         jPanel11.add(jScrollPane3);
-        jScrollPane3.setBounds(10, 60, 780, 410);
+        jScrollPane3.setBounds(10, 60, 850, 410);
 
-        jLabel16.setFont(new java.awt.Font("Segoe UI Black", 0, 24)); // NOI18N
+        jLabel16.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(13, 85, 54));
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel16.setText("ATZĪMJU TABULA");
         jPanel11.add(jLabel16);
-        jLabel16.setBounds(10, 20, 780, 40);
+        jLabel16.setBounds(10, 10, 850, 50);
 
         jTabbedPane1.addTab("tab2", jPanel11);
         jPanel11.getAccessibleContext().setAccessibleName("CHOISE");
 
         jPanel7.add(jTabbedPane1);
-        jTabbedPane1.setBounds(200, -10, 810, 520);
+        jTabbedPane1.setBounds(200, -10, 870, 520);
 
         javax.swing.GroupLayout MainFrameStudentLayout = new javax.swing.GroupLayout(MainFrameStudent.getContentPane());
         MainFrameStudent.getContentPane().setLayout(MainFrameStudentLayout);
         MainFrameStudentLayout.setHorizontalGroup(
             MainFrameStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, 1005, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, 1067, Short.MAX_VALUE)
         );
         MainFrameStudentLayout.setVerticalGroup(
             MainFrameStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1051,6 +1052,8 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, 475, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
+        TestFrame.setResizable(false);
+
         jPanel15.setBackground(new java.awt.Color(255, 255, 255));
         jPanel15.setLayout(null);
 
@@ -1287,6 +1290,8 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             TestFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel15, javax.swing.GroupLayout.DEFAULT_SIZE, 820, Short.MAX_VALUE)
         );
+
+        NewTestFrame.setResizable(false);
 
         jPanel24.setBackground(new java.awt.Color(255, 255, 255));
         jPanel24.setLayout(null);
@@ -2117,6 +2122,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         LoginFrame.setVisible(true);
         MainFrameStudent.dispose();
+        TestDescriptionTextArea.setText("");
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
@@ -2153,7 +2159,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             TestNameLabel.setText(testName);
 
             // Pieprasījums saņemt izvēlētā testa jautājumus un atbildes
-            String sql = "SELECT QuestionText, AnswerFirst, AnswerSecond, AnswerThird FROM questions WHERE TestName=?";
+            String sql = "SELECT QuestionText, AnswerFirst, AnswerSecond, AnswerThird FROM test WHERE TestName=?";
             pst = con.prepareStatement(sql);
             pst.setString(1, testName);
             rs = pst.executeQuery();
@@ -2206,7 +2212,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
 
         try {
             Connection con = db.connect();
-            String sql = "SELECT AnswerRight FROM questions WHERE TestName=?";
+            String sql = "SELECT AnswerRight FROM test WHERE TestName=?";
             pst = con.prepareStatement(sql);
             pst.setString(1, testName);
             rs = pst.executeQuery();
@@ -2340,13 +2346,13 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         PreparedStatement pst = null;
         try {
             Connection con = db.connect();
-            String sql = "SELECT TestDescription FROM questions WHERE TestName=?";
+            String sql = "SELECT TestDescription FROM test WHERE TestName=?";
             pst = con.prepareStatement(sql);
             pst.setString(1, testName);
             rs = pst.executeQuery();
             if (rs.next()) {
                 String testDescription = rs.getString("TestDescription");
-                jTextArea1.setText(testDescription);
+                TestDescriptionTextArea.setText(testDescription);
             }
             con.close();
         } catch (Exception e) {
@@ -2413,6 +2419,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JDialog ResultFrame;
     private javax.swing.JRadioButton StudentTypeRadioButton;
     private javax.swing.JRadioButton TeacherTypeRadioButton;
+    private javax.swing.JTextArea TestDescriptionTextArea;
     private javax.swing.JDialog TestFrame;
     private javax.swing.JLabel TestNameLabel;
     private javax.swing.JTextField UsernameField;
@@ -2553,7 +2560,6 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable2;
     private javax.swing.JTable jTable3;
-    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextField jTextField10;
     private javax.swing.JTextField jTextField11;
