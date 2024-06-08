@@ -347,7 +347,7 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="jPanel7" min="-2" pref="962" max="-2" attributes="0"/>
+              <Component id="jPanel7" min="-2" pref="1005" max="-2" attributes="0"/>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
@@ -383,32 +383,27 @@
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="0" width="160" height="480"/>
+                  <AbsoluteConstraints x="0" y="0" width="200" height="480"/>
                 </Constraint>
               </Constraints>
 
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jButton1" alignment="0" pref="160" max="32767" attributes="0"/>
-                              <Component id="jLabel13" max="32767" attributes="0"/>
-                          </Group>
-                      </Group>
                       <Component id="jButton7" alignment="0" max="32767" attributes="0"/>
                       <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jSeparator3" max="32767" attributes="0"/>
-                              <Component id="jSeparator1" pref="148" max="32767" attributes="0"/>
+                              <Component id="jSeparator1" pref="188" max="32767" attributes="0"/>
                               <Component id="jSeparator2" alignment="0" max="32767" attributes="0"/>
                               <Component id="jSeparator4" alignment="0" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                       <Component id="jButton8" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jLabel13" max="32767" attributes="0"/>
+                      <Component id="jButton1" alignment="1" max="32767" attributes="0"/>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
@@ -545,7 +540,7 @@
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="160" y="-10" width="850" height="520"/>
+                  <AbsoluteConstraints x="200" y="-10" width="810" height="520"/>
                 </Constraint>
               </Constraints>
 
@@ -604,7 +599,7 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                          <AbsoluteConstraints x="10" y="30" width="460" height="40"/>
+                          <AbsoluteConstraints x="20" y="30" width="450" height="40"/>
                         </Constraint>
                       </Constraints>
                     </Component>
@@ -614,7 +609,7 @@
                       </AuxValues>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                          <AbsoluteConstraints x="10" y="70" width="460" height="350"/>
+                          <AbsoluteConstraints x="20" y="70" width="450" height="350"/>
                         </Constraint>
                       </Constraints>
 
@@ -653,8 +648,8 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI Semilight" size="16" style="0"/>
                             </Property>
+                            <Property name="lineWrap" type="boolean" value="true"/>
                             <Property name="rows" type="int" value="5"/>
-                            <Property name="text" type="java.lang.String" value="&#x160;eit b&#x16b;s testa apraksts"/>
                             <Property name="toolTipText" type="java.lang.String" value=""/>
                           </Properties>
                         </Component>
@@ -727,9 +722,7 @@
                               <Font name="Segoe UI Semilight" size="16" style="0"/>
                             </Property>
                             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                              <Table columnCount="4" rowCount="0">
-                                <Column editable="false" title="V&#x101;rds" type="java.lang.Object"/>
-                                <Column editable="false" title="Uzv&#x101;rds" type="java.lang.Object"/>
+                              <Table columnCount="2" rowCount="2">
                                 <Column editable="false" title="Testa nosaukums" type="java.lang.Object"/>
                                 <Column editable="false" title="Atz&#x12b;me par testu" type="java.lang.Object"/>
                               </Table>
@@ -1770,7 +1763,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup2"/>
+                      <ComponentRef name="AnswerGroup2"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -1789,7 +1782,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup2"/>
+                      <ComponentRef name="AnswerGroup2"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -1808,7 +1801,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup2"/>
+                      <ComponentRef name="AnswerGroup2"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -1864,7 +1857,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup1"/>
+                      <ComponentRef name="AnswerGroup1"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -1883,7 +1876,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup1"/>
+                      <ComponentRef name="AnswerGroup1"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -1902,7 +1895,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup1"/>
+                      <ComponentRef name="AnswerGroup1"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -1957,7 +1950,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup5"/>
+                      <ComponentRef name="AnswerGroup5"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -1976,7 +1969,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup5"/>
+                      <ComponentRef name="AnswerGroup5"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -1995,7 +1988,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup5"/>
+                      <ComponentRef name="AnswerGroup5"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2050,7 +2043,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup3"/>
+                      <ComponentRef name="AnswerGroup3"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2070,7 +2063,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup3"/>
+                      <ComponentRef name="AnswerGroup3"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2089,7 +2082,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup3"/>
+                      <ComponentRef name="AnswerGroup3"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2144,7 +2137,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup4"/>
+                      <ComponentRef name="AnswerGroup4"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2163,7 +2156,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup4"/>
+                      <ComponentRef name="AnswerGroup4"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2182,7 +2175,7 @@
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup4"/>
+                      <ComponentRef name="AnswerGroup4"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2208,15 +2201,18 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Izdz&#x113;st visas atbildes"/>
+                <Property name="text" type="java.lang.String" value="Iziet"/>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="null"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton15ActionPerformed"/>
+              </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="250" y="770" width="170" height="40"/>
+                  <AbsoluteConstraints x="10" y="770" width="70" height="40"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -2237,6 +2233,9 @@
                   <Border info="null"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton16ActionPerformed"/>
+              </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                   <AbsoluteConstraints x="440" y="770" width="170" height="40"/>
@@ -2281,6 +2280,32 @@
                 </Component>
               </SubComponents>
             </Container>
+            <Component class="javax.swing.JButton" name="jButton25">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="36" green="55" red="d" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI Semibold" size="14" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Izdz&#x113;st visas atbildes"/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton25ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="250" y="770" width="170" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
           </SubComponents>
         </Container>
       </SubComponents>
@@ -2335,7 +2360,7 @@
                 <Component class="javax.swing.JRadioButton" name="jRadioButton19">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup2"/>
+                      <ComponentRef name="AnswerGroup2"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2350,7 +2375,7 @@
                 <Component class="javax.swing.JRadioButton" name="jRadioButton20">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup2"/>
+                      <ComponentRef name="AnswerGroup2"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2365,7 +2390,7 @@
                 <Component class="javax.swing.JRadioButton" name="jRadioButton21">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup2"/>
+                      <ComponentRef name="AnswerGroup2"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2475,7 +2500,7 @@
                 <Component class="javax.swing.JRadioButton" name="jRadioButton22">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup1"/>
+                      <ComponentRef name="AnswerGroup1"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2490,7 +2515,7 @@
                 <Component class="javax.swing.JRadioButton" name="jRadioButton23">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup1"/>
+                      <ComponentRef name="AnswerGroup1"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2505,7 +2530,7 @@
                 <Component class="javax.swing.JRadioButton" name="jRadioButton24">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup1"/>
+                      <ComponentRef name="AnswerGroup1"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2615,7 +2640,7 @@
                 <Component class="javax.swing.JRadioButton" name="jRadioButton25">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup5"/>
+                      <ComponentRef name="AnswerGroup5"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2630,7 +2655,7 @@
                 <Component class="javax.swing.JRadioButton" name="jRadioButton26">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup5"/>
+                      <ComponentRef name="AnswerGroup5"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2645,7 +2670,7 @@
                 <Component class="javax.swing.JRadioButton" name="jRadioButton27">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup5"/>
+                      <ComponentRef name="AnswerGroup5"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2755,7 +2780,7 @@
                 <Component class="javax.swing.JRadioButton" name="jRadioButton28">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup3"/>
+                      <ComponentRef name="AnswerGroup3"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2771,7 +2796,7 @@
                 <Component class="javax.swing.JRadioButton" name="jRadioButton29">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup3"/>
+                      <ComponentRef name="AnswerGroup3"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2786,7 +2811,7 @@
                 <Component class="javax.swing.JRadioButton" name="jRadioButton30">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup3"/>
+                      <ComponentRef name="AnswerGroup3"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2896,7 +2921,7 @@
                 <Component class="javax.swing.JRadioButton" name="jRadioButton31">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup4"/>
+                      <ComponentRef name="AnswerGroup4"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2911,7 +2936,7 @@
                 <Component class="javax.swing.JRadioButton" name="jRadioButton32">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup4"/>
+                      <ComponentRef name="AnswerGroup4"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -2926,7 +2951,7 @@
                 <Component class="javax.swing.JRadioButton" name="jRadioButton33">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-                      <ComponentRef name="buttonGroup4"/>
+                      <ComponentRef name="AnswerGroup4"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI Semilight" size="16" style="0"/>
@@ -3230,20 +3255,6 @@
         </Container>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup3">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup4">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup5">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup6">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup7">
-    </Component>
     <Container class="javax.swing.JDialog" name="InfoFrame">
       <Properties>
         <Property name="title" type="java.lang.String" value="Zi&#x146;as logs"/>
@@ -3362,6 +3373,151 @@
         </Container>
       </SubComponents>
     </Container>
+    <Container class="javax.swing.JDialog" name="ResultFrame">
+      <Properties>
+        <Property name="resizable" type="boolean" value="false"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel34" min="-2" max="-2" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel34" min="-2" max="-2" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel34">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="PercentLabel" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jPanel35" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="MarkLabel" max="32767" attributes="0"/>
+                          <Component id="jButton26" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel35" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="PercentLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="MarkLabel" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace pref="23" max="32767" attributes="0"/>
+                      <Component id="jButton26" min="-2" pref="34" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel35">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="36" green="55" red="d" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="NameLabel" alignment="0" pref="512" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                          <Component id="NameLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="18" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="NameLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI Black" size="36" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="Apsveic&#x101;m, "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="PercentLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI Semilight" size="16" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Par testu &quot;Testa Nosaukums&quot; j&#x16b;s ieguv&#x101;t _% "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="MarkLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI Semilight" size="36" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="J&#x16b;su atz&#x12b;me ir _"/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton26">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI Semibold" size="16" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Labi"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton26ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.ButtonGroup" name="AnswerGroup1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="AnswerGroup2">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="AnswerGroup3">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="AnswerGroup4">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="AnswerGroup5">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup6">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup7">
+    </Component>
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
