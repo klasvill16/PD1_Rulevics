@@ -22,6 +22,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JRadioButton;
 import javax.swing.JTextArea;
+import javax.swing.JTextField;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableModel;
@@ -160,50 +161,54 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         NewTestFrame = new javax.swing.JDialog();
         jPanel24 = new javax.swing.JPanel();
         jPanel25 = new javax.swing.JPanel();
-        jRadioButton19 = new javax.swing.JRadioButton();
-        jRadioButton20 = new javax.swing.JRadioButton();
-        jRadioButton21 = new javax.swing.JRadioButton();
-        jTextField11 = new javax.swing.JTextField();
-        jTextField18 = new javax.swing.JTextField();
-        jTextField19 = new javax.swing.JTextField();
-        jTextField20 = new javax.swing.JTextField();
+        RadioButton21 = new javax.swing.JRadioButton();
+        RadioButton22 = new javax.swing.JRadioButton();
+        RadioButton23 = new javax.swing.JRadioButton();
+        NewQuestionField2 = new javax.swing.JTextField();
+        NewAnswerField21 = new javax.swing.JTextField();
+        NewAnswerField22 = new javax.swing.JTextField();
+        NewAnswerField23 = new javax.swing.JTextField();
         jPanel26 = new javax.swing.JPanel();
-        jRadioButton22 = new javax.swing.JRadioButton();
-        jRadioButton23 = new javax.swing.JRadioButton();
-        jRadioButton24 = new javax.swing.JRadioButton();
-        jTextField10 = new javax.swing.JTextField();
-        jTextField15 = new javax.swing.JTextField();
-        jTextField16 = new javax.swing.JTextField();
-        jTextField17 = new javax.swing.JTextField();
+        RadioButton11 = new javax.swing.JRadioButton();
+        RadioButton12 = new javax.swing.JRadioButton();
+        RadioButton13 = new javax.swing.JRadioButton();
+        NewQuestionField1 = new javax.swing.JTextField();
+        NewAnswerField11 = new javax.swing.JTextField();
+        NewAnswerField12 = new javax.swing.JTextField();
+        NewAnswerField13 = new javax.swing.JTextField();
         jPanel27 = new javax.swing.JPanel();
-        jRadioButton25 = new javax.swing.JRadioButton();
-        jRadioButton26 = new javax.swing.JRadioButton();
-        jRadioButton27 = new javax.swing.JRadioButton();
-        jTextField14 = new javax.swing.JTextField();
-        jTextField27 = new javax.swing.JTextField();
-        jTextField28 = new javax.swing.JTextField();
-        jTextField29 = new javax.swing.JTextField();
+        RadioButton51 = new javax.swing.JRadioButton();
+        RadioButton52 = new javax.swing.JRadioButton();
+        RadioButton53 = new javax.swing.JRadioButton();
+        NewQuestionField5 = new javax.swing.JTextField();
+        NewAnswerField51 = new javax.swing.JTextField();
+        NewAnswerField52 = new javax.swing.JTextField();
+        NewAnswerField53 = new javax.swing.JTextField();
         jPanel28 = new javax.swing.JPanel();
-        jRadioButton28 = new javax.swing.JRadioButton();
-        jRadioButton29 = new javax.swing.JRadioButton();
-        jRadioButton30 = new javax.swing.JRadioButton();
-        jTextField12 = new javax.swing.JTextField();
-        jTextField21 = new javax.swing.JTextField();
-        jTextField22 = new javax.swing.JTextField();
-        jTextField23 = new javax.swing.JTextField();
+        RadioButton31 = new javax.swing.JRadioButton();
+        RadioButton32 = new javax.swing.JRadioButton();
+        RadioButton33 = new javax.swing.JRadioButton();
+        NewQuestionField3 = new javax.swing.JTextField();
+        NewAnswerField31 = new javax.swing.JTextField();
+        NewAnswerField32 = new javax.swing.JTextField();
+        NewAnswerField33 = new javax.swing.JTextField();
         jPanel29 = new javax.swing.JPanel();
-        jRadioButton31 = new javax.swing.JRadioButton();
-        jRadioButton32 = new javax.swing.JRadioButton();
-        jRadioButton33 = new javax.swing.JRadioButton();
-        jTextField13 = new javax.swing.JTextField();
-        jTextField24 = new javax.swing.JTextField();
-        jTextField25 = new javax.swing.JTextField();
-        jTextField26 = new javax.swing.JTextField();
+        RadioButton41 = new javax.swing.JRadioButton();
+        RadioButton42 = new javax.swing.JRadioButton();
+        RadioButton43 = new javax.swing.JRadioButton();
+        NewQuestionField4 = new javax.swing.JTextField();
+        NewAnswerField41 = new javax.swing.JTextField();
+        NewAnswerField42 = new javax.swing.JTextField();
+        NewAnswerField43 = new javax.swing.JTextField();
         jButton19 = new javax.swing.JButton();
         jPanel30 = new javax.swing.JPanel();
-        jTextField9 = new javax.swing.JTextField();
+        TestNameField = new javax.swing.JTextField();
         jScrollPane8 = new javax.swing.JScrollPane();
         jTextPane1 = new javax.swing.JTextPane();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        NewTestDesriptionField = new javax.swing.JTextArea();
+        jLabel17 = new javax.swing.JLabel();
+        jButton22 = new javax.swing.JButton();
         ErrorFrame = new javax.swing.JDialog();
         jPanel31 = new javax.swing.JPanel();
         jLabel28 = new javax.swing.JLabel();
@@ -230,6 +235,11 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         AnswerGroup5 = new javax.swing.ButtonGroup();
         buttonGroup6 = new javax.swing.ButtonGroup();
         buttonGroup7 = new javax.swing.ButtonGroup();
+        NewAnswerGroup1 = new javax.swing.ButtonGroup();
+        NewAnswerGroup2 = new javax.swing.ButtonGroup();
+        NewAnswerGroup3 = new javax.swing.ButtonGroup();
+        NewAnswerGroup4 = new javax.swing.ButtonGroup();
+        NewAnswerGroup5 = new javax.swing.ButtonGroup();
         jPanel3 = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
@@ -243,7 +253,8 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
 
-        RegisterFrame.setTitle("Reģistrācijas logs");
+        RegisterFrame.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        RegisterFrame.setTitle("Testēšanas sistēma");
         RegisterFrame.setResizable(false);
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
@@ -422,7 +433,8 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 619, Short.MAX_VALUE))
         );
 
-        MainFrameStudent.setTitle("Galvenais logs");
+        MainFrameStudent.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        MainFrameStudent.setTitle("Testēšanas sistēma");
         MainFrameStudent.setResizable(false);
 
         jPanel7.setBackground(new java.awt.Color(255, 255, 255));
@@ -608,14 +620,14 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         }
 
         jPanel11.add(jScrollPane3);
-        jScrollPane3.setBounds(10, 60, 850, 410);
+        jScrollPane3.setBounds(20, 70, 830, 400);
 
         jLabel16.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(13, 85, 54));
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel16.setText("ATZĪMJU TABULA");
         jPanel11.add(jLabel16);
-        jLabel16.setBounds(10, 10, 850, 50);
+        jLabel16.setBounds(10, 20, 850, 50);
 
         jTabbedPane1.addTab("tab2", jPanel11);
         jPanel11.getAccessibleContext().setAccessibleName("CHOISE");
@@ -634,7 +646,8 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, 472, Short.MAX_VALUE)
         );
 
-        MainFrameTeacher.setTitle("Galvenais logs");
+        MainFrameTeacher.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        MainFrameTeacher.setTitle("Testēšanas sistēma");
         MainFrameTeacher.setResizable(false);
 
         jPanel36.setBackground(new java.awt.Color(255, 255, 255));
@@ -807,8 +820,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jTable4.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         jTable4.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null}
+
             },
             new String [] {
                 "Studenta vārds", "Studenta uzvārds", "Testa nosaukums", "Atzīme par testu"
@@ -832,14 +844,14 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         }
 
         jPanel39.add(jScrollPane11);
-        jScrollPane11.setBounds(20, 60, 830, 360);
+        jScrollPane11.setBounds(20, 70, 830, 350);
 
         jLabel24.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(13, 85, 54));
         jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel24.setText("STUDENTU ATZĪMJU TABULA");
         jPanel39.add(jLabel24);
-        jLabel24.setBounds(10, 10, 850, 50);
+        jLabel24.setBounds(10, 20, 850, 50);
 
         jButton32.setBackground(new java.awt.Color(13, 85, 54));
         jButton32.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
@@ -857,7 +869,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jButton33.setBackground(new java.awt.Color(13, 85, 54));
         jButton33.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
         jButton33.setForeground(new java.awt.Color(255, 255, 255));
-        jButton33.setText("Izdzest");
+        jButton33.setText("Izdzēst");
         jButton33.setBorder(null);
         jButton33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -883,6 +895,8 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             .addComponent(jPanel36, javax.swing.GroupLayout.DEFAULT_SIZE, 472, Short.MAX_VALUE)
         );
 
+        TestFrame.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        TestFrame.setTitle("Testēšanas sistēma");
         TestFrame.setResizable(false);
 
         jPanel15.setBackground(new java.awt.Color(255, 255, 255));
@@ -1122,6 +1136,8 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             .addComponent(jPanel15, javax.swing.GroupLayout.DEFAULT_SIZE, 820, Short.MAX_VALUE)
         );
 
+        NewTestFrame.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        NewTestFrame.setTitle("Testēšanas sistēma");
         NewTestFrame.setResizable(false);
 
         jPanel24.setBackground(new java.awt.Color(255, 255, 255));
@@ -1131,232 +1147,247 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jPanel25.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel25.setLayout(null);
 
-        AnswerGroup2.add(jRadioButton19);
-        jRadioButton19.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel25.add(jRadioButton19);
-        jRadioButton19.setBounds(20, 40, 19, 20);
+        RadioButton21.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup2.add(RadioButton21);
+        RadioButton21.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jPanel25.add(RadioButton21);
+        RadioButton21.setBounds(20, 40, 19, 20);
 
-        AnswerGroup2.add(jRadioButton20);
-        jRadioButton20.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel25.add(jRadioButton20);
-        jRadioButton20.setBounds(20, 70, 20, 20);
+        RadioButton22.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup2.add(RadioButton22);
+        RadioButton22.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jPanel25.add(RadioButton22);
+        RadioButton22.setBounds(20, 70, 20, 20);
 
-        AnswerGroup2.add(jRadioButton21);
-        jRadioButton21.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel25.add(jRadioButton21);
-        jRadioButton21.setBounds(20, 100, 20, 20);
+        RadioButton23.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup2.add(RadioButton23);
+        RadioButton23.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jPanel25.add(RadioButton23);
+        RadioButton23.setBounds(20, 100, 20, 20);
 
-        jTextField11.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField11.setText("2. Ievadiet jautājumu");
-        jTextField11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel25.add(jTextField11);
-        jTextField11.setBounds(10, 10, 570, 26);
+        NewQuestionField2.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewQuestionField2.setText("2. Ievadiet jautājumu");
+        NewQuestionField2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel25.add(NewQuestionField2);
+        NewQuestionField2.setBounds(10, 10, 570, 26);
 
-        jTextField18.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField18.setText("Ievadiet atbildi");
-        jTextField18.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel25.add(jTextField18);
-        jTextField18.setBounds(50, 40, 120, 26);
+        NewAnswerField21.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField21.setText("Ievadiet atbildi");
+        NewAnswerField21.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel25.add(NewAnswerField21);
+        NewAnswerField21.setBounds(50, 40, 530, 26);
 
-        jTextField19.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField19.setText("Ievadiet atbildi");
-        jTextField19.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel25.add(jTextField19);
-        jTextField19.setBounds(50, 70, 120, 26);
+        NewAnswerField22.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField22.setText("Ievadiet atbildi");
+        NewAnswerField22.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel25.add(NewAnswerField22);
+        NewAnswerField22.setBounds(50, 70, 530, 26);
 
-        jTextField20.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField20.setText("Ievadiet atbildi");
-        jTextField20.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel25.add(jTextField20);
-        jTextField20.setBounds(50, 100, 120, 26);
+        NewAnswerField23.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField23.setText("Ievadiet atbildi");
+        NewAnswerField23.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel25.add(NewAnswerField23);
+        NewAnswerField23.setBounds(50, 100, 530, 26);
 
         jPanel24.add(jPanel25);
-        jPanel25.setBounds(10, 310, 600, 130);
+        jPanel25.setBounds(10, 300, 600, 130);
 
         jPanel26.setBackground(new java.awt.Color(255, 255, 255));
         jPanel26.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel26.setLayout(null);
 
-        AnswerGroup1.add(jRadioButton22);
-        jRadioButton22.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel26.add(jRadioButton22);
-        jRadioButton22.setBounds(20, 40, 20, 20);
+        RadioButton11.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup1.add(RadioButton11);
+        RadioButton11.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jPanel26.add(RadioButton11);
+        RadioButton11.setBounds(20, 40, 20, 20);
 
-        AnswerGroup1.add(jRadioButton23);
-        jRadioButton23.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel26.add(jRadioButton23);
-        jRadioButton23.setBounds(20, 70, 20, 20);
+        RadioButton12.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup1.add(RadioButton12);
+        RadioButton12.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jPanel26.add(RadioButton12);
+        RadioButton12.setBounds(20, 70, 20, 20);
 
-        AnswerGroup1.add(jRadioButton24);
-        jRadioButton24.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel26.add(jRadioButton24);
-        jRadioButton24.setBounds(20, 100, 19, 20);
+        RadioButton13.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup1.add(RadioButton13);
+        RadioButton13.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jPanel26.add(RadioButton13);
+        RadioButton13.setBounds(20, 100, 19, 20);
 
-        jTextField10.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField10.setText("1. Ievadiet jautājumu");
-        jTextField10.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel26.add(jTextField10);
-        jTextField10.setBounds(10, 10, 570, 26);
+        NewQuestionField1.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewQuestionField1.setText("1. Ievadiet jautājumu");
+        NewQuestionField1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel26.add(NewQuestionField1);
+        NewQuestionField1.setBounds(10, 10, 570, 26);
 
-        jTextField15.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField15.setText("Ievadiet atbildi");
-        jTextField15.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel26.add(jTextField15);
-        jTextField15.setBounds(50, 40, 120, 26);
+        NewAnswerField11.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField11.setText("Ievadiet atbildi");
+        NewAnswerField11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel26.add(NewAnswerField11);
+        NewAnswerField11.setBounds(50, 40, 530, 26);
 
-        jTextField16.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField16.setText("Ievadiet atbildi");
-        jTextField16.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel26.add(jTextField16);
-        jTextField16.setBounds(50, 70, 120, 26);
+        NewAnswerField12.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField12.setText("Ievadiet atbildi");
+        NewAnswerField12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel26.add(NewAnswerField12);
+        NewAnswerField12.setBounds(50, 70, 530, 26);
 
-        jTextField17.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField17.setText("Ievadiet atbildi");
-        jTextField17.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel26.add(jTextField17);
-        jTextField17.setBounds(50, 100, 120, 26);
+        NewAnswerField13.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField13.setText("Ievadiet atbildi");
+        NewAnswerField13.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel26.add(NewAnswerField13);
+        NewAnswerField13.setBounds(50, 100, 530, 26);
 
         jPanel24.add(jPanel26);
-        jPanel26.setBounds(10, 170, 600, 130);
+        jPanel26.setBounds(10, 160, 600, 130);
 
         jPanel27.setBackground(new java.awt.Color(255, 255, 255));
         jPanel27.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel27.setLayout(null);
 
-        AnswerGroup5.add(jRadioButton25);
-        jRadioButton25.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel27.add(jRadioButton25);
-        jRadioButton25.setBounds(20, 40, 20, 20);
+        RadioButton51.setBackground(new java.awt.Color(255, 255, 255));
+        NewAnswerGroup5.add(RadioButton51);
+        RadioButton51.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jPanel27.add(RadioButton51);
+        RadioButton51.setBounds(20, 40, 20, 20);
 
-        AnswerGroup5.add(jRadioButton26);
-        jRadioButton26.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel27.add(jRadioButton26);
-        jRadioButton26.setBounds(20, 70, 19, 20);
+        RadioButton52.setBackground(new java.awt.Color(255, 255, 255));
+        NewAnswerGroup5.add(RadioButton52);
+        RadioButton52.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jPanel27.add(RadioButton52);
+        RadioButton52.setBounds(20, 70, 19, 20);
 
-        AnswerGroup5.add(jRadioButton27);
-        jRadioButton27.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel27.add(jRadioButton27);
-        jRadioButton27.setBounds(20, 100, 19, 20);
+        RadioButton53.setBackground(new java.awt.Color(255, 255, 255));
+        NewAnswerGroup5.add(RadioButton53);
+        RadioButton53.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jPanel27.add(RadioButton53);
+        RadioButton53.setBounds(20, 100, 19, 20);
 
-        jTextField14.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField14.setText("5. Ievadiet jautājumu");
-        jTextField14.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel27.add(jTextField14);
-        jTextField14.setBounds(10, 10, 570, 26);
+        NewQuestionField5.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewQuestionField5.setText("5. Ievadiet jautājumu");
+        NewQuestionField5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel27.add(NewQuestionField5);
+        NewQuestionField5.setBounds(10, 10, 570, 26);
 
-        jTextField27.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField27.setText("Ievadiet atbildi");
-        jTextField27.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel27.add(jTextField27);
-        jTextField27.setBounds(50, 40, 120, 26);
+        NewAnswerField51.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField51.setText("Ievadiet atbildi");
+        NewAnswerField51.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel27.add(NewAnswerField51);
+        NewAnswerField51.setBounds(50, 40, 530, 26);
 
-        jTextField28.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField28.setText("Ievadiet atbildi");
-        jTextField28.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel27.add(jTextField28);
-        jTextField28.setBounds(50, 70, 120, 26);
+        NewAnswerField52.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField52.setText("Ievadiet atbildi");
+        NewAnswerField52.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel27.add(NewAnswerField52);
+        NewAnswerField52.setBounds(50, 70, 530, 26);
 
-        jTextField29.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField29.setText("Ievadiet atbildi");
-        jTextField29.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel27.add(jTextField29);
-        jTextField29.setBounds(50, 100, 120, 26);
+        NewAnswerField53.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField53.setText("Ievadiet atbildi");
+        NewAnswerField53.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel27.add(NewAnswerField53);
+        NewAnswerField53.setBounds(50, 100, 530, 26);
 
         jPanel24.add(jPanel27);
-        jPanel27.setBounds(10, 730, 600, 130);
+        jPanel27.setBounds(10, 720, 600, 130);
 
         jPanel28.setBackground(new java.awt.Color(255, 255, 255));
         jPanel28.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel28.setLayout(null);
 
-        AnswerGroup3.add(jRadioButton28);
-        jRadioButton28.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jRadioButton28.setToolTipText("");
-        jPanel28.add(jRadioButton28);
-        jRadioButton28.setBounds(20, 40, 20, 20);
+        RadioButton31.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup3.add(RadioButton31);
+        RadioButton31.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        RadioButton31.setToolTipText("");
+        jPanel28.add(RadioButton31);
+        RadioButton31.setBounds(20, 40, 20, 20);
 
-        AnswerGroup3.add(jRadioButton29);
-        jRadioButton29.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel28.add(jRadioButton29);
-        jRadioButton29.setBounds(20, 70, 20, 20);
+        RadioButton32.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup3.add(RadioButton32);
+        RadioButton32.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jPanel28.add(RadioButton32);
+        RadioButton32.setBounds(20, 70, 20, 20);
 
-        AnswerGroup3.add(jRadioButton30);
-        jRadioButton30.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel28.add(jRadioButton30);
-        jRadioButton30.setBounds(20, 100, 19, 20);
+        RadioButton33.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup3.add(RadioButton33);
+        RadioButton33.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jPanel28.add(RadioButton33);
+        RadioButton33.setBounds(20, 100, 19, 20);
 
-        jTextField12.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField12.setText("3. Ievadiet jautājumu");
-        jTextField12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel28.add(jTextField12);
-        jTextField12.setBounds(10, 10, 570, 26);
+        NewQuestionField3.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewQuestionField3.setText("3. Ievadiet jautājumu");
+        NewQuestionField3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel28.add(NewQuestionField3);
+        NewQuestionField3.setBounds(10, 10, 570, 26);
 
-        jTextField21.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField21.setText("Ievadiet atbildi");
-        jTextField21.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel28.add(jTextField21);
-        jTextField21.setBounds(50, 40, 120, 26);
+        NewAnswerField31.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField31.setText("Ievadiet atbildi");
+        NewAnswerField31.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel28.add(NewAnswerField31);
+        NewAnswerField31.setBounds(50, 40, 530, 26);
 
-        jTextField22.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField22.setText("Ievadiet atbildi");
-        jTextField22.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel28.add(jTextField22);
-        jTextField22.setBounds(50, 70, 120, 26);
+        NewAnswerField32.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField32.setText("Ievadiet atbildi");
+        NewAnswerField32.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel28.add(NewAnswerField32);
+        NewAnswerField32.setBounds(50, 70, 530, 26);
 
-        jTextField23.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField23.setText("Ievadiet atbildi");
-        jTextField23.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel28.add(jTextField23);
-        jTextField23.setBounds(50, 100, 120, 26);
+        NewAnswerField33.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField33.setText("Ievadiet atbildi");
+        NewAnswerField33.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel28.add(NewAnswerField33);
+        NewAnswerField33.setBounds(50, 100, 530, 26);
 
         jPanel24.add(jPanel28);
-        jPanel28.setBounds(10, 450, 600, 130);
+        jPanel28.setBounds(10, 440, 600, 130);
 
         jPanel29.setBackground(new java.awt.Color(255, 255, 255));
         jPanel29.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel29.setLayout(null);
 
-        AnswerGroup4.add(jRadioButton31);
-        jRadioButton31.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel29.add(jRadioButton31);
-        jRadioButton31.setBounds(20, 40, 20, 20);
+        RadioButton41.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup4.add(RadioButton41);
+        RadioButton41.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jPanel29.add(RadioButton41);
+        RadioButton41.setBounds(20, 40, 20, 20);
 
-        AnswerGroup4.add(jRadioButton32);
-        jRadioButton32.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel29.add(jRadioButton32);
-        jRadioButton32.setBounds(20, 70, 19, 20);
+        RadioButton42.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup4.add(RadioButton42);
+        RadioButton42.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jPanel29.add(RadioButton42);
+        RadioButton42.setBounds(20, 70, 19, 20);
 
-        AnswerGroup4.add(jRadioButton33);
-        jRadioButton33.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel29.add(jRadioButton33);
-        jRadioButton33.setBounds(20, 100, 19, 20);
+        RadioButton43.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup4.add(RadioButton43);
+        RadioButton43.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jPanel29.add(RadioButton43);
+        RadioButton43.setBounds(20, 100, 19, 20);
 
-        jTextField13.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField13.setText("4. Ievadiet jautājumu");
-        jTextField13.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel29.add(jTextField13);
-        jTextField13.setBounds(10, 10, 570, 26);
+        NewQuestionField4.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewQuestionField4.setText("4. Ievadiet jautājumu");
+        NewQuestionField4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel29.add(NewQuestionField4);
+        NewQuestionField4.setBounds(10, 10, 570, 26);
 
-        jTextField24.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField24.setText("Ievadiet atbildi");
-        jTextField24.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel29.add(jTextField24);
-        jTextField24.setBounds(50, 40, 120, 26);
+        NewAnswerField41.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField41.setText("Ievadiet atbildi");
+        NewAnswerField41.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel29.add(NewAnswerField41);
+        NewAnswerField41.setBounds(50, 40, 530, 26);
 
-        jTextField25.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField25.setText("Ievadiet atbildi");
-        jTextField25.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel29.add(jTextField25);
-        jTextField25.setBounds(50, 70, 120, 26);
+        NewAnswerField42.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField42.setText("Ievadiet atbildi");
+        NewAnswerField42.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel29.add(NewAnswerField42);
+        NewAnswerField42.setBounds(50, 70, 530, 26);
 
-        jTextField26.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextField26.setText("Ievadiet atbildi");
-        jTextField26.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel29.add(jTextField26);
-        jTextField26.setBounds(50, 100, 120, 26);
+        NewAnswerField43.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField43.setText("Ievadiet atbildi");
+        NewAnswerField43.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel29.add(NewAnswerField43);
+        NewAnswerField43.setBounds(50, 100, 530, 26);
 
         jPanel24.add(jPanel29);
-        jPanel29.setBounds(10, 590, 600, 130);
+        jPanel29.setBounds(10, 580, 600, 130);
 
         jButton19.setBackground(new java.awt.Color(13, 85, 54));
         jButton19.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
@@ -1364,26 +1395,32 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jButton19.setText("Saglabāt testu");
         jButton19.setToolTipText("");
         jButton19.setBorder(null);
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
         jPanel24.add(jButton19);
-        jButton19.setBounds(440, 870, 170, 40);
+        jButton19.setBounds(440, 940, 170, 40);
 
         jPanel30.setBackground(new java.awt.Color(13, 85, 54));
         jPanel30.setForeground(new java.awt.Color(13, 85, 54));
         jPanel30.setLayout(null);
 
-        jTextField9.setBackground(new java.awt.Color(13, 85, 54));
-        jTextField9.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
-        jTextField9.setForeground(new java.awt.Color(255, 255, 255));
-        jTextField9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField9.setText("Ievadiet testa nosaukumu");
-        jTextField9.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel30.add(jTextField9);
-        jTextField9.setBounds(80, 20, 470, 60);
+        TestNameField.setBackground(new java.awt.Color(13, 85, 54));
+        TestNameField.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        TestNameField.setForeground(new java.awt.Color(255, 255, 255));
+        TestNameField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        TestNameField.setText("Ievadiet testa nosaukumu");
+        TestNameField.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel30.add(TestNameField);
+        TestNameField.setBounds(80, 20, 470, 60);
 
         jPanel24.add(jPanel30);
         jPanel30.setBounds(0, 0, 630, 100);
 
         jScrollPane8.setBorder(null);
+        jScrollPane8.setToolTipText("");
 
         jTextPane1.setBorder(null);
         jTextPane1.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
@@ -1391,7 +1428,35 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jScrollPane8.setViewportView(jTextPane1);
 
         jPanel24.add(jScrollPane8);
-        jScrollPane8.setBounds(60, 110, 510, 50);
+        jScrollPane8.setBounds(60, 110, 520, 50);
+
+        NewTestDesriptionField.setColumns(20);
+        NewTestDesriptionField.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewTestDesriptionField.setLineWrap(true);
+        NewTestDesriptionField.setRows(5);
+        jScrollPane4.setViewportView(NewTestDesriptionField);
+
+        jPanel24.add(jScrollPane4);
+        jScrollPane4.setBounds(10, 890, 600, 40);
+
+        jLabel17.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jLabel17.setText("Testa apraksts");
+        jPanel24.add(jLabel17);
+        jLabel17.setBounds(10, 860, 110, 22);
+
+        jButton22.setBackground(new java.awt.Color(13, 85, 54));
+        jButton22.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        jButton22.setForeground(new java.awt.Color(255, 255, 255));
+        jButton22.setText("Iziet");
+        jButton22.setToolTipText("");
+        jButton22.setBorder(null);
+        jButton22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton22ActionPerformed(evt);
+            }
+        });
+        jPanel24.add(jButton22);
+        jButton22.setBounds(10, 940, 70, 40);
 
         javax.swing.GroupLayout NewTestFrameLayout = new javax.swing.GroupLayout(NewTestFrame.getContentPane());
         NewTestFrame.getContentPane().setLayout(NewTestFrameLayout);
@@ -1401,7 +1466,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         );
         NewTestFrameLayout.setVerticalGroup(
             NewTestFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel24, javax.swing.GroupLayout.DEFAULT_SIZE, 919, Short.MAX_VALUE)
+            .addComponent(jPanel24, javax.swing.GroupLayout.DEFAULT_SIZE, 990, Short.MAX_VALUE)
         );
 
         ErrorFrame.setTitle("Kļudas logs");
@@ -1546,6 +1611,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             .addComponent(jPanel32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
+        ResultFrame.setTitle("Rezultāta logs");
         ResultFrame.setResizable(false);
 
         jPanel34.setBackground(new java.awt.Color(255, 255, 255));
@@ -1628,7 +1694,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Autorizācijas logs");
+        setTitle("Testēšanas sistēma");
         setBackground(new java.awt.Color(255, 255, 255));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setForeground(java.awt.Color.white);
@@ -1965,6 +2031,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         LoginFrame.setVisible(true);
         MainFrameStudent.dispose();
         TestDescriptionTextArea.setText("");
+        jTabbedPane1.setSelectedIndex(0);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
@@ -2180,14 +2247,61 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         LoginFrame.setVisible(true);
         MainFrameTeacher.dispose();
         TestDescriptionTextArea1.setText("");
+        jTabbedPane2.setSelectedIndex(0);
     }//GEN-LAST:event_jButton28ActionPerformed
 
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
+        DataBase db = new DataBase();
+        ResultSet rs = null;
+        PreparedStatement pst = null;
+        try {
+            DefaultListModel listModel = new DefaultListModel();
+            Connection con = db.connect();
+            Statement stm = con.createStatement();
+            rs = stm.executeQuery("SELECT * FROM test");
+
+            //
+            Set<String> uniqueTestNames = new HashSet<>();
+
+            while (rs.next()) {
+                String testName = rs.getString("TestName");
+                if (uniqueTestNames.add(testName)) { // 
+                    listModel.addElement(testName);
+                }
+            }
+            jList2.setModel(listModel);
+            con.close();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+
         jTabbedPane2.setSelectedIndex(0);
     }//GEN-LAST:event_jButton29ActionPerformed
 
     private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
-        // TODO add your handling code here:
+        String selectedTest = jList2.getSelectedValue();
+        if (selectedTest != null) {
+            DataBase db = new DataBase();
+            Connection con = null;
+            PreparedStatement pst = null;
+            try {
+                con = db.connect();
+                String sql = "DELETE FROM test WHERE TestName = ?";
+                pst = con.prepareStatement(sql);
+                pst.setString(1, selectedTest);
+                pst.executeUpdate();
+                con.close();
+                DefaultListModel<String> model = (DefaultListModel<String>) jList2.getModel();
+                model.removeElement(selectedTest);
+                showInfo("Tests ir veiksmīgi izdzēsts!");
+                TestDescriptionTextArea1.setText("");
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }else{
+            showError("Tests nav izvelēts!");
+        }
+        
     }//GEN-LAST:event_jButton30ActionPerformed
 
     private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
@@ -2195,7 +2309,11 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         Connection con = null;
         PreparedStatement pst = null;
         boolean hasInvalidMarks = false;
-
+        
+        if (jTable4.isEditing()) {
+            jTable4.getCellEditor().stopCellEditing();
+        }
+        
         try {
             con = db.connect();
 
@@ -2264,26 +2382,103 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 showInfo("Vērtējums ir veiksmīgi izdzēsts!");
             } catch (Exception e) {
                 System.out.println(e.getMessage());
-            } finally {
-                try {
-                    if (pst != null) {
-                        pst.close();
-                    }
-                    if (con != null) {
-                        con.close();
-                    }
-                } catch (Exception e) {
-                    System.out.println(e.getMessage());
-                }
-            }
+            } 
         } else {
             showError("Nav izvēlēta neviena rinda!");
         }
     }//GEN-LAST:event_jButton33ActionPerformed
 
     private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
-        
+        NewTestFrame.setVisible(true);
+        NewTestFrame.pack();
+        NewTestFrame.setLocationRelativeTo(null);
+        MainFrameTeacher.dispose();
     }//GEN-LAST:event_jButton34ActionPerformed
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        DataBase db = new DataBase();
+        Connection con = null;
+        PreparedStatement pst = null;
+
+        try {
+            con = db.connect();
+
+            String testName = TestNameField.getText();
+            String testDescription = NewTestDesriptionField.getText();
+
+            String sql = "INSERT INTO test (TestName, QuestionText, TestDescription, AnswerFirst, AnswerSecond, AnswerThird, AnswerRight) VALUES (?, ?, ?, ?, ?, ?, ?)";
+            pst = con.prepareStatement(sql);
+
+            for (int i = 1; i <= 5; i++) {
+                String questionText = ((JTextField) this.getClass().getDeclaredField("NewQuestionField" + i).get(this)).getText();
+                String answerFirst = ((JTextField) this.getClass().getDeclaredField("NewAnswerField" + i + "1").get(this)).getText();
+                String answerSecond = ((JTextField) this.getClass().getDeclaredField("NewAnswerField" + i + "2").get(this)).getText();
+                String answerThird = ((JTextField) this.getClass().getDeclaredField("NewAnswerField" + i + "3").get(this)).getText();
+                String answerRight = null;
+
+                for (int j = 1; j <= 3; j++) {
+                    JRadioButton radioButton = (JRadioButton) this.getClass().getDeclaredField("RadioButton" + i + j).get(this);
+                    if (radioButton.isSelected()) {
+                        answerRight = ((JTextField) this.getClass().getDeclaredField("NewAnswerField" + i + j).get(this)).getText();
+                        break;
+                    }
+                }
+
+                if (answerRight == null) {
+                    showError("Lūdzu, izvēlieties pareizo atbildi jautājumam " + i);
+                    return;
+                }
+
+                pst.setString(1, testName);
+                pst.setString(2, questionText);
+                pst.setString(3, testDescription);
+                pst.setString(4, answerFirst);
+                pst.setString(5, answerSecond);
+                pst.setString(6, answerThird);
+                pst.setString(7, answerRight);
+
+                pst.addBatch();
+            }
+
+            pst.executeBatch();
+            NewTestFrame.dispose();
+            MainFrameTeacher.setVisible(true);
+            MainFrameTeacher.pack();
+            MainFrameTeacher.setLocationRelativeTo(null);
+            showInfo("Tests veiksmīgi pievienots!");
+        } catch (Exception e) {
+            System.out.println("Radās kļūda: " + e.getMessage());
+        }
+        try {
+            DefaultListModel listModel = new DefaultListModel();
+            con = db.connect();
+            Statement stm = con.createStatement();
+            ResultSet rs = stm.executeQuery("SELECT * FROM test");
+
+            //
+            Set<String> uniqueTestNames = new HashSet<>();
+
+            while (rs.next()) {
+                String testName = rs.getString("TestName");
+                if (uniqueTestNames.add(testName)) { // 
+                    listModel.addElement(testName);
+                }
+            }
+            jList2.setModel(listModel);
+            con.close();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        
+        
+    }//GEN-LAST:event_jButton19ActionPerformed
+
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+        NewTestFrame.dispose();
+        MainFrameTeacher.setVisible(true);
+        MainFrameTeacher.pack();
+        MainFrameTeacher.setLocationRelativeTo(null);
+    }//GEN-LAST:event_jButton22ActionPerformed
 
     /**
          * @param args the command line arguments
@@ -2406,6 +2601,32 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JDialog MainFrameTeacher;
     private javax.swing.JLabel MarkLabel;
     private javax.swing.JLabel NameLabel;
+    private javax.swing.JTextField NewAnswerField11;
+    private javax.swing.JTextField NewAnswerField12;
+    private javax.swing.JTextField NewAnswerField13;
+    private javax.swing.JTextField NewAnswerField21;
+    private javax.swing.JTextField NewAnswerField22;
+    private javax.swing.JTextField NewAnswerField23;
+    private javax.swing.JTextField NewAnswerField31;
+    private javax.swing.JTextField NewAnswerField32;
+    private javax.swing.JTextField NewAnswerField33;
+    private javax.swing.JTextField NewAnswerField41;
+    private javax.swing.JTextField NewAnswerField42;
+    private javax.swing.JTextField NewAnswerField43;
+    private javax.swing.JTextField NewAnswerField51;
+    private javax.swing.JTextField NewAnswerField52;
+    private javax.swing.JTextField NewAnswerField53;
+    private javax.swing.ButtonGroup NewAnswerGroup1;
+    private javax.swing.ButtonGroup NewAnswerGroup2;
+    private javax.swing.ButtonGroup NewAnswerGroup3;
+    private javax.swing.ButtonGroup NewAnswerGroup4;
+    private javax.swing.ButtonGroup NewAnswerGroup5;
+    private javax.swing.JTextField NewQuestionField1;
+    private javax.swing.JTextField NewQuestionField2;
+    private javax.swing.JTextField NewQuestionField3;
+    private javax.swing.JTextField NewQuestionField4;
+    private javax.swing.JTextField NewQuestionField5;
+    private javax.swing.JTextArea NewTestDesriptionField;
     private javax.swing.JDialog NewTestFrame;
     private javax.swing.JPasswordField PasswordField;
     private javax.swing.JLabel PercentLabel;
@@ -2414,6 +2635,21 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JLabel QuestionLabel3;
     private javax.swing.JLabel QuestionLabel4;
     private javax.swing.JLabel QuestionLabel5;
+    private javax.swing.JRadioButton RadioButton11;
+    private javax.swing.JRadioButton RadioButton12;
+    private javax.swing.JRadioButton RadioButton13;
+    private javax.swing.JRadioButton RadioButton21;
+    private javax.swing.JRadioButton RadioButton22;
+    private javax.swing.JRadioButton RadioButton23;
+    private javax.swing.JRadioButton RadioButton31;
+    private javax.swing.JRadioButton RadioButton32;
+    private javax.swing.JRadioButton RadioButton33;
+    private javax.swing.JRadioButton RadioButton41;
+    private javax.swing.JRadioButton RadioButton42;
+    private javax.swing.JRadioButton RadioButton43;
+    private javax.swing.JRadioButton RadioButton51;
+    private javax.swing.JRadioButton RadioButton52;
+    private javax.swing.JRadioButton RadioButton53;
     private javax.swing.JTextField RegNameField;
     private javax.swing.JPasswordField RegPasswordField;
     private javax.swing.JPasswordField RegPasswordRepeatField;
@@ -2426,6 +2662,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JTextArea TestDescriptionTextArea;
     private javax.swing.JTextArea TestDescriptionTextArea1;
     private javax.swing.JDialog TestFrame;
+    private javax.swing.JTextField TestNameField;
     private javax.swing.JLabel TestNameLabel;
     private javax.swing.JTextField UsernameField;
     private javax.swing.ButtonGroup buttonGroup6;
@@ -2438,6 +2675,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
     private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton25;
     private javax.swing.JButton jButton26;
     private javax.swing.JButton jButton27;
@@ -2460,6 +2698,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
@@ -2512,26 +2751,12 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
-    private javax.swing.JRadioButton jRadioButton19;
-    private javax.swing.JRadioButton jRadioButton20;
-    private javax.swing.JRadioButton jRadioButton21;
-    private javax.swing.JRadioButton jRadioButton22;
-    private javax.swing.JRadioButton jRadioButton23;
-    private javax.swing.JRadioButton jRadioButton24;
-    private javax.swing.JRadioButton jRadioButton25;
-    private javax.swing.JRadioButton jRadioButton26;
-    private javax.swing.JRadioButton jRadioButton27;
-    private javax.swing.JRadioButton jRadioButton28;
-    private javax.swing.JRadioButton jRadioButton29;
-    private javax.swing.JRadioButton jRadioButton30;
-    private javax.swing.JRadioButton jRadioButton31;
-    private javax.swing.JRadioButton jRadioButton32;
-    private javax.swing.JRadioButton jRadioButton33;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JSeparator jSeparator1;
@@ -2546,27 +2771,6 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable4;
-    private javax.swing.JTextField jTextField10;
-    private javax.swing.JTextField jTextField11;
-    private javax.swing.JTextField jTextField12;
-    private javax.swing.JTextField jTextField13;
-    private javax.swing.JTextField jTextField14;
-    private javax.swing.JTextField jTextField15;
-    private javax.swing.JTextField jTextField16;
-    private javax.swing.JTextField jTextField17;
-    private javax.swing.JTextField jTextField18;
-    private javax.swing.JTextField jTextField19;
-    private javax.swing.JTextField jTextField20;
-    private javax.swing.JTextField jTextField21;
-    private javax.swing.JTextField jTextField22;
-    private javax.swing.JTextField jTextField23;
-    private javax.swing.JTextField jTextField24;
-    private javax.swing.JTextField jTextField25;
-    private javax.swing.JTextField jTextField26;
-    private javax.swing.JTextField jTextField27;
-    private javax.swing.JTextField jTextField28;
-    private javax.swing.JTextField jTextField29;
-    private javax.swing.JTextField jTextField9;
     private javax.swing.JTextPane jTextPane1;
     // End of variables declaration//GEN-END:variables
 }
