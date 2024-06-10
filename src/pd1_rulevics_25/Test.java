@@ -12,33 +12,14 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Test {
-    public String testName = null;
-    
-    private DefaultListModel listModel;
-    private JList<String> jList1;
-    private JList<String> jList2;
-    private JTextArea testDescriptionTextArea;
-    private JTextArea testDescriptionTextArea1;
-    private DataBase db;
+    String testName;
 
-    public Test(DefaultListModel listModel, JList<String> jList1, JList<String> jList2, JTextArea testDescriptionTextArea, JTextArea testDescriptionTextArea1) {        
-        this.listModel = listModel;
-        this.jList1 = jList1;
-        this.jList2 = jList2;
-        this.testDescriptionTextArea = testDescriptionTextArea;
-        this.testDescriptionTextArea1 = testDescriptionTextArea1;
-        this.db = new DataBase();
-
-        addListSelectionListeners();
-        loadTests();
-    }
-
-    private void addListSelectionListeners() {
+    public void addListSelectionListeners(JList jList1, JList jList2, JTextArea testDescriptionTextArea, JTextArea testDescriptionTextArea1) {
         jList1.addListSelectionListener(new ListSelectionListener() {
             @Override
             public void valueChanged(ListSelectionEvent e) {
                 if (!e.getValueIsAdjusting()) {
-                    testName = jList1.getSelectedValue();
+                    testName = (String) jList1.getSelectedValue();
                     if (testName != null) {
                         updateTestDescription(testDescriptionTextArea, testName);
                     }
@@ -50,7 +31,7 @@ public class Test {
             @Override
             public void valueChanged(ListSelectionEvent e) {
                 if (!e.getValueIsAdjusting()) {
-                    testName = jList2.getSelectedValue();
+                    testName = (String) jList2.getSelectedValue();
                     if (testName != null) {
                         updateTestDescription(testDescriptionTextArea1, testName);
                     }
@@ -59,7 +40,8 @@ public class Test {
         });
     }
 
-    private void loadTests() {
+    public void loadTests(JList jList1, JList jList2, DefaultListModel listModel) {
+        DataBase db = new DataBase();
         try {
             Connection con = db.connect();
             Statement stm = con.createStatement();
@@ -81,7 +63,8 @@ public class Test {
         }
     }
 
-    private void updateTestDescription(JTextArea textArea, String testName) {
+    public void updateTestDescription(JTextArea textArea, String testName) {
+        DataBase db = new DataBase();
         try {
             Connection con = db.connect();
             String sql = "SELECT TestDescription FROM test WHERE TestName=?";

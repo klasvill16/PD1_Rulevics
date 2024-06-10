@@ -18,6 +18,7 @@ import javax.swing.AbstractButton;
 import javax.swing.ButtonGroup;
 import javax.swing.DefaultListModel;
 import javax.swing.JLabel;
+import javax.swing.JList;
 import javax.swing.JRadioButton;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
@@ -30,7 +31,8 @@ import javax.swing.table.DefaultTableModel;
 public class Logu_Redaktors extends javax.swing.JFrame {
 
     static Logu_Redaktors LoginFrame = new Logu_Redaktors();
-    User currentUser;
+    User currentUser; 
+    Test test = new Test();
 
     /**
      * Creates new form Logu_Redaktors
@@ -2064,7 +2066,8 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 System.out.println(e.getMessage());
             }
         }     
-        Test test = new Test(new DefaultListModel(), jList1, jList2, TestDescriptionTextArea, TestDescriptionTextArea1);
+        test.addListSelectionListeners(jList1, jList2, TestDescriptionTextArea, TestDescriptionTextArea1);
+        test.loadTests(jList1, jList2, new DefaultListModel());
     }//GEN-LAST:event_jButton2ActionPerformed
 
     // Funkcija rezultātu lejupielādei no datubāzes
@@ -2077,7 +2080,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     
     // Funkcija rezultātu lejupielādei no datubāzes
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        Test test = new Test(new DefaultListModel(), jList1, jList2, TestDescriptionTextArea, TestDescriptionTextArea1);
+        
         jTabbedPane1.setSelectedIndex(0);
 
     }//GEN-LAST:event_jButton8ActionPerformed
@@ -2126,8 +2129,14 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             return;
         }
         if (currentUser instanceof Student) {
-            ((Student) currentUser).displayTest(testName, TestNameLabel, questionLabels, answerButtons, MainFrameStudent, MainFrameTeacher, TestFrame);
+            ((Student) currentUser).displayTest(testName, TestNameLabel, questionLabels, answerButtons);
         }
+        
+        MainFrameStudent.dispose();
+        MainFrameTeacher.dispose();
+        TestFrame.setVisible(true);
+        TestFrame.pack();
+        TestFrame.setLocationRelativeTo(null);
         
     }//GEN-LAST:event_jButton5ActionPerformed
 
@@ -2190,7 +2199,8 @@ public class Logu_Redaktors extends javax.swing.JFrame {
 
     // Funkcijas atkārtošana testa saraksta ielādei
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
-        Test test = new Test(new DefaultListModel(), jList1, jList2, TestDescriptionTextArea, TestDescriptionTextArea1);
+        test.addListSelectionListeners(jList1, jList2, TestDescriptionTextArea, TestDescriptionTextArea1);
+        test.loadTests(jList1, jList2, new DefaultListModel());
         jTabbedPane2.setSelectedIndex(0);
     }//GEN-LAST:event_jButton29ActionPerformed
 

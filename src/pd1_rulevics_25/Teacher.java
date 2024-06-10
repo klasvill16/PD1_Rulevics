@@ -1,7 +1,6 @@
 package pd1_rulevics_25;
 
-//
-
+import com.sun.tools.javac.util.StringUtils;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -92,13 +91,22 @@ public class Teacher extends User {
 
             for (int i = 0; i < rowCount; i++) {
                 String mark = (String) model.getValueAt(i, 3);
-                if (Integer.parseInt(mark) < 1 || Integer.parseInt(mark) > 10) {
+                try {
+                    int markValue = Integer.parseInt(mark);
+                    if (markValue < 1 || markValue > 10) {
+                        hasInvalidMarks = true;
+                        String firstName = (String) model.getValueAt(i, 0);
+                        String lastName = (String) model.getValueAt(i, 1);
+                        loguRedaktors.showError("Nepareizs vērtējums par lietotāju - \"" + firstName + " " + lastName + "\".");
+                    }
+                } catch (NumberFormatException e) {
                     hasInvalidMarks = true;
                     String firstName = (String) model.getValueAt(i, 0);
                     String lastName = (String) model.getValueAt(i, 1);
-                    loguRedaktors.showError( "Nepareizs vērtējums par lietotāju - \"" + firstName + " " + lastName + "\".");
+                    loguRedaktors.showError("Nepareizs vērtējums par lietotāju - \"" + firstName + " " + lastName + "\".");
                 }
             }
+            
             if (!hasInvalidMarks) {
                 for (int i = 0; i < rowCount; i++) {
                     String firstName = (String) model.getValueAt(i, 0);
@@ -121,6 +129,7 @@ public class Teacher extends User {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+        populateMarksTable(jTable4);
     }
     
     public void deleteMark(JTable jTable4) {

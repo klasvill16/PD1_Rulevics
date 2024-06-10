@@ -62,7 +62,7 @@ public class Student extends User {
         }
     }
     
-    public void displayTest(String testName, JLabel TestNameLabel, JLabel[] questionLabels, JRadioButton[][] answerButtons, JDialog mainFrameStudent, JDialog mainFrameTeacher, JDialog testFrame) {
+    public void displayTest(String testName, JLabel TestNameLabel, JLabel[] questionLabels, JRadioButton[][] answerButtons) {
         DataBase db = new DataBase();
         ResultSet rs = null;
         PreparedStatement pst = null;
@@ -103,11 +103,6 @@ public class Student extends User {
             System.out.println(e.getMessage());
         }
 
-        mainFrameStudent.dispose();
-        mainFrameTeacher.dispose();
-        testFrame.setVisible(true);
-        testFrame.pack();
-        testFrame.setLocationRelativeTo(null);
     }
     
     public float[] submitTest(ButtonGroup[] answerGroups, String testName, User currentUser) {
