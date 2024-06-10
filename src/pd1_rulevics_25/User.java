@@ -1,12 +1,5 @@
 package pd1_rulevics_25;
 
-import javax.swing.*;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-import java.sql.*;
-import java.util.HashSet;
-import java.util.Set;
-
 
 
 public class User {

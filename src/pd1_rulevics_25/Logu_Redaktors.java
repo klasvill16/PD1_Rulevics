@@ -550,12 +550,12 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 .addGap(0, 0, 0)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 4, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(228, 228, 228)
-                .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 4, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0))
             .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
                     .addContainerGap(373, Short.MAX_VALUE)
@@ -676,7 +676,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         );
         MainFrameStudentLayout.setVerticalGroup(
             MainFrameStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, 472, Short.MAX_VALUE)
+            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, 473, Short.MAX_VALUE)
         );
 
         MainFrameTeacher.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -694,7 +694,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jButton27.setBackground(new java.awt.Color(13, 85, 54));
         jButton27.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
         jButton27.setForeground(new java.awt.Color(255, 255, 255));
-        jButton27.setText("Lietotāju saraksts");
+        jButton27.setText("Atzīmju saraksts");
         jButton27.setToolTipText("");
         jButton27.setBorder(null);
         jButton27.addActionListener(new java.awt.event.ActionListener() {
@@ -789,12 +789,12 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 .addComponent(jButton27, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jSeparator12, javax.swing.GroupLayout.PREFERRED_SIZE, 4, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(228, 228, 228)
-                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(229, 229, 229)
+                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jSeparator13, javax.swing.GroupLayout.PREFERRED_SIZE, 4, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jButton28, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jButton28, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
             .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel37Layout.createSequentialGroup()
@@ -1953,6 +1953,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    // Ienākšana reģistrācijas logā
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         RegisterFrame.setVisible(true);
         RegisterFrame.pack();
@@ -1960,8 +1961,8 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
+    // Reģistrēšanas funkcija
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // reģistrēšanas funkcija
         
         String passwordRepeat = RegPasswordRepeatField.getText();
         String usertype = "";
@@ -2009,8 +2010,9 @@ public class Logu_Redaktors extends javax.swing.JFrame {
 
     }//GEN-LAST:event_jButton4ActionPerformed
 
+    // Ielogošanas funkcija
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // ielogošanas funkcija
+
         DataBase db = new DataBase();
         String username = UsernameField.getText();
         String password = PasswordField.getText();
@@ -2065,19 +2067,22 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         Test test = new Test(new DefaultListModel(), jList1, jList2, TestDescriptionTextArea, TestDescriptionTextArea1);
     }//GEN-LAST:event_jButton2ActionPerformed
 
+    // Funkcija rezultātu lejupielādei no datubāzes
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         jTabbedPane1.setSelectedIndex(1);
         if (currentUser instanceof Student) {
             ((Student) currentUser).displayMarks(jTable1);
         }
     }//GEN-LAST:event_jButton7ActionPerformed
-
+    
+    // Funkcija rezultātu lejupielādei no datubāzes
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         Test test = new Test(new DefaultListModel(), jList1, jList2, TestDescriptionTextArea, TestDescriptionTextArea1);
         jTabbedPane1.setSelectedIndex(0);
 
     }//GEN-LAST:event_jButton8ActionPerformed
 
+    // Konta izrakstīšanās funkcija
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         LoginFrame.setVisible(true);
         MainFrameStudent.dispose();
@@ -2085,6 +2090,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jTabbedPane1.setSelectedIndex(0);
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    // Kļūdu loga aizvēršanas funkcija  
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
         ErrorFrame.dispose();
     }//GEN-LAST:event_jButton18ActionPerformed
@@ -2098,6 +2104,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         InfoFrame.dispose();
     }//GEN-LAST:event_jButton21ActionPerformed
 
+    // Testa pieladēšana no Datu bāzes
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         DataBase db = new DataBase();
         ResultSet rs = null;
@@ -2124,87 +2131,27 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jButton5ActionPerformed
 
+    // Testu atbilžu ielādēšana un pārbaude
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
         ButtonGroup[] answerGroups = {AnswerGroup1, AnswerGroup2, AnswerGroup3, AnswerGroup4, AnswerGroup5};
         String testName = jList1.getSelectedValue();
-        DataBase db = new DataBase();
-        PreparedStatement pst = null;
-        String userAnswer = "";
-        ResultSet rs = null;
-        int pointsForTest = 0, markForTest; 
-        float percentsForTest;
-        int i = 0;
-
-        try {
-            Connection con = db.connect();
-            String sql = "SELECT AnswerRight FROM test WHERE TestName=?";
-            pst = con.prepareStatement(sql);
-            pst.setString(1, testName);
-            rs = pst.executeQuery();
-            while (rs.next() && i < 5) {
-                    String answerRight = rs.getString("AnswerRight");
-                    if (getSelectedButtonText(answerGroups[i]) == null) {
-                        pointsForTest += 0;
-                    }else if(getSelectedButtonText(answerGroups[i]).equals(answerRight)){
-                        pointsForTest++;
-                    }
-                i++;
-            }
-            percentsForTest = ((float)pointsForTest / 5) * 100;
-            
-            switch(pointsForTest){
-                case 0: {
-                    markForTest = 1;
-                    break;
-                }
-                case 1: {
-                    markForTest = 2;
-                    break;
-                }
-                case 2: {
-                    markForTest = 3;
-                    break;
-                }
-                case 3: {
-                    markForTest = 6;
-                    break;
-                }
-                case 4: {
-                    markForTest = 8;
-                    break;
-                }
-                default: {
-                    markForTest = 10;
-                }
-            }
-            String sqlCheck = "SELECT * FROM marks WHERE UserName=? AND TestName=? ";
-            pst = con.prepareStatement(sqlCheck);
-            pst.setString(1, currentUser.username);
-            pst.setString(2, testName);
-            rs = pst.executeQuery();
-            if (rs.next()) {
-                showError("Jūms jau ir atzīme par šo testu!");
-            } else if(!rs.next()) {
-                sql = "INSERT INTO marks VALUES(?, ?, ?)";
-                pst = con.prepareStatement(sql);
-                pst.setString(1, currentUser.username);
-                pst.setString(2, testName);
-                pst.setString(3, Integer.toString(markForTest));
-                pst.executeUpdate();
-                showResult(percentsForTest, markForTest);
-            }
-            con.close();
+        if (currentUser instanceof Student) {
+            float[] Marks = ((Student)currentUser).submitTest(answerGroups, testName, currentUser);
+            showResult(Marks[0],(int)Marks[1]);
         }
-        catch (SQLException ex) {
-                Logger.getLogger(Logu_Redaktors.class.getName()).log(Level.SEVERE, null, ex);
-            }
     }//GEN-LAST:event_jButton16ActionPerformed
 
+    // Dzēst visas atlasītās atbildes
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
         TestFrame.dispose();
         MainFrameStudent.show();
+        ButtonGroup[] answerGroups = {AnswerGroup1, AnswerGroup2, AnswerGroup3, AnswerGroup4, AnswerGroup5};
+        for(ButtonGroup currentGroup : answerGroups){
+            currentGroup.clearSelection();
+        }
     }//GEN-LAST:event_jButton15ActionPerformed
 
+    // Dzēst visas atlasītās atbildes
     private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
         ButtonGroup[] answerGroups = {AnswerGroup1, AnswerGroup2, AnswerGroup3, AnswerGroup4, AnswerGroup5};
         for(ButtonGroup currentGroup : answerGroups){
@@ -2216,6 +2163,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jButton26ActionPerformed
 
+    // Dzēst visas atlasītās atbildes
     private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
         ButtonGroup[] answerGroups = {AnswerGroup1, AnswerGroup2, AnswerGroup3, AnswerGroup4, AnswerGroup5};
         for(ButtonGroup currentGroup : answerGroups){
@@ -2223,46 +2171,16 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton25ActionPerformed
 
+    // Vērtēšanas tabulas aizpildīšanas funkcija
     private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
         jTabbedPane2.setSelectedIndex(1);
-        DataBase db = new DataBase();
-        ResultSet rs = null, rs2 = null;
-        PreparedStatement pst = null, pst2 = null;
-
-        try {
-            Connection con = db.connect();
-
-            String sql = "SELECT UserName, TestName, Mark FROM marks";
-            pst = con.prepareStatement(sql);
-            rs = pst.executeQuery();
-
-            DefaultTableModel model = (DefaultTableModel) jTable4.getModel();
-            model.setRowCount(0);
-            while (rs.next()) {
-                String userName = rs.getString("UserName");
-                String testName = rs.getString("TestName");
-                String mark = rs.getString("Mark");
-
-                sql = "SELECT FirstName, LastName FROM users WHERE UserName=? ";
-                pst2 = con.prepareStatement(sql);
-                pst2.setString(1, userName);
-                rs2 = pst2.executeQuery(); 
-                while (rs2.next()) {
-                    String firstName = rs2.getString("FirstName");
-                    String lastName = rs2.getString("LastName");
-                    model.addRow(new Object[]{firstName, lastName, testName, mark});
-                }
-
-                rs2.close(); 
-                pst2.close(); 
-            }
-
-            jTable4.setModel(model);
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
+        if (currentUser instanceof Teacher) {
+            ((Teacher)currentUser).populateMarksTable(jTable4);
         }
+        
     }//GEN-LAST:event_jButton27ActionPerformed
 
+    // Konta izrakstīšanās funkcija
     private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
         LoginFrame.setVisible(true);
         MainFrameTeacher.dispose();
@@ -2270,118 +2188,36 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jTabbedPane2.setSelectedIndex(0);
     }//GEN-LAST:event_jButton28ActionPerformed
 
+    // Funkcijas atkārtošana testa saraksta ielādei
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
         Test test = new Test(new DefaultListModel(), jList1, jList2, TestDescriptionTextArea, TestDescriptionTextArea1);
         jTabbedPane2.setSelectedIndex(0);
     }//GEN-LAST:event_jButton29ActionPerformed
 
+    // Testa izdzēšanas funkcija
     private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
-        String selectedTest = jList2.getSelectedValue();
-        if (selectedTest != null) {
-            DataBase db = new DataBase();
-            Connection con = null;
-            PreparedStatement pst = null;
-            try {
-                con = db.connect();
-                String sql = "DELETE FROM test WHERE TestName = ?";
-                pst = con.prepareStatement(sql);
-                pst.setString(1, selectedTest);
-                pst.executeUpdate();
-                con.close();
-                DefaultListModel<String> model = (DefaultListModel<String>) jList2.getModel();
-                model.removeElement(selectedTest);
-                showInfo("Tests ir veiksmīgi izdzēsts!");
-                TestDescriptionTextArea1.setText("");
-            } catch (Exception e) {
-                System.out.println(e.getMessage());
-            }
-        }else{
-            showError("Tests nav izvelēts!");
+         if (currentUser instanceof Teacher) {
+            ((Teacher)currentUser).deleteTest(jList2, TestDescriptionTextArea1);
         }
-        
+                
     }//GEN-LAST:event_jButton30ActionPerformed
 
+    // Atzīmes labošanas funkcija
     private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
-        DataBase db = new DataBase();
-        Connection con = null;
-        PreparedStatement pst = null;
-        boolean hasInvalidMarks = false;
-        
         if (jTable4.isEditing()) {
             jTable4.getCellEditor().stopCellEditing();
         }
-        
-        try {
-            con = db.connect();
-
-            DefaultTableModel model = (DefaultTableModel) jTable4.getModel();
-            int rowCount = model.getRowCount();
-
-            String sql = "UPDATE marks SET Mark=? WHERE UserName=? AND TestName=?";
-            pst = con.prepareStatement(sql);
-
-            for (int i = 0; i < rowCount; i++) {
-                String mark = (String) model.getValueAt(i, 3);
-                if (Integer.parseInt(mark) < 1 || Integer.parseInt(mark) > 10) {
-                    hasInvalidMarks = true;
-                    String firstName = (String) model.getValueAt(i, 0);
-                    String lastName = (String) model.getValueAt(i, 1);
-                    showError( "Nepareizs vērtējums par lietotāju - \"" + firstName + " " + lastName + "\".");
-                }
-            }
-            if (!hasInvalidMarks) {
-                for (int i = 0; i < rowCount; i++) {
-                    String firstName = (String) model.getValueAt(i, 0);
-                    String lastName = (String) model.getValueAt(i, 1);
-                    String testName = (String) model.getValueAt(i, 2);
-                    String mark = (String) model.getValueAt(i, 3);
-
-                    String userName = getUserName(con, firstName, lastName);
-
-                    pst.setString(1, mark);
-                    pst.setString(2, userName);
-                    pst.setString(3, testName);
-
-                    pst.executeUpdate();
-
-                }
-                showInfo("Jūs esat veiksmīgi nomainījuši atzīmes!");
-            }
-
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
+        if (currentUser instanceof Teacher) {
+            ((Teacher)currentUser).saveNewMarks(jTable4);
         }
+        
     }//GEN-LAST:event_jButton32ActionPerformed
 
+    // Atzīmes izdzēšanas funkcija
     private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
-        int selectedRow = jTable4.getSelectedRow();
-        if (selectedRow != -1) {
-            DefaultTableModel model = (DefaultTableModel) jTable4.getModel();
-            String firstName = (String) model.getValueAt(selectedRow, 0);
-            String lastName = (String) model.getValueAt(selectedRow, 1);
-            String testName = (String) model.getValueAt(selectedRow, 2);
-
-            DataBase db = new DataBase();
-            Connection con = null;
-            PreparedStatement pst = null;
-
-            try {
-                con = db.connect();
-                String userName = getUserName(con, firstName, lastName);
-
-                String sql = "DELETE FROM marks WHERE UserName=? AND TestName=?";
-                pst = con.prepareStatement(sql);
-                pst.setString(1, userName);
-                pst.setString(2, testName);
-                pst.executeUpdate();
-
-                model.removeRow(selectedRow);
-                showInfo("Vērtējums ir veiksmīgi izdzēsts!");
-            } catch (Exception e) {
-                System.out.println(e.getMessage());
-            } 
-        } else {
-            showError("Nav izvēlēta neviena rinda!");
+        
+        if (currentUser instanceof Teacher) {
+            ((Teacher)currentUser).deleteMark(jTable4);
         }
     }//GEN-LAST:event_jButton33ActionPerformed
 
@@ -2392,6 +2228,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         MainFrameTeacher.dispose();
     }//GEN-LAST:event_jButton34ActionPerformed
 
+    // Jauna testa pievienošana
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
         DataBase db = new DataBase();
         Connection con = null;
@@ -2514,21 +2351,21 @@ public class Logu_Redaktors extends javax.swing.JFrame {
 
     }
 
-    void showError(String message) {
+    public void showError(String message) {
         ErrorFrame.setVisible(true);
         ErrorFrame.pack();
         ErrorFrame.setLocationRelativeTo(null);
         ErrorLabel.setText(message);
     }
 
-    private void showInfo(String message) {
+    public void showInfo(String message) {
         InfoFrame.setVisible(true);
         InfoFrame.pack();
         InfoFrame.setLocationRelativeTo(null);
         InfoLabel.setText(message);
     }
     
-    private void showResult(float percent, int mark) {
+    public void showResult(float percent, int mark) {
         ResultFrame.setVisible(true);
         ResultFrame.pack();
         ResultFrame.setLocationRelativeTo(null);
@@ -2537,33 +2374,13 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         MarkLabel.setText("Jūsu atzīme ir " + mark + "!");
     }
 
-    private void clearRegistrationFields() {
+    public void clearRegistrationFields() {
         RegNameField.setText("");
         RegSurnameField.setText("");
         RegUsernameField.setText("");
         RegPasswordField.setText("");
         RegPasswordRepeatField.setText("");
         buttonGroup7.clearSelection();
-    }
-
-    private void updateTestDescription(JTextArea textArea, String testName) {
-        DataBase db = new DataBase();
-        ResultSet rs = null;
-        PreparedStatement pst = null;
-        try {
-            Connection con = db.connect();
-            String sql = "SELECT TestDescription FROM test WHERE TestName=?";
-            pst = con.prepareStatement(sql);
-            pst.setString(1, testName);
-            rs = pst.executeQuery();
-            if (rs.next()) {
-                String testDescription = rs.getString("TestDescription");
-                textArea.setText(testDescription);
-            }
-            con.close();
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
     }
 
     public String getSelectedButtonText(ButtonGroup buttonGroup) {
@@ -2578,7 +2395,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         return null;
     }
 
-    private String getUserName(Connection con, String firstName, String lastName) throws SQLException {
+    String getUserName(Connection con, String firstName, String lastName) throws SQLException {
         String sql = "SELECT UserName FROM users WHERE FirstName=? AND LastName=?";
         PreparedStatement pst = con.prepareStatement(sql);
         pst.setString(1, firstName);
