@@ -16,8 +16,12 @@ package pd1_rulevics_25;
 
 public class Teacher extends User {
     
-    public Teacher(String name, String surname, String login, String password, String userType) {
-        super(name, surname, login, password, userType);
+    public Teacher(String name, String surname, String username, String password, String userType) {
+        super(name, surname, username, password, userType);
+    }
+    
+    public Teacher(String name, String username, String password, String userType){
+        super(name, username, password, userType);
     }
     
     public void deleteUser(String login) {
