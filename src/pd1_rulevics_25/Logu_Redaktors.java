@@ -22,7 +22,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author User
+ * @author Ņikita Ruļevičs
  */
 public class Logu_Redaktors extends javax.swing.JFrame {
 
