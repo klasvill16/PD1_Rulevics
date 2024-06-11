@@ -25,12 +25,12 @@ import javax.swing.table.DefaultTableModel;
 
 public class Teacher extends User {
     
-    public Teacher(String name, String surname, String username, String password, String userType) {
-        super(name, surname, username, password, userType);
+    public Teacher(String name, String surname, String username, String password, String usertype) {
+        super(name, surname, username, password, usertype);
     }
     
-    public Teacher(String name, String username, String password, String userType){
-        super(name, username, password, userType);
+    public Teacher(String name, String username, String password, String usertype){
+        super(name, username, password, usertype);
     }
     
     public void populateMarksTable(JTable jTable4) {

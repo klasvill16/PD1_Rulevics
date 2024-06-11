@@ -232,10 +232,10 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         HelpFrame = new javax.swing.JDialog();
         jPanel10 = new javax.swing.JPanel();
         jButton17 = new javax.swing.JButton();
-        jPanel12 = new javax.swing.JPanel();
-        jLabel18 = new javax.swing.JLabel();
         jScrollPane5 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
+        jPanel12 = new javax.swing.JPanel();
+        jLabel18 = new javax.swing.JLabel();
         AnswerGroup1 = new javax.swing.ButtonGroup();
         AnswerGroup2 = new javax.swing.ButtonGroup();
         AnswerGroup3 = new javax.swing.ButtonGroup();
@@ -1772,7 +1772,20 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             }
         });
         jPanel10.add(jButton17);
-        jButton17.setBounds(10, 750, 70, 40);
+        jButton17.setBounds(10, 790, 70, 40);
+
+        jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(255, 255, 255));
+        jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jTextArea1.setLineWrap(true);
+        jTextArea1.setRows(5);
+        jTextArea1.setText("Laipni lūgti mūsu lietotnes palīdzības sadaļā! Šeit Jūs atradīsiet informāciju par to, kā izmantot mūsu lietotni un risināt biežāk sastopamās problēmas. Lietotāja un skolotāja izvēlnēs ir vairākas pogas, saraksti un tabulas, kas palīdz Jums viegli piekļūt nepieciešamajām funkcijām. Pogas ļauj Jums pārslēgties starp dažādiem ekrāniem, piemēram, testa izvēles ekrānu, atzīmju pārskata logu vai autorizācijas logu. Saraksti ļauj Jums izvēlēties dažādus testus vai citas opcijas. Atlasot konkrētu elementu no saraksta, ekrāna kreisajā pusē tiks parādīts detalizēts apraksts. Tabulas parāda dažādu informāciju, piemēram, skolēnu atzīmes. Skolotāji var arī mainīt vērtējumus tieši tabulā.\n\n\t\t       BIEŽĀK UZDOTIE JAUTĀJUMI\nVai mani ievadītie dati tiks aizsargāti?\n\tJā, jūsu ievadītie dati tiks aizsargāti atbilstoši visaugstākajiem drošības \t\t\tstandartiem. Mūsu sistēma izmanto šifrēšanu, lai nodrošinātu, ka jūsu personiskā \t\tinformācija un\tdati par testiem ir drošībā. \nKo darīt, ja es saskaros ar autorizācijas problēmām?\n\tPārliecinieties, ka Jūs ievadāt pareizu lietotājvārdu un paroli. Ja problēma \t\t\tsaglabājas, mēģiniet atiestatīt paroli vai sazinieties ar administraciju. Turpmāk ir \t\tnorādīta administrācijas kontaktinformācija.\nKā pievienot vai izdzēst testu?\n\tAdministrators var pievienot jaunu testu, noklikšķinot uz “Pievienot jaunu testu” \t\tun aizpildot nepieciešamos datus. Lai izdzēstu testu, izvēlieties testu no saraksta \t\tun noklikšķiniet uz “Izdzēst testu”.\nKā es varu pieprasīt jaunu funkcionalitāti vai ziņot par kļūdu?\n\tSazinieties ar administrāciju, norādot vēlamo funkcionalitāti vai detalizētu kļūdas \t\taprakstu. Turpmāk ir norādīta administrācijas kontaktinformācija.\nKā rīkoties, ja programma uzkaras vai darbojas lēni?\n\tPārliecinieties, ka Jūsu ierīce atbilst sistēmas prasībām, un mēģiniet restartēt \t\tprogrammu. Ja problēma saglabājas, sazinieties ar administrāciju. Turpmāk \t\t\tir norādīta administrācijas kontaktinformācija.\n\n\t               Administrācijas e-pasts: nikitarulevics@gmail.com");
+        jTextArea1.setWrapStyleWord(true);
+        jScrollPane5.setViewportView(jTextArea1);
+
+        jPanel10.add(jScrollPane5);
+        jScrollPane5.setBounds(11, 91, 680, 690);
 
         jPanel12.setBackground(new java.awt.Color(13, 85, 54));
 
@@ -1798,30 +1811,15 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jPanel10.add(jPanel12);
         jPanel12.setBounds(0, 0, 707, 82);
 
-        jTextArea1.setEditable(false);
-        jTextArea1.setBackground(new java.awt.Color(255, 255, 255));
-        jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextArea1.setLineWrap(true);
-        jTextArea1.setRows(5);
-        jTextArea1.setText("Laipni lūgti mūsu lietotnes palīdzības sadaļā! Šeit Jūs atradīsiet informāciju par to, kā izmantot mūsu lietotni un risināt biežāk sastopamās problēmas. Lietotāja un skolotāja izvēlnēs ir vairākas pogas, saraksti un tabulas, kas palīdz Jums viegli piekļūt nepieciešamajām funkcijām. Pogas ļauj Jums pārslēgties starp dažādiem ekrāniem, piemēram, testa izvēles ekrānu, atzīmju pārskata logu vai autorizācijas logu. Saraksti ļauj Jums izvēlēties dažādus testus vai citas opcijas. Atlasot konkrētu elementu no saraksta, ekrāna kreisajā pusē tiks parādīts detalizēts apraksts. Tabulas parāda dažādu informāciju, piemēram, skolēnu atzīmes. Skolotāji var arī mainīt vērtējumus tieši tabulā.\n\n\t\t       BIEŽĀK UZDOTIE JAUTĀJUMI\nVai mani ievadītie dati tiks aizsargāti?\n\tJā, jūsu ievadītie dati tiks aizsargāti atbilstoši visaugstākajiem drošības standartiem. \t\tMūsu sistēma izmanto šifrēšanu, lai nodrošinātu, ka jūsu personiskā informācija un\t\tdati par testiem ir drošībā. \nKo darīt, ja es saskaros ar autorizācijas problēmām?\n\tPārliecinieties, ka Jūs ievadāt pareizu lietotājvārdu un paroli. Ja problēma saglabājas, \t\tmēģiniet atiestatīt paroli vai sazinieties ar administraciju. Turpmāk ir norādīta \t\tadministrācijas kontaktinformācija.\nKā pievienot vai izdzēst testu?\n\tAdministrators var pievienot jaunu testu, noklikšķinot uz “Pievienot jaunu testu” un \t\taizpildot nepieciešamos datus. Lai izdzēstu testu, izvēlieties testu no saraksta un \t\tnoklikšķiniet uz “Izdzēst testu”.\nKā es varu pieprasīt jaunu funkcionalitāti vai ziņot par kļūdu?\n\tSazinieties ar administrāciju, norādot vēlamo funkcionalitāti vai detalizētu kļūdas \t\taprakstu. Turpmāk ir norādīta administrācijas kontaktinformācija.\nKā rīkoties, ja programma uzkaras vai darbojas lēni?\n\tPārliecinieties, ka Jūsu ierīce atbilst sistēmas prasībām, un mēģiniet restartēt \t\tprogrammu. Ja problēma saglabājas, sazinieties ar administrāciju. Turpmāk ir norādīta \t\tadministrācijas kontaktinformācija.\n\n\t               Administrācijas e-pasts: nikitarulevics@gmail.com");
-        jTextArea1.setWrapStyleWord(true);
-        jScrollPane5.setViewportView(jTextArea1);
-
-        jPanel10.add(jScrollPane5);
-        jScrollPane5.setBounds(1, 81, 710, 720);
-
         javax.swing.GroupLayout HelpFrameLayout = new javax.swing.GroupLayout(HelpFrame.getContentPane());
         HelpFrame.getContentPane().setLayout(HelpFrameLayout);
         HelpFrameLayout.setHorizontalGroup(
             HelpFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(HelpFrameLayout.createSequentialGroup()
-                .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, 701, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, 701, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         HelpFrameLayout.setVerticalGroup(
             HelpFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, 798, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, 839, Short.MAX_VALUE)
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);

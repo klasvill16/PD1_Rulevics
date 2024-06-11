@@ -3310,15 +3310,12 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <Component id="jPanel10" min="-2" pref="701" max="-2" attributes="0"/>
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-              </Group>
+              <Component id="jPanel10" min="-2" pref="701" max="-2" attributes="0"/>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="jPanel10" min="-2" pref="798" max="-2" attributes="0"/>
+              <Component id="jPanel10" alignment="0" pref="839" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
       </Layout>
@@ -3356,10 +3353,40 @@
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="750" width="70" height="40"/>
+                  <AbsoluteConstraints x="10" y="790" width="70" height="40"/>
                 </Constraint>
               </Constraints>
             </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="11" y="91" width="680" height="690"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI Semilight" size="16" style="0"/>
+                    </Property>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Laipni l&#x16b;gti m&#x16b;su lietotnes pal&#x12b;dz&#x12b;bas sada&#x13c;&#x101;! &#x160;eit J&#x16b;s atrad&#x12b;siet inform&#x101;ciju par to, k&#x101; izmantot m&#x16b;su lietotni un risin&#x101;t bie&#x17e;&#x101;k sastopam&#x101;s probl&#x113;mas. Lietot&#x101;ja un skolot&#x101;ja izv&#x113;ln&#x113;s ir vair&#x101;kas pogas, saraksti un tabulas, kas pal&#x12b;dz Jums viegli piek&#x13c;&#x16b;t nepiecie&#x161;amaj&#x101;m funkcij&#x101;m. Pogas &#x13c;auj Jums p&#x101;rsl&#x113;gties starp da&#x17e;&#x101;diem ekr&#x101;niem, piem&#x113;ram, testa izv&#x113;les ekr&#x101;nu, atz&#x12b;mju p&#x101;rskata logu vai autoriz&#x101;cijas logu. Saraksti &#x13c;auj Jums izv&#x113;l&#x113;ties da&#x17e;&#x101;dus testus vai citas opcijas. Atlasot konkr&#x113;tu elementu no saraksta, ekr&#x101;na kreisaj&#x101; pus&#x113; tiks par&#x101;d&#x12b;ts detaliz&#x113;ts apraksts. Tabulas par&#x101;da da&#x17e;&#x101;du inform&#x101;ciju, piem&#x113;ram, skol&#x113;nu atz&#x12b;mes. Skolot&#x101;ji var ar&#x12b; main&#x12b;t v&#x113;rt&#x113;jumus tie&#x161;i tabul&#x101;.&#xa;&#xa;&#x9;&#x9;       BIE&#x17d;&#x100;K UZDOTIE JAUT&#x100;JUMI&#xa;Vai mani ievad&#x12b;tie dati tiks aizsarg&#x101;ti?&#xa;&#x9;J&#x101;, j&#x16b;su ievad&#x12b;tie dati tiks aizsarg&#x101;ti atbilsto&#x161;i visaugst&#x101;kajiem dro&#x161;&#x12b;bas &#x9;&#x9;&#x9;standartiem. M&#x16b;su sist&#x113;ma izmanto &#x161;ifr&#x113;&#x161;anu, lai nodro&#x161;in&#x101;tu, ka j&#x16b;su personisk&#x101; &#x9;&#x9;inform&#x101;cija un&#x9;dati par testiem ir dro&#x161;&#x12b;b&#x101;. &#xa;Ko dar&#x12b;t, ja es saskaros ar autoriz&#x101;cijas probl&#x113;m&#x101;m?&#xa;&#x9;P&#x101;rliecinieties, ka J&#x16b;s ievad&#x101;t pareizu lietot&#x101;jv&#x101;rdu un paroli. Ja probl&#x113;ma &#x9;&#x9;&#x9;saglab&#x101;jas, m&#x113;&#x123;iniet atiestat&#x12b;t paroli vai sazinieties ar administraciju. Turpm&#x101;k ir &#x9;&#x9;nor&#x101;d&#x12b;ta administr&#x101;cijas kontaktinform&#x101;cija.&#xa;K&#x101; pievienot vai izdz&#x113;st testu?&#xa;&#x9;Administrators var pievienot jaunu testu, noklik&#x161;&#x137;inot uz &#x201c;Pievienot jaunu testu&#x201d; &#x9;&#x9;un aizpildot nepiecie&#x161;amos datus. Lai izdz&#x113;stu testu, izv&#x113;lieties testu no saraksta &#x9;&#x9;un noklik&#x161;&#x137;iniet uz &#x201c;Izdz&#x113;st testu&#x201d;.&#xa;K&#x101; es varu piepras&#x12b;t jaunu funkcionalit&#x101;ti vai zi&#x146;ot par k&#x13c;&#x16b;du?&#xa;&#x9;Sazinieties ar administr&#x101;ciju, nor&#x101;dot v&#x113;lamo funkcionalit&#x101;ti vai detaliz&#x113;tu k&#x13c;&#x16b;das &#x9;&#x9;aprakstu. Turpm&#x101;k ir nor&#x101;d&#x12b;ta administr&#x101;cijas kontaktinform&#x101;cija.&#xa;K&#x101; r&#x12b;koties, ja programma uzkaras vai darbojas l&#x113;ni?&#xa;&#x9;P&#x101;rliecinieties, ka J&#x16b;su ier&#x12b;ce atbilst sist&#x113;mas pras&#x12b;b&#x101;m, un m&#x113;&#x123;iniet restart&#x113;t &#x9;&#x9;programmu. Ja probl&#x113;ma saglab&#x101;jas, sazinieties ar administr&#x101;ciju. Turpm&#x101;k &#x9;&#x9;&#x9;ir nor&#x101;d&#x12b;ta administr&#x101;cijas kontaktinform&#x101;cija.&#xa;&#xa;&#x9;               Administr&#x101;cijas e-pasts: nikitarulevics@gmail.com"/>
+                    <Property name="wrapStyleWord" type="boolean" value="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
             <Container class="javax.swing.JPanel" name="jPanel12">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -3399,36 +3426,6 @@
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
                     <Property name="text" type="java.lang.String" value="PALIDZ&#x12a;BAS LOGS"/>
-                  </Properties>
-                </Component>
-              </SubComponents>
-            </Container>
-            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
-              <AuxValues>
-                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-              </AuxValues>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="1" y="81" width="710" height="720"/>
-                </Constraint>
-              </Constraints>
-
-              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-              <SubComponents>
-                <Component class="javax.swing.JTextArea" name="jTextArea1">
-                  <Properties>
-                    <Property name="editable" type="boolean" value="false"/>
-                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                    </Property>
-                    <Property name="columns" type="int" value="20"/>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Segoe UI Semilight" size="16" style="0"/>
-                    </Property>
-                    <Property name="lineWrap" type="boolean" value="true"/>
-                    <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="Laipni l&#x16b;gti m&#x16b;su lietotnes pal&#x12b;dz&#x12b;bas sada&#x13c;&#x101;! &#x160;eit J&#x16b;s atrad&#x12b;siet inform&#x101;ciju par to, k&#x101; izmantot m&#x16b;su lietotni un risin&#x101;t bie&#x17e;&#x101;k sastopam&#x101;s probl&#x113;mas. Lietot&#x101;ja un skolot&#x101;ja izv&#x113;ln&#x113;s ir vair&#x101;kas pogas, saraksti un tabulas, kas pal&#x12b;dz Jums viegli piek&#x13c;&#x16b;t nepiecie&#x161;amaj&#x101;m funkcij&#x101;m. Pogas &#x13c;auj Jums p&#x101;rsl&#x113;gties starp da&#x17e;&#x101;diem ekr&#x101;niem, piem&#x113;ram, testa izv&#x113;les ekr&#x101;nu, atz&#x12b;mju p&#x101;rskata logu vai autoriz&#x101;cijas logu. Saraksti &#x13c;auj Jums izv&#x113;l&#x113;ties da&#x17e;&#x101;dus testus vai citas opcijas. Atlasot konkr&#x113;tu elementu no saraksta, ekr&#x101;na kreisaj&#x101; pus&#x113; tiks par&#x101;d&#x12b;ts detaliz&#x113;ts apraksts. Tabulas par&#x101;da da&#x17e;&#x101;du inform&#x101;ciju, piem&#x113;ram, skol&#x113;nu atz&#x12b;mes. Skolot&#x101;ji var ar&#x12b; main&#x12b;t v&#x113;rt&#x113;jumus tie&#x161;i tabul&#x101;.&#xa;&#xa;&#x9;&#x9;       BIE&#x17d;&#x100;K UZDOTIE JAUT&#x100;JUMI&#xa;Vai mani ievad&#x12b;tie dati tiks aizsarg&#x101;ti?&#xa;&#x9;J&#x101;, j&#x16b;su ievad&#x12b;tie dati tiks aizsarg&#x101;ti atbilsto&#x161;i visaugst&#x101;kajiem dro&#x161;&#x12b;bas standartiem. &#x9;&#x9;M&#x16b;su sist&#x113;ma izmanto &#x161;ifr&#x113;&#x161;anu, lai nodro&#x161;in&#x101;tu, ka j&#x16b;su personisk&#x101; inform&#x101;cija un&#x9;&#x9;dati par testiem ir dro&#x161;&#x12b;b&#x101;. &#xa;Ko dar&#x12b;t, ja es saskaros ar autoriz&#x101;cijas probl&#x113;m&#x101;m?&#xa;&#x9;P&#x101;rliecinieties, ka J&#x16b;s ievad&#x101;t pareizu lietot&#x101;jv&#x101;rdu un paroli. Ja probl&#x113;ma saglab&#x101;jas, &#x9;&#x9;m&#x113;&#x123;iniet atiestat&#x12b;t paroli vai sazinieties ar administraciju. Turpm&#x101;k ir nor&#x101;d&#x12b;ta &#x9;&#x9;administr&#x101;cijas kontaktinform&#x101;cija.&#xa;K&#x101; pievienot vai izdz&#x113;st testu?&#xa;&#x9;Administrators var pievienot jaunu testu, noklik&#x161;&#x137;inot uz &#x201c;Pievienot jaunu testu&#x201d; un &#x9;&#x9;aizpildot nepiecie&#x161;amos datus. Lai izdz&#x113;stu testu, izv&#x113;lieties testu no saraksta un &#x9;&#x9;noklik&#x161;&#x137;iniet uz &#x201c;Izdz&#x113;st testu&#x201d;.&#xa;K&#x101; es varu piepras&#x12b;t jaunu funkcionalit&#x101;ti vai zi&#x146;ot par k&#x13c;&#x16b;du?&#xa;&#x9;Sazinieties ar administr&#x101;ciju, nor&#x101;dot v&#x113;lamo funkcionalit&#x101;ti vai detaliz&#x113;tu k&#x13c;&#x16b;das &#x9;&#x9;aprakstu. Turpm&#x101;k ir nor&#x101;d&#x12b;ta administr&#x101;cijas kontaktinform&#x101;cija.&#xa;K&#x101; r&#x12b;koties, ja programma uzkaras vai darbojas l&#x113;ni?&#xa;&#x9;P&#x101;rliecinieties, ka J&#x16b;su ier&#x12b;ce atbilst sist&#x113;mas pras&#x12b;b&#x101;m, un m&#x113;&#x123;iniet restart&#x113;t &#x9;&#x9;programmu. Ja probl&#x113;ma saglab&#x101;jas, sazinieties ar administr&#x101;ciju. Turpm&#x101;k ir nor&#x101;d&#x12b;ta &#x9;&#x9;administr&#x101;cijas kontaktinform&#x101;cija.&#xa;&#xa;&#x9;               Administr&#x101;cijas e-pasts: nikitarulevics@gmail.com"/>
-                    <Property name="wrapStyleWord" type="boolean" value="true"/>
                   </Properties>
                 </Component>
               </SubComponents>

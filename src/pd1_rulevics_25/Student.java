@@ -26,12 +26,12 @@ import javax.swing.ButtonGroup;
 //
 public class Student extends User {
 
-    public Student(String name, String surname, String username, String password, String userType) {
-        super(name, surname, username, password, userType);
+    public Student(String name, String surname, String username, String password, String usertype) {
+        super(name, surname, username, password, usertype);
     }
 
-    public Student(String name, String username, String password, String userType) {
-        super(name, username, password, userType);
+    public Student(String name, String username, String password, String usertype) {
+        super(name, username, password, usertype);
     }
 
     public void displayMarks(JTable jTable1) {
@@ -44,7 +44,7 @@ public class Student extends User {
 
             String sql = "SELECT TestName, Mark FROM marks WHERE UserName=?";
             pst = con.prepareStatement(sql);
-            pst.setString(1, this.username); // используем this.username, так как он принадлежит текущему студенту
+            pst.setString(1, this.username);
             rs = pst.executeQuery();
 
             DefaultTableModel model = (DefaultTableModel) jTable1.getModel();

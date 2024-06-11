@@ -6,10 +6,6 @@ package pd1_rulevics_25;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.Statement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import javax.swing.*;
 
 /**
  *
