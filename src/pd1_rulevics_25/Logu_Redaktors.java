@@ -12,15 +12,11 @@ import java.sql.Statement;
 import java.util.Enumeration;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.AbstractButton;
 import javax.swing.ButtonGroup;
 import javax.swing.DefaultListModel;
 import javax.swing.JLabel;
-import javax.swing.JList;
 import javax.swing.JRadioButton;
-import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.table.DefaultTableModel;
 
@@ -111,6 +107,8 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jLabel21 = new javax.swing.JLabel();
         jSeparator7 = new javax.swing.JSeparator();
         jButton9 = new javax.swing.JButton();
+        jButton31 = new javax.swing.JButton();
+        jSeparator15 = new javax.swing.JSeparator();
         jTabbedPane2 = new javax.swing.JTabbedPane();
         jPanel38 = new javax.swing.JPanel();
         jButton30 = new javax.swing.JButton();
@@ -127,6 +125,13 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jLabel24 = new javax.swing.JLabel();
         jButton32 = new javax.swing.JButton();
         jButton33 = new javax.swing.JButton();
+        jPanel13 = new javax.swing.JPanel();
+        jLabel25 = new javax.swing.JLabel();
+        jScrollPane12 = new javax.swing.JScrollPane();
+        jTable5 = new javax.swing.JTable();
+        jButton35 = new javax.swing.JButton();
+        jButton36 = new javax.swing.JButton();
+        jButton37 = new javax.swing.JButton();
         TestFrame = new javax.swing.JDialog();
         jPanel15 = new javax.swing.JPanel();
         jPanel16 = new javax.swing.JPanel();
@@ -753,6 +758,20 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             }
         });
 
+        jButton31.setBackground(new java.awt.Color(13, 85, 54));
+        jButton31.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        jButton31.setForeground(new java.awt.Color(255, 255, 255));
+        jButton31.setText("Studentu saraksts");
+        jButton31.setToolTipText("");
+        jButton31.setBorder(null);
+        jButton31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton31ActionPerformed(evt);
+            }
+        });
+
+        jSeparator15.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+
         javax.swing.GroupLayout jPanel37Layout = new javax.swing.GroupLayout(jPanel37);
         jPanel37.setLayout(jPanel37Layout);
         jPanel37Layout.setHorizontalGroup(
@@ -761,15 +780,17 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             .addComponent(jButton29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jButton28, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jButton9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jButton31, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel37Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jSeparator15)
                     .addComponent(jSeparator13)
                     .addComponent(jSeparator6, javax.swing.GroupLayout.DEFAULT_SIZE, 188, Short.MAX_VALUE)
                     .addComponent(jSeparator12)
                     .addComponent(jSeparator14))
                 .addContainerGap())
-            .addComponent(jButton9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel37Layout.createSequentialGroup()
                     .addContainerGap()
@@ -790,8 +811,12 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 .addGap(0, 0, 0)
                 .addComponent(jButton27, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jSeparator12, javax.swing.GroupLayout.PREFERRED_SIZE, 4, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(229, 229, 229)
+                .addComponent(jSeparator12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jButton31, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jSeparator15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(181, 181, 181)
                 .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jSeparator13, javax.swing.GroupLayout.PREFERRED_SIZE, 4, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -800,9 +825,9 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 .addContainerGap())
             .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel37Layout.createSequentialGroup()
-                    .addContainerGap(376, Short.MAX_VALUE)
+                    .addContainerGap(368, Short.MAX_VALUE)
                     .addComponent(jSeparator7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(101, Short.MAX_VALUE)))
+                    .addContainerGap(109, Short.MAX_VALUE)))
         );
 
         jPanel36.add(jPanel37);
@@ -942,6 +967,79 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jButton33.setBounds(510, 430, 160, 40);
 
         jTabbedPane2.addTab("tab2", jPanel39);
+
+        jPanel13.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel13.setLayout(null);
+
+        jLabel25.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        jLabel25.setForeground(new java.awt.Color(13, 85, 54));
+        jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel25.setText("STUDENTU TABULA");
+        jPanel13.add(jLabel25);
+        jLabel25.setBounds(10, 20, 850, 50);
+
+        jTable5.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        jTable5.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        jTable5.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Studenta vārds", "Studenta uzvārds", "Studenta lietotājvārds", "Studenta parole"
+            }
+        ));
+        jTable5.setRowHeight(35);
+        jScrollPane12.setViewportView(jTable5);
+        jTable5.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        if (jTable5.getColumnModel().getColumnCount() > 0) {
+            jTable5.getColumnModel().getColumn(1).setMinWidth(100);
+            jTable5.getColumnModel().getColumn(1).setPreferredWidth(100);
+            jTable5.getColumnModel().getColumn(1).setMaxWidth(100);
+        }
+
+        jPanel13.add(jScrollPane12);
+        jScrollPane12.setBounds(20, 70, 830, 350);
+
+        jButton35.setBackground(new java.awt.Color(13, 85, 54));
+        jButton35.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        jButton35.setForeground(new java.awt.Color(255, 255, 255));
+        jButton35.setText("Pievienot jaunu studentu");
+        jButton35.setBorder(null);
+        jButton35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton35ActionPerformed(evt);
+            }
+        });
+        jPanel13.add(jButton35);
+        jButton35.setBounds(500, 430, 170, 40);
+
+        jButton36.setBackground(new java.awt.Color(13, 85, 54));
+        jButton36.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        jButton36.setForeground(new java.awt.Color(255, 255, 255));
+        jButton36.setText("Izdzēst studentu");
+        jButton36.setBorder(null);
+        jButton36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton36ActionPerformed(evt);
+            }
+        });
+        jPanel13.add(jButton36);
+        jButton36.setBounds(320, 430, 160, 40);
+
+        jButton37.setBackground(new java.awt.Color(13, 85, 54));
+        jButton37.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        jButton37.setForeground(new java.awt.Color(255, 255, 255));
+        jButton37.setText("Saglabāt");
+        jButton37.setBorder(null);
+        jButton37.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton37ActionPerformed(evt);
+            }
+        });
+        jPanel13.add(jButton37);
+        jButton37.setBounds(690, 430, 160, 40);
+
+        jTabbedPane2.addTab("tab3", jPanel13);
 
         jPanel36.add(jTabbedPane2);
         jTabbedPane2.setBounds(200, -10, 870, 520);
@@ -2078,9 +2176,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     
     // Funkcija rezultātu lejupielādei no datubāzes
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        
         jTabbedPane1.setSelectedIndex(0);
-
     }//GEN-LAST:event_jButton8ActionPerformed
 
     // Konta izrakstīšanās funkcija
@@ -2349,6 +2445,37 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton17ActionPerformed
 
+    // Jauna studenta pievienošana
+    private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
+        DefaultTableModel model = (DefaultTableModel)jTable5.getModel();
+        model.addRow(new Object[]{"", "", "", ""});
+    }//GEN-LAST:event_jButton35ActionPerformed
+
+    // Studenta izdzēšanas funkcija
+    private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
+        if (currentUser instanceof Teacher) {
+            ((Teacher)currentUser).deleteStudent(jTable5);
+        }
+    }//GEN-LAST:event_jButton36ActionPerformed
+
+    // Studenta tabulas aizpildīšanas funkcija
+    private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
+        jTabbedPane2.setSelectedIndex(2);
+        if (currentUser instanceof Teacher) {
+            ((Teacher)currentUser).populateStudentTable(jTable5);
+        }
+    }//GEN-LAST:event_jButton31ActionPerformed
+
+    // Studentu saraksta saglabāšanas funkcija
+    private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
+        if (jTable5.isEditing()) {
+            jTable5.getCellEditor().stopCellEditing();
+        }
+        if (currentUser instanceof Teacher) {
+            ((Teacher)currentUser).saveNewStudent(jTable5);
+        }
+    }//GEN-LAST:event_jButton37ActionPerformed
+
     /**
          * @param args the command line arguments
          */
@@ -2534,9 +2661,13 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JButton jButton29;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton30;
+    private javax.swing.JButton jButton31;
     private javax.swing.JButton jButton32;
     private javax.swing.JButton jButton33;
     private javax.swing.JButton jButton34;
+    private javax.swing.JButton jButton35;
+    private javax.swing.JButton jButton36;
+    private javax.swing.JButton jButton37;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
@@ -2558,6 +2689,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
@@ -2577,6 +2709,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel16;
     private javax.swing.JPanel jPanel17;
@@ -2610,6 +2743,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -2620,6 +2754,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator12;
     private javax.swing.JSeparator jSeparator13;
     private javax.swing.JSeparator jSeparator14;
+    private javax.swing.JSeparator jSeparator15;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
@@ -2630,6 +2765,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable4;
+    private javax.swing.JTable jTable5;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextPane jTextPane1;
     // End of variables declaration//GEN-END:variables
