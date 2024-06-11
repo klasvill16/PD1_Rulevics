@@ -2263,7 +2263,6 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         TestFrame.dispose();
         ResultFrame.dispose();
         MainFrameStudent.show();
-        
     }//GEN-LAST:event_jButton26ActionPerformed
 
     // Dzēst visas atlasītās atbildes
