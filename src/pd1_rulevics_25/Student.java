@@ -153,13 +153,13 @@ public class Student extends User {
             rs = pst.executeQuery();
 
             if (rs.next()) {
-                loguRedaktors.showError("Jūms jau ir atzīme par šo testu!");
+                return null;
             } else {
                 sql = "INSERT INTO marks VALUES(?, ?, ?)";
                 pst = con.prepareStatement(sql);
                 pst.setString(1, currentUser.username);
                 pst.setString(2, testName);
-                pst.setString(3, Float.toString(markForTest));
+                pst.setString(3, Integer.toString((int)markForTest));
                 pst.executeUpdate();
                 
             }

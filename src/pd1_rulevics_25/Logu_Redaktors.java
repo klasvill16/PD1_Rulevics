@@ -233,8 +233,6 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         HelpFrame = new javax.swing.JDialog();
         jPanel10 = new javax.swing.JPanel();
         jButton17 = new javax.swing.JButton();
-        jScrollPane5 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
         jPanel12 = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
         AnswerGroup1 = new javax.swing.ButtonGroup();
@@ -1850,6 +1848,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         );
 
         HelpFrame.setResizable(false);
+        HelpFrame.getContentPane().setLayout(null);
 
         jPanel10.setBackground(new java.awt.Color(255, 255, 255));
         jPanel10.setLayout(null);
@@ -1866,20 +1865,10 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             }
         });
         jPanel10.add(jButton17);
-        jButton17.setBounds(10, 790, 70, 40);
+        jButton17.setBounds(10, 730, 70, 40);
 
-        jTextArea1.setEditable(false);
-        jTextArea1.setBackground(new java.awt.Color(255, 255, 255));
-        jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextArea1.setLineWrap(true);
-        jTextArea1.setRows(5);
-        jTextArea1.setText("Laipni lūgti mūsu lietotnes palīdzības sadaļā! Šeit Jūs atradīsiet informāciju par to, kā izmantot mūsu lietotni un risināt biežāk sastopamās problēmas. Lietotāja un skolotāja izvēlnēs ir vairākas pogas, saraksti un tabulas, kas palīdz Jums viegli piekļūt nepieciešamajām funkcijām. Pogas ļauj Jums pārslēgties starp dažādiem ekrāniem, piemēram, testa izvēles ekrānu, atzīmju pārskata logu vai autorizācijas logu. Saraksti ļauj Jums izvēlēties dažādus testus vai citas opcijas. Atlasot konkrētu elementu no saraksta, ekrāna kreisajā pusē tiks parādīts detalizēts apraksts. Tabulas parāda dažādu informāciju, piemēram, skolēnu atzīmes. Skolotāji var arī mainīt vērtējumus tieši tabulā.\n\n\t\t       BIEŽĀK UZDOTIE JAUTĀJUMI\nVai mani ievadītie dati tiks aizsargāti?\n\tJā, jūsu ievadītie dati tiks aizsargāti atbilstoši visaugstākajiem drošības \t\t\tstandartiem. Mūsu sistēma izmanto šifrēšanu, lai nodrošinātu, ka jūsu personiskā \t\tinformācija un\tdati par testiem ir drošībā. \nKo darīt, ja es saskaros ar autorizācijas problēmām?\n\tPārliecinieties, ka Jūs ievadāt pareizu lietotājvārdu un paroli. Ja problēma \t\t\tsaglabājas, mēģiniet atiestatīt paroli vai sazinieties ar administraciju. Turpmāk ir \t\tnorādīta administrācijas kontaktinformācija.\nKā pievienot vai izdzēst testu?\n\tAdministrators var pievienot jaunu testu, noklikšķinot uz “Pievienot jaunu testu” \t\tun aizpildot nepieciešamos datus. Lai izdzēstu testu, izvēlieties testu no saraksta \t\tun noklikšķiniet uz “Izdzēst testu”.\nKā es varu pieprasīt jaunu funkcionalitāti vai ziņot par kļūdu?\n\tSazinieties ar administrāciju, norādot vēlamo funkcionalitāti vai detalizētu kļūdas \t\taprakstu. Turpmāk ir norādīta administrācijas kontaktinformācija.\nKā rīkoties, ja programma uzkaras vai darbojas lēni?\n\tPārliecinieties, ka Jūsu ierīce atbilst sistēmas prasībām, un mēģiniet restartēt \t\tprogrammu. Ja problēma saglabājas, sazinieties ar administrāciju. Turpmāk \t\t\tir norādīta administrācijas kontaktinformācija.\n\n\t               Administrācijas e-pasts: nikitarulevics@gmail.com");
-        jTextArea1.setWrapStyleWord(true);
-        jScrollPane5.setViewportView(jTextArea1);
-
-        jPanel10.add(jScrollPane5);
-        jScrollPane5.setBounds(11, 91, 680, 690);
+        HelpFrame.getContentPane().add(jPanel10);
+        jPanel10.setBounds(0, 76, 707, 780);
 
         jPanel12.setBackground(new java.awt.Color(13, 85, 54));
 
@@ -1902,19 +1891,8 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 .addGap(15, 15, 15))
         );
 
-        jPanel10.add(jPanel12);
-        jPanel12.setBounds(0, 0, 0, 0);
-
-        javax.swing.GroupLayout HelpFrameLayout = new javax.swing.GroupLayout(HelpFrame.getContentPane());
-        HelpFrame.getContentPane().setLayout(HelpFrameLayout);
-        HelpFrameLayout.setHorizontalGroup(
-            HelpFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, 701, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-        HelpFrameLayout.setVerticalGroup(
-            HelpFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, 839, Short.MAX_VALUE)
-        );
+        HelpFrame.getContentPane().add(jPanel12);
+        jPanel12.setBounds(0, 0, 707, 82);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Testēšanas sistēma");
@@ -2152,10 +2130,10 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 }
                 UsernameField.setText("");
                 PasswordField.setText("");
-
+                
                 con.close();
             } catch (Exception e) {
-                System.out.println(e.getMessage());
+                showError(e.getMessage());
             }
         }     
         test.addListSelectionListeners(jList1, jList2, TestDescriptionTextArea, TestDescriptionTextArea1);
@@ -2234,9 +2212,16 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
         ButtonGroup[] answerGroups = {AnswerGroup1, AnswerGroup2, AnswerGroup3, AnswerGroup4, AnswerGroup5};
         String testName = jList1.getSelectedValue();
+        TestFrame.dispose();
         if (currentUser instanceof Student) {
             float[] Marks = ((Student)currentUser).submitTest(answerGroups, testName, currentUser);
-            showResult(Marks[0],(int)Marks[1]);
+            if(Marks != null) showResult(Marks[0],(int)Marks[1]);
+            else{
+                MainFrameStudent.setVisible(true);
+                MainFrameStudent.pack();
+                MainFrameStudent.setLocationRelativeTo(null);
+                showError("Jūms jau ir atzīme par šo testu!");
+            }
         }
     }//GEN-LAST:event_jButton16ActionPerformed
 
@@ -2723,7 +2708,6 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JSeparator jSeparator1;
@@ -2742,7 +2726,6 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable4;
     private javax.swing.JTable jTable5;
-    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextPane jTextPane1;
     // End of variables declaration//GEN-END:variables
 }
