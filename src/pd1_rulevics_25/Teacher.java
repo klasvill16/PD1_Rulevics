@@ -109,7 +109,7 @@ public class Teacher extends User {
                     pst.executeUpdate();
 
                 }
-                loguRedaktors.showInfo("Jūs esat veiksmīgi nomainījuši atzīmes!");
+                loguRedaktors.showSuccess("Jūs esat veiksmīgi nomainījuši atzīmes!");
             }
 
         } catch (Exception e) {
@@ -143,12 +143,12 @@ public class Teacher extends User {
                 pst.executeUpdate();
 
                 model.removeRow(selectedRow);
-                loguRedaktors.showInfo("Vērtējums ir veiksmīgi izdzēsts!");
+                loguRedaktors.showSuccess("Vērtējums ir veiksmīgi izdzēsts!");
             } catch (Exception e) {
                 System.out.println(e.getMessage());
             } 
         } else {
-            loguRedaktors.showError("Nav izvēlēta neviena rinda!");
+            loguRedaktors.showInfo("Nav izvēlēta neviena rinda!");
         }
     }
     
@@ -169,13 +169,13 @@ public class Teacher extends User {
                 con.close();
                 DefaultListModel<String> model = (DefaultListModel<String>) jList2.getModel();
                 model.removeElement(selectedTest);
-                loguRedaktors.showInfo("Tests ir veiksmīgi izdzēsts!");
+                loguRedaktors.showSuccess("Tests ir veiksmīgi izdzēsts!");
                 TestDescriptionTextArea1.setText("");
             } catch (Exception e) {
                 System.out.println(e.getMessage());
             }
         }else{
-            loguRedaktors.showError("Tests nav izvelēts!");
+            loguRedaktors.showInfo("Tests nav izvelēts!");
         }
     }
     
@@ -205,13 +205,13 @@ public class Teacher extends User {
                 pst2.executeUpdate();
                 pst2.close();
                 
-                loguRedaktors.showInfo("Lietotājs ir izdzēsts!");
+                loguRedaktors.showSuccess("Lietotājs ir veiksmīgi izdzēsts!");
                 model.removeRow(selectedRow);
             } catch (Exception e) {
                 
             } 
         } else {
-            loguRedaktors.showError("Nav izvēlēta neviena rinda!");
+            loguRedaktors.showInfo("Nav izvēlēta neviena rinda!");
         }
         
     }
@@ -305,7 +305,7 @@ public class Teacher extends User {
             con.commit();  
             con.setAutoCommit(true);
 
-            loguRedaktors.showInfo("Izmaiņas veiksmīgi saglabātas!");
+            loguRedaktors.showSuccess("Izmaiņas veiksmīgi saglabātas!");
         } catch (Exception e) {
             System.out.println(e.toString());
         }

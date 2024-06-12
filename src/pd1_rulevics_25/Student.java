@@ -58,7 +58,7 @@ public class Student extends User {
 
         if (testName == null) {
             Logu_Redaktors loguRedaktors = new Logu_Redaktors();
-            loguRedaktors.showError("Tests nav izvelēts!");
+            loguRedaktors.showInfo("Tests nav izvelēts!");
             return;
         }
 
