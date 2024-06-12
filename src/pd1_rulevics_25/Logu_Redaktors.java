@@ -8,13 +8,9 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.Enumeration;
-import java.util.HashSet;
-import java.util.Set;
 import javax.swing.AbstractButton;
 import javax.swing.ButtonGroup;
-import javax.swing.DefaultListModel;
 import javax.swing.JLabel;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
@@ -1907,7 +1903,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         );
 
         jPanel10.add(jPanel12);
-        jPanel12.setBounds(0, 0, 707, 82);
+        jPanel12.setBounds(0, 0, 0, 0);
 
         javax.swing.GroupLayout HelpFrameLayout = new javax.swing.GroupLayout(HelpFrame.getContentPane());
         HelpFrame.getContentPane().setLayout(HelpFrameLayout);
@@ -2163,7 +2159,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             }
         }     
         test.addListSelectionListeners(jList1, jList2, TestDescriptionTextArea, TestDescriptionTextArea1);
-        test.loadTests(jList1, jList2, new DefaultListModel());
+        test.loadTests(jList1, jList2);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     // Funkcija rezultātu lejupielādei no datubāzes
@@ -2293,7 +2289,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     // Funkcijas atkārtošana testa saraksta ielādei
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
         test.addListSelectionListeners(jList1, jList2, TestDescriptionTextArea, TestDescriptionTextArea1);
-        test.loadTests(jList1, jList2, new DefaultListModel());
+        test.loadTests(jList1, jList2);
         jTabbedPane2.setSelectedIndex(0);
     }//GEN-LAST:event_jButton29ActionPerformed
 
@@ -2386,26 +2382,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         } catch (Exception e) {
             System.out.println("Radās kļūda: " + e.getMessage());
         }
-        try {
-            DefaultListModel listModel = new DefaultListModel();
-            con = db.connect();
-            Statement stm = con.createStatement();
-            ResultSet rs = stm.executeQuery("SELECT * FROM test");
-
-            //
-            Set<String> uniqueTestNames = new HashSet<>();
-
-            while (rs.next()) {
-                String testName = rs.getString("TestName");
-                if (uniqueTestNames.add(testName)) { // 
-                    listModel.addElement(testName);
-                }
-            }
-            jList2.setModel(listModel);
-            con.close();
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
+        test.loadTests(jList1, jList2);
         
         
     }//GEN-LAST:event_jButton19ActionPerformed

@@ -40,8 +40,9 @@ public class Test {
         });
     }
 
-    public void loadTests(JList jList1, JList jList2, DefaultListModel listModel) {
+    public void loadTests(JList jList1, JList jList2) {
         DataBase db = new DataBase();
+        DefaultListModel listModel = new DefaultListModel();
         try {
             Connection con = db.connect();
             Statement stm = con.createStatement();

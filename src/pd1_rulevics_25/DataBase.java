@@ -16,9 +16,8 @@ public class DataBase {
     public Connection connect() {
         Connection con = null;
         try {
-            Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb", "root", "28974363");
-            //root is username of mysql and 28974363 is a password
+            con = DriverManager.getConnection("jdbc:derby://localhost:1527/TestDB", "root", "28974363");
+            //root is username of db and 28974363 is a password
             
         } catch (Exception e) {
             System.out.println(e.getMessage());
