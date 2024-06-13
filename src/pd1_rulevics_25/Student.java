@@ -23,7 +23,7 @@ public class Student extends User {
         super(name, username, password, usertype);
     }
 
-    public void displayMarks(JTable jTable1) {
+    public void displayMarks(JTable jTable) {
         DataBase db = new DataBase();
         ResultSet rs = null;
         PreparedStatement pst = null;
@@ -36,7 +36,7 @@ public class Student extends User {
             pst.setString(1, this.username);
             rs = pst.executeQuery();
 
-            DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
+            DefaultTableModel model = (DefaultTableModel) jTable.getModel();
             model.setRowCount(0);
             while (rs.next()) {
                 String testName = rs.getString("TestName");
@@ -44,7 +44,7 @@ public class Student extends User {
                 model.addRow(new Object[]{testName, mark});
             }
 
-            jTable1.setModel(model);
+            jTable.setModel(model);
             con.close();
         } catch (Exception e) {
             System.out.println(e.getMessage());
