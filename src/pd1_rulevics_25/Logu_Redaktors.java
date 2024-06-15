@@ -960,7 +960,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jButton33.setBackground(new java.awt.Color(13, 85, 54));
         jButton33.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
         jButton33.setForeground(new java.awt.Color(255, 255, 255));
-        jButton33.setText("Izdzēst");
+        jButton33.setText("Izdzēst atzīmi");
         jButton33.setBorder(null);
         jButton33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1931,7 +1931,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         ResultFrame.getAccessibleContext().setAccessibleName("");
 
         HelpFrame.setTitle("Palidzības logs");
-        HelpFrame.setPreferredSize(new java.awt.Dimension(584, 492));
+        HelpFrame.setPreferredSize(new java.awt.Dimension(675, 492));
         HelpFrame.setResizable(false);
         HelpFrame.getContentPane().setLayout(null);
 
@@ -1946,7 +1946,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jPanel12.setLayout(jPanel12Layout);
         jPanel12Layout.setHorizontalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel18, javax.swing.GroupLayout.DEFAULT_SIZE, 580, Short.MAX_VALUE)
+            .addComponent(jLabel18, javax.swing.GroupLayout.DEFAULT_SIZE, 700, Short.MAX_VALUE)
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1957,7 +1957,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         );
 
         HelpFrame.getContentPane().add(jPanel12);
-        jPanel12.setBounds(0, 0, 580, 82);
+        jPanel12.setBounds(0, 0, 700, 82);
 
         jPanel10.setBackground(new java.awt.Color(255, 255, 255));
         jPanel10.setLayout(null);
@@ -1968,7 +1968,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
 
         jPanel14.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/help.png"))); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/help.jpg"))); // NOI18N
 
         jButton17.setBackground(new java.awt.Color(13, 85, 54));
         jButton17.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
@@ -1987,29 +1987,32 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jPanel14Layout.setHorizontalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel14Layout.createSequentialGroup()
-                .addContainerGap()
                 .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel19)
-                    .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(7, Short.MAX_VALUE))
+                    .addGroup(jPanel14Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel14Layout.createSequentialGroup()
+                        .addGap(24, 24, 24)
+                        .addComponent(jLabel19)))
+                .addContainerGap(46, Short.MAX_VALUE))
         );
         jPanel14Layout.setVerticalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
-                .addGap(8, 8, 8)
-                .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 816, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap()
+                .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 2280, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(49, Short.MAX_VALUE))
+                .addContainerGap(48, Short.MAX_VALUE))
         );
 
         jScrollPane5.setViewportView(jPanel14);
 
         jPanel10.add(jScrollPane5);
-        jScrollPane5.setBounds(0, 0, 580, 410);
+        jScrollPane5.setBounds(0, 0, 700, 410);
 
         HelpFrame.getContentPane().add(jPanel10);
-        jPanel10.setBounds(0, 79, 580, 410);
+        jPanel10.setBounds(0, 79, 700, 410);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Testēšanas sistēma");
@@ -2319,15 +2322,30 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             showInfo("Tests nav izvelēts!");
             return;
         }
-        if (currentUser instanceof Student) {
-            ((Student) currentUser).displayTest(testName, TestNameLabel, questionLabels, answerButtons);
+        
+        try{
+            Connection con = db.connect();
+            String sqlCheck = "SELECT * FROM marks WHERE UserName=? AND TestName=? ";
+            pst = con.prepareStatement(sqlCheck);
+            pst.setString(1, currentUser.username);
+            pst.setString(2, testName);
+            rs = pst.executeQuery();
+            if (rs.next()) {
+                showError("Jūms jau ir atzīme par šo testu!");
+            }else{
+                if (currentUser instanceof Student) {
+                    ((Student) currentUser).displayTest(testName, TestNameLabel, questionLabels, answerButtons);
+                }
+                MainFrameStudent.dispose();
+                MainFrameTeacher.dispose();
+                TestFrame.setVisible(true);
+                TestFrame.pack();
+                TestFrame.setLocationRelativeTo(null);
+            }
+        }catch (Exception e) {
+            System.out.println(e.getMessage());
         }
-
-        MainFrameStudent.dispose();
-        MainFrameTeacher.dispose();
-        TestFrame.setVisible(true);
-        TestFrame.pack();
-        TestFrame.setLocationRelativeTo(null);
+        
 
     }//GEN-LAST:event_jButton5ActionPerformed
 

@@ -1,7 +1,7 @@
-Sat Jun 15 13:55:23 EEST 2024 : Сетевой сервер Apache Derby Network Server - 10.16.1.1 - (1901046) запущен и готов принимать соединения на порту 1527 на {3} 
+Sat Jun 15 14:57:37 EEST 2024 : Сетевой сервер Apache Derby Network Server - 10.16.1.1 - (1901046) запущен и готов принимать соединения на порту 1527 на {3} 
 ----------------------------------------------------------------
-Sat Jun 15 13:55:24 EEST 2024:
- Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): экземпляр a816c00e-0190-1b89-a46e-ffffaa01602b
+Sat Jun 15 14:57:37 EEST 2024:
+ Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): экземпляр a816c00e-0190-1bc2-9ce9-ffffaa01602b
 в каталоге базы данных C:\Users\klasv\Desktop\PD1_Rulevics_25\db\TestDB jdk.internal.loader.ClassLoaders$AppClassLoader@33909752 
 
 java.vendor=Oracle Corporation
@@ -13,8 +13,8 @@ os.version=10.0
 derby.system.home=C:\Users\klasv\Desktop\PD1_Rulevics_25\db
 Запущен загрузчик классов базы данных - derby.database.classpath=''
 ----------------------------------------------------------------
-Sat Jun 15 14:52:56 EEST 2024: Shutting down Derby engine
+Sat Jun 15 19:34:10 EEST 2024: Shutting down Derby engine
 ----------------------------------------------------------------
-Sat Jun 15 14:52:56 EEST 2024:
-Завершается работа экземпляра a816c00e-0190-1b89-a46e-ffffaa01602b
+Sat Jun 15 19:34:10 EEST 2024:
+Завершается работа экземпляра a816c00e-0190-1bc2-9ce9-ffffaa01602b
 ----------------------------------------------------------------

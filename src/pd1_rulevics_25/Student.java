@@ -164,8 +164,8 @@ public class Student extends User {
                 
             }
             con.close();
-        } catch (SQLException ex) {
-            Logger.getLogger(Logu_Redaktors.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
         return new float[] {percentsForTest, markForTest};
     }
