@@ -2517,6 +2517,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        jScrollPane5.getVerticalScrollBar().setValue(0);
         HelpFrame.dispose();
         if ("teacher".equals(currentUser.usertype)) {
             MainFrameTeacher.setVisible(true);

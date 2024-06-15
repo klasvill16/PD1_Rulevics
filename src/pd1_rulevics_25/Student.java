@@ -130,7 +130,7 @@ public class Student extends User {
                     break;
                 }
                 case 2: {
-                    markForTest = 3;
+                    markForTest = 4;
                     break;
                 }
                 case 3: {
