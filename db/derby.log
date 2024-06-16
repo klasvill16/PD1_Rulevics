@@ -1,7 +1,7 @@
-Sun Jun 16 13:25:30 EEST 2024 : Сетевой сервер Apache Derby Network Server - 10.16.1.1 - (1901046) запущен и готов принимать соединения на порту 1527 на {3} 
+Sun Jun 16 20:00:57 EEST 2024 : Сетевой сервер Apache Derby Network Server - 10.16.1.1 - (1901046) запущен и готов принимать соединения на порту 1527 на {3} 
 ----------------------------------------------------------------
-Sun Jun 16 13:25:30 EEST 2024:
- Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): экземпляр a816c00e-0190-2094-a1b0-ffffaa01602b
+Sun Jun 16 20:00:57 EEST 2024:
+ Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): экземпляр a816c00e-0190-21fe-ae0a-ffffaa01602b
 в каталоге базы данных C:\Users\klasv\Desktop\PD1_Rulevics_25\db\TestDB jdk.internal.loader.ClassLoaders$AppClassLoader@33909752 
 
 java.vendor=Oracle Corporation

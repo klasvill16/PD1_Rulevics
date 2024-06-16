@@ -10,6 +10,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Enumeration;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.AbstractButton;
 import javax.swing.ButtonGroup;
 import javax.swing.JLabel;
@@ -1932,7 +1934,6 @@ public class Logu_Redaktors extends javax.swing.JFrame {
 
         HelpFrame.setTitle("Palidzības logs");
         HelpFrame.setResizable(false);
-        HelpFrame.getContentPane().setLayout(null);
 
         jPanel12.setBackground(new java.awt.Color(13, 85, 54));
 
@@ -1954,9 +1955,6 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 .addComponent(jLabel18)
                 .addGap(15, 15, 15))
         );
-
-        HelpFrame.getContentPane().add(jPanel12);
-        jPanel12.setBounds(0, 0, 700, 0);
 
         jPanel10.setBackground(new java.awt.Color(255, 255, 255));
         jPanel10.setLayout(null);
@@ -2002,7 +2000,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 2280, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(48, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jScrollPane5.setViewportView(jPanel14);
@@ -2010,8 +2008,20 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         jPanel10.add(jScrollPane5);
         jScrollPane5.setBounds(0, 0, 700, 410);
 
-        HelpFrame.getContentPane().add(jPanel10);
-        jPanel10.setBounds(0, 79, 700, 410);
+        javax.swing.GroupLayout HelpFrameLayout = new javax.swing.GroupLayout(HelpFrame.getContentPane());
+        HelpFrame.getContentPane().setLayout(HelpFrameLayout);
+        HelpFrameLayout.setHorizontalGroup(
+            HelpFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, 700, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+        HelpFrameLayout.setVerticalGroup(
+            HelpFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HelpFrameLayout.createSequentialGroup()
+                .addGap(79, 79, 79)
+                .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, 410, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Testēšanas sistēma");
@@ -2206,30 +2216,14 @@ public class Logu_Redaktors extends javax.swing.JFrame {
 
     // Ielogošanas funkcija
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-
         DataBase db = new DataBase();
         String username = UsernameField.getText();
         String password = PasswordField.getText();
-
-        ResultSet rs = null;
-        PreparedStatement pst = null;
-
         if (username.equals("") || password.equals("")) {
             showInfo("Ne visas ailītes ir aizpildītas");
         } else {
-            // connection
+            ResultSet rs = User.login(username, password);
             try {
-                Connection con = db.connect();
-                if (con == null) {
-                    showInfo("Jūs neesat pieslēgts datubāzei!");
-                }
-                String sql = "SELECT * FROM users WHERE UserName=? AND Password=?";
-                pst = con.prepareStatement(sql);
-                pst.setString(1, username);
-                pst.setString(2, password);
-
-                rs = pst.executeQuery();
-
                 if (rs.next()) {
                     String userType = rs.getString("UserType");
                     String FirstName = rs.getString("FirstName");
@@ -2249,17 +2243,15 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                     }
                     this.dispose();
                     showSuccess("Jūs esat veiksmīgi pieteicies savā kontā!");
-
+                    
                 } else {
                     showError("Nevarēja piekļūt kontam!");
                 }
-                UsernameField.setText("");
-                PasswordField.setText("");
-
-                con.close();
-            } catch (Exception e) {
-                e.printStackTrace();
+            } catch (SQLException ex) {
+                Logger.getLogger(Logu_Redaktors.class.getName()).log(Level.SEVERE, null, ex);
             }
+            UsernameField.setText("");
+            PasswordField.setText("");
         }
         test.addListSelectionListeners(jList1, jList2, TestDescriptionTextArea, TestDescriptionTextArea1);
         test.loadTests(jList1, jList2);
