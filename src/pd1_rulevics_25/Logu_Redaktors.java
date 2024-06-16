@@ -1931,7 +1931,6 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         ResultFrame.getAccessibleContext().setAccessibleName("");
 
         HelpFrame.setTitle("Palidzības logs");
-        HelpFrame.setPreferredSize(new java.awt.Dimension(675, 492));
         HelpFrame.setResizable(false);
         HelpFrame.getContentPane().setLayout(null);
 
@@ -1957,7 +1956,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         );
 
         HelpFrame.getContentPane().add(jPanel12);
-        jPanel12.setBounds(0, 0, 700, 82);
+        jPanel12.setBounds(0, 0, 700, 0);
 
         jPanel10.setBackground(new java.awt.Color(255, 255, 255));
         jPanel10.setLayout(null);
