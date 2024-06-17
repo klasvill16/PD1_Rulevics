@@ -33,7 +33,7 @@ public class UserTest {
      */
     @Test
     public void testLogin() throws SQLException {
-        System.out.println("Testing login method of class User");
+        System.out.println("login(String username, String password) method of class User test");
         ResultSet rs;
 
         rs = User.login("hina", "123");
