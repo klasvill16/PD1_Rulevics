@@ -46,134 +46,126 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private void initComponents() {
 
         RegisterFrame = new javax.swing.JDialog();
-        jPanel4 = new javax.swing.JPanel();
-        jPanel5 = new javax.swing.JPanel();
-        jLabel6 = new javax.swing.JLabel();
-        jPanel6 = new javax.swing.JPanel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
+        GeneralRegisterPanel = new javax.swing.JPanel();
+        RegisterImagePanel = new javax.swing.JPanel();
+        RegisterImage = new javax.swing.JLabel();
+        RegisterDataPanel = new javax.swing.JPanel();
+        RegisterLabel = new javax.swing.JLabel();
+        RegNameLabel = new javax.swing.JLabel();
         RegNameField = new javax.swing.JTextField();
-        jLabel9 = new javax.swing.JLabel();
+        RegPasswordLabel = new javax.swing.JLabel();
         RegPasswordField = new javax.swing.JPasswordField();
-        jButton4 = new javax.swing.JButton();
-        jLabel10 = new javax.swing.JLabel();
+        RegisterButton = new javax.swing.JButton();
+        RegSurnameLabel = new javax.swing.JLabel();
         RegSurnameField = new javax.swing.JTextField();
-        jLabel11 = new javax.swing.JLabel();
+        RegPasswordRepeatLabel = new javax.swing.JLabel();
         RegPasswordRepeatField = new javax.swing.JPasswordField();
         RegUsernameField = new javax.swing.JTextField();
-        jLabel12 = new javax.swing.JLabel();
-        jButton20 = new javax.swing.JButton();
-        jLabel31 = new javax.swing.JLabel();
-        jLabel32 = new javax.swing.JLabel();
+        RegUsernameLabel = new javax.swing.JLabel();
+        LoginFrameButton = new javax.swing.JButton();
+        LoginQuestionLabel = new javax.swing.JLabel();
+        RegUserTypeField = new javax.swing.JLabel();
         StudentTypeRadioButton = new javax.swing.JRadioButton();
         TeacherTypeRadioButton = new javax.swing.JRadioButton();
         MainFrameStudent = new javax.swing.JDialog();
-        jPanel7 = new javax.swing.JPanel();
-        jPanel8 = new javax.swing.JPanel();
-        jButton7 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
+        GenralStudentPanel = new javax.swing.JPanel();
+        NavigationPanelStudent = new javax.swing.JPanel();
+        MarksTablePanelButton = new javax.swing.JButton();
+        LoginOutStudentButton = new javax.swing.JButton();
+        TestSelectPanelButton = new javax.swing.JButton();
         jSeparator5 = new javax.swing.JSeparator();
         jSeparator1 = new javax.swing.JSeparator();
         jSeparator2 = new javax.swing.JSeparator();
         jSeparator3 = new javax.swing.JSeparator();
         jSeparator4 = new javax.swing.JSeparator();
-        jLabel13 = new javax.swing.JLabel();
-        jButton6 = new javax.swing.JButton();
-        jTabbedPane1 = new javax.swing.JTabbedPane();
-        jPanel9 = new javax.swing.JPanel();
-        jButton5 = new javax.swing.JButton();
-        jLabel14 = new javax.swing.JLabel();
+        UserNameLabelStudent = new javax.swing.JLabel();
+        HelpStudentButton = new javax.swing.JButton();
+        jTabbedPaneStudent = new javax.swing.JTabbedPane();
+        TestSelectPanelStudent = new javax.swing.JPanel();
+        TestExecutionButton = new javax.swing.JButton();
+        TestListLabel = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jList1 = new javax.swing.JList<>();
+        TestList = new javax.swing.JList<>();
         jScrollPane2 = new javax.swing.JScrollPane();
         TestDescriptionTextArea = new javax.swing.JTextArea();
-        jLabel15 = new javax.swing.JLabel();
-        jPanel11 = new javax.swing.JPanel();
+        TestDescription = new javax.swing.JLabel();
+        MarksPanelStudent = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
-        jLabel16 = new javax.swing.JLabel();
+        MarksTable = new javax.swing.JTable();
+        MarksLabel = new javax.swing.JLabel();
         MainFrameTeacher = new javax.swing.JDialog();
-        jPanel36 = new javax.swing.JPanel();
-        jPanel37 = new javax.swing.JPanel();
-        jButton27 = new javax.swing.JButton();
-        jButton28 = new javax.swing.JButton();
-        jButton29 = new javax.swing.JButton();
+        GeneralTeacherPanel = new javax.swing.JPanel();
+        NavigationPanelTeacher = new javax.swing.JPanel();
+        MarksTableTeacherButton = new javax.swing.JButton();
+        LoginOutTeacherButton = new javax.swing.JButton();
+        TestSelectPanelTeacherButton = new javax.swing.JButton();
         jSeparator6 = new javax.swing.JSeparator();
         jSeparator12 = new javax.swing.JSeparator();
         jSeparator13 = new javax.swing.JSeparator();
         jSeparator14 = new javax.swing.JSeparator();
-        jLabel21 = new javax.swing.JLabel();
+        UserNameLabelTeacher = new javax.swing.JLabel();
         jSeparator7 = new javax.swing.JSeparator();
-        jButton9 = new javax.swing.JButton();
-        jButton31 = new javax.swing.JButton();
+        HelpTeacherButton = new javax.swing.JButton();
+        StudentTableTeacherButton = new javax.swing.JButton();
         jSeparator15 = new javax.swing.JSeparator();
-        jTabbedPane2 = new javax.swing.JTabbedPane();
-        jPanel38 = new javax.swing.JPanel();
-        jButton30 = new javax.swing.JButton();
-        jLabel22 = new javax.swing.JLabel();
+        jTabbedPaneTeacher = new javax.swing.JTabbedPane();
+        TestSelectPanelTeacher = new javax.swing.JPanel();
+        TestDeleteButton = new javax.swing.JButton();
+        TestListLabelTeacher = new javax.swing.JLabel();
         jScrollPane9 = new javax.swing.JScrollPane();
-        jList2 = new javax.swing.JList<>();
+        TestListTeacher = new javax.swing.JList<>();
         jScrollPane10 = new javax.swing.JScrollPane();
         TestDescriptionTextArea1 = new javax.swing.JTextArea();
-        jLabel23 = new javax.swing.JLabel();
-        jButton34 = new javax.swing.JButton();
-        jPanel39 = new javax.swing.JPanel();
+        TestDesctiptionLabelTeacher = new javax.swing.JLabel();
+        NewTestButton = new javax.swing.JButton();
+        MarksPanelTeacher = new javax.swing.JPanel();
         jScrollPane11 = new javax.swing.JScrollPane();
-        jTable4 = new javax.swing.JTable();
-        jLabel24 = new javax.swing.JLabel();
-        jButton32 = new javax.swing.JButton();
-        jButton33 = new javax.swing.JButton();
-        jPanel13 = new javax.swing.JPanel();
-        jLabel25 = new javax.swing.JLabel();
+        MarksTableTeacher = new javax.swing.JTable();
+        MarksTeacherLabel = new javax.swing.JLabel();
+        MarksTableSaveButton = new javax.swing.JButton();
+        DeleteMarkButton = new javax.swing.JButton();
+        StudentPanelTeacher = new javax.swing.JPanel();
+        StudentTableLabel = new javax.swing.JLabel();
         jScrollPane12 = new javax.swing.JScrollPane();
-        jTable5 = new javax.swing.JTable();
-        jButton35 = new javax.swing.JButton();
-        jButton36 = new javax.swing.JButton();
-        jButton37 = new javax.swing.JButton();
+        StudentTableTeacher = new javax.swing.JTable();
+        NewStudentButton = new javax.swing.JButton();
+        DeleteStudentButton = new javax.swing.JButton();
+        SaveStudentsTableButton = new javax.swing.JButton();
         TestFrame = new javax.swing.JDialog();
-        jPanel15 = new javax.swing.JPanel();
-        jPanel16 = new javax.swing.JPanel();
-        QuestionLabel2 = new javax.swing.JLabel();
-        Answer21 = new javax.swing.JRadioButton();
-        Answer22 = new javax.swing.JRadioButton();
-        Answer23 = new javax.swing.JRadioButton();
-        jPanel17 = new javax.swing.JPanel();
+        GeneralTestPanel = new javax.swing.JPanel();
+        Question1Panel = new javax.swing.JPanel();
         QuestionLabel1 = new javax.swing.JLabel();
         Answer11 = new javax.swing.JRadioButton();
         Answer12 = new javax.swing.JRadioButton();
         Answer13 = new javax.swing.JRadioButton();
-        jPanel18 = new javax.swing.JPanel();
-        QuestionLabel5 = new javax.swing.JLabel();
-        Answer51 = new javax.swing.JRadioButton();
-        Answer52 = new javax.swing.JRadioButton();
-        Answer53 = new javax.swing.JRadioButton();
-        jPanel19 = new javax.swing.JPanel();
+        Question2Panel = new javax.swing.JPanel();
+        QuestionLabel2 = new javax.swing.JLabel();
+        Answer21 = new javax.swing.JRadioButton();
+        Answer22 = new javax.swing.JRadioButton();
+        Answer23 = new javax.swing.JRadioButton();
+        Question3Panel = new javax.swing.JPanel();
         QuestionLabel3 = new javax.swing.JLabel();
         Answer31 = new javax.swing.JRadioButton();
         Answer32 = new javax.swing.JRadioButton();
         Answer33 = new javax.swing.JRadioButton();
-        jPanel20 = new javax.swing.JPanel();
+        Question4Panel = new javax.swing.JPanel();
         QuestionLabel4 = new javax.swing.JLabel();
         Answer41 = new javax.swing.JRadioButton();
         Answer42 = new javax.swing.JRadioButton();
         Answer43 = new javax.swing.JRadioButton();
-        jButton15 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
-        jPanel21 = new javax.swing.JPanel();
+        Question5Panel = new javax.swing.JPanel();
+        QuestionLabel5 = new javax.swing.JLabel();
+        Answer51 = new javax.swing.JRadioButton();
+        Answer52 = new javax.swing.JRadioButton();
+        Answer53 = new javax.swing.JRadioButton();
+        TestOutButton = new javax.swing.JButton();
+        TestSubmitButton = new javax.swing.JButton();
+        TestLabelPanel = new javax.swing.JPanel();
         TestNameLabel = new javax.swing.JLabel();
-        jButton25 = new javax.swing.JButton();
+        DeleteAllAnswersButton = new javax.swing.JButton();
         NewTestFrame = new javax.swing.JDialog();
-        jPanel24 = new javax.swing.JPanel();
-        jPanel25 = new javax.swing.JPanel();
-        RadioButton21 = new javax.swing.JRadioButton();
-        RadioButton22 = new javax.swing.JRadioButton();
-        RadioButton23 = new javax.swing.JRadioButton();
-        NewQuestionField2 = new javax.swing.JTextField();
-        NewAnswerField21 = new javax.swing.JTextField();
-        NewAnswerField22 = new javax.swing.JTextField();
-        NewAnswerField23 = new javax.swing.JTextField();
-        jPanel26 = new javax.swing.JPanel();
+        GeneralNewTestPanel = new javax.swing.JPanel();
+        NewQuestion1Panel = new javax.swing.JPanel();
         RadioButton11 = new javax.swing.JRadioButton();
         RadioButton12 = new javax.swing.JRadioButton();
         RadioButton13 = new javax.swing.JRadioButton();
@@ -181,15 +173,15 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         NewAnswerField11 = new javax.swing.JTextField();
         NewAnswerField12 = new javax.swing.JTextField();
         NewAnswerField13 = new javax.swing.JTextField();
-        jPanel27 = new javax.swing.JPanel();
-        RadioButton51 = new javax.swing.JRadioButton();
-        RadioButton52 = new javax.swing.JRadioButton();
-        RadioButton53 = new javax.swing.JRadioButton();
-        NewQuestionField5 = new javax.swing.JTextField();
-        NewAnswerField51 = new javax.swing.JTextField();
-        NewAnswerField52 = new javax.swing.JTextField();
-        NewAnswerField53 = new javax.swing.JTextField();
-        jPanel28 = new javax.swing.JPanel();
+        NewQuestion2Panel = new javax.swing.JPanel();
+        RadioButton21 = new javax.swing.JRadioButton();
+        RadioButton22 = new javax.swing.JRadioButton();
+        RadioButton23 = new javax.swing.JRadioButton();
+        NewQuestionField2 = new javax.swing.JTextField();
+        NewAnswerField21 = new javax.swing.JTextField();
+        NewAnswerField22 = new javax.swing.JTextField();
+        NewAnswerField23 = new javax.swing.JTextField();
+        NewQuestion3Panel = new javax.swing.JPanel();
         RadioButton31 = new javax.swing.JRadioButton();
         RadioButton32 = new javax.swing.JRadioButton();
         RadioButton33 = new javax.swing.JRadioButton();
@@ -197,7 +189,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         NewAnswerField31 = new javax.swing.JTextField();
         NewAnswerField32 = new javax.swing.JTextField();
         NewAnswerField33 = new javax.swing.JTextField();
-        jPanel29 = new javax.swing.JPanel();
+        NewQuestion4Panel = new javax.swing.JPanel();
         RadioButton41 = new javax.swing.JRadioButton();
         RadioButton42 = new javax.swing.JRadioButton();
         RadioButton43 = new javax.swing.JRadioButton();
@@ -205,48 +197,56 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         NewAnswerField41 = new javax.swing.JTextField();
         NewAnswerField42 = new javax.swing.JTextField();
         NewAnswerField43 = new javax.swing.JTextField();
-        jButton19 = new javax.swing.JButton();
-        jPanel30 = new javax.swing.JPanel();
+        NewQuestion5Panel = new javax.swing.JPanel();
+        RadioButton51 = new javax.swing.JRadioButton();
+        RadioButton52 = new javax.swing.JRadioButton();
+        RadioButton53 = new javax.swing.JRadioButton();
+        NewQuestionField5 = new javax.swing.JTextField();
+        NewAnswerField51 = new javax.swing.JTextField();
+        NewAnswerField52 = new javax.swing.JTextField();
+        NewAnswerField53 = new javax.swing.JTextField();
+        SaveTestButton = new javax.swing.JButton();
+        NewTestLabelPanel = new javax.swing.JPanel();
         TestNameField = new javax.swing.JTextField();
         jScrollPane8 = new javax.swing.JScrollPane();
-        jTextPane1 = new javax.swing.JTextPane();
+        NewTestAdvice = new javax.swing.JTextPane();
         jScrollPane4 = new javax.swing.JScrollPane();
         NewTestDesriptionField = new javax.swing.JTextArea();
-        jLabel17 = new javax.swing.JLabel();
-        jButton22 = new javax.swing.JButton();
+        NewTestDescriptionLabel = new javax.swing.JLabel();
+        NewTestOutButton = new javax.swing.JButton();
         ErrorFrame = new javax.swing.JDialog();
-        jPanel31 = new javax.swing.JPanel();
-        jLabel28 = new javax.swing.JLabel();
-        jLabel30 = new javax.swing.JLabel();
+        ErrorPanel = new javax.swing.JPanel();
+        StaticLabelError = new javax.swing.JLabel();
+        ErrorImage = new javax.swing.JLabel();
         ErrorLabel = new javax.swing.JLabel();
-        jButton18 = new javax.swing.JButton();
+        ErrorOutButton = new javax.swing.JButton();
         SuccessFrame = new javax.swing.JDialog();
-        jPanel32 = new javax.swing.JPanel();
-        jLabel33 = new javax.swing.JLabel();
-        jLabel34 = new javax.swing.JLabel();
+        SuccessPanel = new javax.swing.JPanel();
+        StaticLabelSuccess = new javax.swing.JLabel();
+        SuccessImage = new javax.swing.JLabel();
         SuccessLabel = new javax.swing.JLabel();
-        jButton21 = new javax.swing.JButton();
+        SuccessOutButton = new javax.swing.JButton();
         InfoFrame = new javax.swing.JDialog();
-        jPanel33 = new javax.swing.JPanel();
-        jLabel35 = new javax.swing.JLabel();
-        jLabel36 = new javax.swing.JLabel();
+        InfoPanel = new javax.swing.JPanel();
+        StaticLabelInfo = new javax.swing.JLabel();
+        InfoImage = new javax.swing.JLabel();
         InfoLabel = new javax.swing.JLabel();
-        jButton23 = new javax.swing.JButton();
+        InfoOutButton = new javax.swing.JButton();
         ResultFrame = new javax.swing.JDialog();
-        jPanel34 = new javax.swing.JPanel();
-        jPanel35 = new javax.swing.JPanel();
-        NameLabel = new javax.swing.JLabel();
+        GeneralResultPanel = new javax.swing.JPanel();
+        ResultLabelPanel = new javax.swing.JPanel();
+        ResultLabel = new javax.swing.JLabel();
         PercentLabel = new javax.swing.JLabel();
         MarkLabel = new javax.swing.JLabel();
-        jButton26 = new javax.swing.JButton();
+        ResultOutLabel = new javax.swing.JButton();
         HelpFrame = new javax.swing.JDialog();
-        jPanel12 = new javax.swing.JPanel();
-        jLabel18 = new javax.swing.JLabel();
-        jPanel10 = new javax.swing.JPanel();
+        HelpFrameLabelPanel = new javax.swing.JPanel();
+        HelpLabel = new javax.swing.JLabel();
+        HelpTextPanel = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
-        jPanel14 = new javax.swing.JPanel();
-        jLabel19 = new javax.swing.JLabel();
-        jButton17 = new javax.swing.JButton();
+        HelpTextPanel1 = new javax.swing.JPanel();
+        HelpTextLabel = new javax.swing.JLabel();
+        HelpOutButton = new javax.swing.JButton();
         AnswerGroup1 = new javax.swing.ButtonGroup();
         AnswerGroup2 = new javax.swing.ButtonGroup();
         AnswerGroup3 = new javax.swing.ButtonGroup();
@@ -259,181 +259,182 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         NewAnswerGroup3 = new javax.swing.ButtonGroup();
         NewAnswerGroup4 = new javax.swing.ButtonGroup();
         NewAnswerGroup5 = new javax.swing.ButtonGroup();
-        jPanel3 = new javax.swing.JPanel();
-        jPanel1 = new javax.swing.JPanel();
-        jLabel5 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        GeneralLoginPanel = new javax.swing.JPanel();
+        LoginImagePanel = new javax.swing.JPanel();
+        LoginImage = new javax.swing.JLabel();
+        LoginDataPanel = new javax.swing.JPanel();
+        LoginLabel = new javax.swing.JLabel();
+        UsernameLabel = new javax.swing.JLabel();
         UsernameField = new javax.swing.JTextField();
-        jLabel3 = new javax.swing.JLabel();
+        PasswordLabel = new javax.swing.JLabel();
         PasswordField = new javax.swing.JPasswordField();
-        jButton2 = new javax.swing.JButton();
-        jLabel4 = new javax.swing.JLabel();
-        jButton3 = new javax.swing.JButton();
+        LoginButton = new javax.swing.JButton();
+        RegisterQuestionLabel = new javax.swing.JLabel();
+        RegisterFrameButton = new javax.swing.JButton();
+        HelpLoginButton = new javax.swing.JButton();
 
         RegisterFrame.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         RegisterFrame.setTitle("Testēšanas sistēma");
         RegisterFrame.setResizable(false);
 
-        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel4.setToolTipText("Autorizācijas logs");
-        jPanel4.setPreferredSize(new java.awt.Dimension(800, 500));
-        jPanel4.setLayout(null);
+        GeneralRegisterPanel.setBackground(new java.awt.Color(255, 255, 255));
+        GeneralRegisterPanel.setToolTipText("Autorizācijas logs");
+        GeneralRegisterPanel.setPreferredSize(new java.awt.Dimension(800, 500));
+        GeneralRegisterPanel.setLayout(null);
 
-        jPanel5.setBackground(new java.awt.Color(13, 85, 54));
-        jPanel5.setMinimumSize(new java.awt.Dimension(400, 500));
-        jPanel5.setRequestFocusEnabled(false);
-        jPanel5.setLayout(null);
+        RegisterImagePanel.setBackground(new java.awt.Color(13, 85, 54));
+        RegisterImagePanel.setMinimumSize(new java.awt.Dimension(400, 500));
+        RegisterImagePanel.setRequestFocusEnabled(false);
+        RegisterImagePanel.setLayout(null);
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/regicon1.jpg"))); // NOI18N
-        jLabel6.setText("jLabel6");
-        jPanel5.add(jLabel6);
-        jLabel6.setBounds(0, -10, 760, 630);
+        RegisterImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/regicon1.jpg"))); // NOI18N
+        RegisterImage.setText("jLabel6");
+        RegisterImagePanel.add(RegisterImage);
+        RegisterImage.setBounds(0, -10, 760, 630);
 
-        jPanel4.add(jPanel5);
-        jPanel5.setBounds(350, 0, 460, 620);
+        GeneralRegisterPanel.add(RegisterImagePanel);
+        RegisterImagePanel.setBounds(350, 0, 460, 620);
 
-        jPanel6.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel6.setPreferredSize(new java.awt.Dimension(400, 500));
+        RegisterDataPanel.setBackground(new java.awt.Color(255, 255, 255));
+        RegisterDataPanel.setPreferredSize(new java.awt.Dimension(400, 500));
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(13, 85, 54));
-        jLabel7.setText("REĢISTRĀCIJA");
+        RegisterLabel.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        RegisterLabel.setForeground(new java.awt.Color(13, 85, 54));
+        RegisterLabel.setText("REĢISTRĀCIJA");
 
-        jLabel8.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jLabel8.setText("Vārds");
+        RegNameLabel.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        RegNameLabel.setText("Vārds");
 
         RegNameField.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
 
-        jLabel9.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jLabel9.setText("Parole");
+        RegPasswordLabel.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        RegPasswordLabel.setText("Parole");
 
-        jButton4.setBackground(new java.awt.Color(13, 85, 54));
-        jButton4.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setText("Reģistrēties");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        RegisterButton.setBackground(new java.awt.Color(13, 85, 54));
+        RegisterButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        RegisterButton.setForeground(new java.awt.Color(255, 255, 255));
+        RegisterButton.setText("Reģistrēties");
+        RegisterButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                RegisterButtonActionPerformed(evt);
             }
         });
 
-        jLabel10.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jLabel10.setText("Uzvārds");
+        RegSurnameLabel.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        RegSurnameLabel.setText("Uzvārds");
 
         RegSurnameField.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
 
-        jLabel11.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jLabel11.setText("Paroles apstiprinājums");
+        RegPasswordRepeatLabel.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        RegPasswordRepeatLabel.setText("Paroles apstiprinājums");
 
         RegUsernameField.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
 
-        jLabel12.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jLabel12.setText("Lietotājvārds");
-        jLabel12.setToolTipText("");
+        RegUsernameLabel.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        RegUsernameLabel.setText("Lietotājvārds");
+        RegUsernameLabel.setToolTipText("");
 
-        jButton20.setFont(new java.awt.Font("Segoe UI Semilight", 0, 12)); // NOI18N
-        jButton20.setForeground(new java.awt.Color(13, 85, 54));
-        jButton20.setText("Ielogoties");
-        jButton20.setBorder(null);
-        jButton20.setBorderPainted(false);
-        jButton20.addActionListener(new java.awt.event.ActionListener() {
+        LoginFrameButton.setFont(new java.awt.Font("Segoe UI Semilight", 0, 12)); // NOI18N
+        LoginFrameButton.setForeground(new java.awt.Color(13, 85, 54));
+        LoginFrameButton.setText("Ielogoties");
+        LoginFrameButton.setBorder(null);
+        LoginFrameButton.setBorderPainted(false);
+        LoginFrameButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton20ActionPerformed(evt);
+                LoginFrameButtonActionPerformed(evt);
             }
         });
 
-        jLabel31.setFont(new java.awt.Font("Segoe UI Semilight", 0, 12)); // NOI18N
-        jLabel31.setText("Jau izveidots konts?");
+        LoginQuestionLabel.setFont(new java.awt.Font("Segoe UI Semilight", 0, 12)); // NOI18N
+        LoginQuestionLabel.setText("Jau izveidots konts?");
 
-        jLabel32.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jLabel32.setText("Lietotāja veids");
+        RegUserTypeField.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        RegUserTypeField.setText("Lietotāja veids");
 
         StudentTypeRadioButton.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup7.add(StudentTypeRadioButton);
         StudentTypeRadioButton.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        StudentTypeRadioButton.setText("Skolnieks");
+        StudentTypeRadioButton.setText("Students");
 
         TeacherTypeRadioButton.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup7.add(TeacherTypeRadioButton);
         TeacherTypeRadioButton.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         TeacherTypeRadioButton.setText("Skolotājs");
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
+        javax.swing.GroupLayout RegisterDataPanelLayout = new javax.swing.GroupLayout(RegisterDataPanel);
+        RegisterDataPanel.setLayout(RegisterDataPanelLayout);
+        RegisterDataPanelLayout.setHorizontalGroup(
+            RegisterDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RegisterDataPanelLayout.createSequentialGroup()
                 .addGap(16, 16, 16)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGroup(RegisterDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(RegisterButton, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(RegisterDataPanelLayout.createSequentialGroup()
                         .addComponent(StudentTypeRadioButton)
                         .addGap(18, 18, 18)
                         .addComponent(TeacherTypeRadioButton))
-                    .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addComponent(jLabel31)
+                    .addGroup(RegisterDataPanelLayout.createSequentialGroup()
+                        .addComponent(LoginQuestionLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton20))
+                        .addComponent(LoginFrameButton))
                     .addComponent(RegNameField, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel8)
-                    .addComponent(jLabel9)
+                    .addComponent(RegNameLabel)
+                    .addComponent(RegPasswordLabel)
                     .addComponent(RegPasswordField, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel10)
+                    .addComponent(RegSurnameLabel)
                     .addComponent(RegSurnameField, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel11)
+                    .addComponent(RegPasswordRepeatLabel)
                     .addComponent(RegPasswordRepeatField, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(RegUsernameField, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel12)
-                    .addGroup(jPanel6Layout.createSequentialGroup()
+                    .addComponent(RegUsernameLabel)
+                    .addGroup(RegisterDataPanelLayout.createSequentialGroup()
                         .addGap(22, 22, 22)
-                        .addComponent(jLabel7))
-                    .addComponent(jLabel32))
+                        .addComponent(RegisterLabel))
+                    .addComponent(RegUserTypeField))
                 .addContainerGap(27, Short.MAX_VALUE))
         );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
+        RegisterDataPanelLayout.setVerticalGroup(
+            RegisterDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(RegisterDataPanelLayout.createSequentialGroup()
                 .addGap(18, 18, 18)
-                .addComponent(jLabel7)
+                .addComponent(RegisterLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel8)
+                .addComponent(RegNameLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(RegNameField, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel10)
+                .addComponent(RegSurnameLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(RegSurnameField, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel12)
+                .addComponent(RegUsernameLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(RegUsernameField, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel9)
+                .addComponent(RegPasswordLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(RegPasswordField, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel11)
+                .addComponent(RegPasswordRepeatLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(RegPasswordRepeatField, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel32)
+                .addComponent(RegUserTypeField)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(RegisterDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(StudentTypeRadioButton)
                     .addComponent(TeacherTypeRadioButton))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(RegisterButton, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel31)
-                    .addComponent(jButton20))
+                .addGroup(RegisterDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(LoginQuestionLabel)
+                    .addComponent(LoginFrameButton))
                 .addContainerGap())
         );
 
-        jPanel4.add(jPanel6);
-        jPanel6.setBounds(0, 0, 350, 620);
+        GeneralRegisterPanel.add(RegisterDataPanel);
+        RegisterDataPanel.setBounds(0, 0, 350, 620);
 
         javax.swing.GroupLayout RegisterFrameLayout = new javax.swing.GroupLayout(RegisterFrame.getContentPane());
         RegisterFrame.getContentPane().setLayout(RegisterFrameLayout);
@@ -442,59 +443,59 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             .addGap(0, 806, Short.MAX_VALUE)
             .addGroup(RegisterFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(RegisterFrameLayout.createSequentialGroup()
-                    .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 806, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(GeneralRegisterPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 806, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGap(0, 0, Short.MAX_VALUE)))
         );
         RegisterFrameLayout.setVerticalGroup(
             RegisterFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 619, Short.MAX_VALUE)
             .addGroup(RegisterFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 619, Short.MAX_VALUE))
+                .addComponent(GeneralRegisterPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 619, Short.MAX_VALUE))
         );
 
         MainFrameStudent.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         MainFrameStudent.setTitle("Testēšanas sistēma");
         MainFrameStudent.setResizable(false);
 
-        jPanel7.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel7.setToolTipText("Autorizācijas logs");
-        jPanel7.setPreferredSize(new java.awt.Dimension(800, 500));
-        jPanel7.setLayout(null);
+        GenralStudentPanel.setBackground(new java.awt.Color(255, 255, 255));
+        GenralStudentPanel.setToolTipText("Autorizācijas logs");
+        GenralStudentPanel.setPreferredSize(new java.awt.Dimension(800, 500));
+        GenralStudentPanel.setLayout(null);
 
-        jPanel8.setBackground(new java.awt.Color(13, 85, 54));
-        jPanel8.setForeground(new java.awt.Color(13, 85, 54));
+        NavigationPanelStudent.setBackground(new java.awt.Color(13, 85, 54));
+        NavigationPanelStudent.setForeground(new java.awt.Color(13, 85, 54));
 
-        jButton7.setBackground(new java.awt.Color(13, 85, 54));
-        jButton7.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton7.setForeground(new java.awt.Color(255, 255, 255));
-        jButton7.setText("Atzīmes");
-        jButton7.setToolTipText("");
-        jButton7.setBorder(null);
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
+        MarksTablePanelButton.setBackground(new java.awt.Color(13, 85, 54));
+        MarksTablePanelButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        MarksTablePanelButton.setForeground(new java.awt.Color(255, 255, 255));
+        MarksTablePanelButton.setText("Atzīmes");
+        MarksTablePanelButton.setToolTipText("");
+        MarksTablePanelButton.setBorder(null);
+        MarksTablePanelButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
+                MarksTablePanelButtonActionPerformed(evt);
             }
         });
 
-        jButton1.setBackground(new java.awt.Color(13, 85, 54));
-        jButton1.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Iziet no konta");
-        jButton1.setBorder(null);
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        LoginOutStudentButton.setBackground(new java.awt.Color(13, 85, 54));
+        LoginOutStudentButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        LoginOutStudentButton.setForeground(new java.awt.Color(255, 255, 255));
+        LoginOutStudentButton.setText("Iziet no konta");
+        LoginOutStudentButton.setBorder(null);
+        LoginOutStudentButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                LoginOutStudentButtonActionPerformed(evt);
             }
         });
 
-        jButton8.setBackground(new java.awt.Color(13, 85, 54));
-        jButton8.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton8.setForeground(new java.awt.Color(255, 255, 255));
-        jButton8.setText("Testa Izvelne");
-        jButton8.setBorder(null);
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
+        TestSelectPanelButton.setBackground(new java.awt.Color(13, 85, 54));
+        TestSelectPanelButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        TestSelectPanelButton.setForeground(new java.awt.Color(255, 255, 255));
+        TestSelectPanelButton.setText("Testa Izvelne");
+        TestSelectPanelButton.setBorder(null);
+        TestSelectPanelButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
+                TestSelectPanelButtonActionPerformed(evt);
             }
         });
 
@@ -508,107 +509,107 @@ public class Logu_Redaktors extends javax.swing.JFrame {
 
         jSeparator4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        jLabel13.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel13.setText("Labdien, ");
+        UserNameLabelStudent.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
+        UserNameLabelStudent.setForeground(new java.awt.Color(255, 255, 255));
+        UserNameLabelStudent.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        UserNameLabelStudent.setText("Labdien, ");
 
-        jButton6.setBackground(new java.awt.Color(13, 85, 54));
-        jButton6.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jButton6.setText("Palidzība");
-        jButton6.setBorder(null);
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        HelpStudentButton.setBackground(new java.awt.Color(13, 85, 54));
+        HelpStudentButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        HelpStudentButton.setForeground(new java.awt.Color(255, 255, 255));
+        HelpStudentButton.setText("Palidzība");
+        HelpStudentButton.setBorder(null);
+        HelpStudentButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                HelpStudentButtonActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
-        jPanel8.setLayout(jPanel8Layout);
-        jPanel8Layout.setHorizontalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jButton7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jButton8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jButton1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(jPanel8Layout.createSequentialGroup()
+        javax.swing.GroupLayout NavigationPanelStudentLayout = new javax.swing.GroupLayout(NavigationPanelStudent);
+        NavigationPanelStudent.setLayout(NavigationPanelStudentLayout);
+        NavigationPanelStudentLayout.setHorizontalGroup(
+            NavigationPanelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(MarksTablePanelButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(TestSelectPanelButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(UserNameLabelStudent, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(LoginOutStudentButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(NavigationPanelStudentLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(NavigationPanelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jSeparator3)
                     .addComponent(jSeparator1, javax.swing.GroupLayout.DEFAULT_SIZE, 188, Short.MAX_VALUE)
                     .addComponent(jSeparator2)
                     .addComponent(jSeparator4))
                 .addContainerGap())
-            .addComponent(jButton6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel8Layout.createSequentialGroup()
+            .addComponent(HelpStudentButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(NavigationPanelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(NavigationPanelStudentLayout.createSequentialGroup()
                     .addContainerGap()
                     .addComponent(jSeparator5, javax.swing.GroupLayout.DEFAULT_SIZE, 188, Short.MAX_VALUE)
                     .addContainerGap()))
         );
-        jPanel8Layout.setVerticalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
+        NavigationPanelStudentLayout.setVerticalGroup(
+            NavigationPanelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(NavigationPanelStudentLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(UserNameLabelStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(TestSelectPanelButton, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(MarksTablePanelButton, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 4, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(225, 225, 225)
-                .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(HelpStudentButton, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 4, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(LoginOutStudentButton, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0))
-            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+            .addGroup(NavigationPanelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, NavigationPanelStudentLayout.createSequentialGroup()
                     .addContainerGap(369, Short.MAX_VALUE)
                     .addComponent(jSeparator5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGap(108, 108, 108)))
         );
 
-        jPanel7.add(jPanel8);
-        jPanel8.setBounds(0, 0, 200, 480);
+        GenralStudentPanel.add(NavigationPanelStudent);
+        NavigationPanelStudent.setBounds(0, 0, 200, 480);
 
-        jTabbedPane1.setTabPlacement(javax.swing.JTabbedPane.BOTTOM);
+        jTabbedPaneStudent.setTabPlacement(javax.swing.JTabbedPane.BOTTOM);
 
-        jPanel9.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel9.setLayout(null);
+        TestSelectPanelStudent.setBackground(new java.awt.Color(255, 255, 255));
+        TestSelectPanelStudent.setLayout(null);
 
-        jButton5.setBackground(new java.awt.Color(13, 85, 54));
-        jButton5.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jButton5.setText("Palaist testu");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        TestExecutionButton.setBackground(new java.awt.Color(13, 85, 54));
+        TestExecutionButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        TestExecutionButton.setForeground(new java.awt.Color(255, 255, 255));
+        TestExecutionButton.setText("Palaist testu");
+        TestExecutionButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                TestExecutionButtonActionPerformed(evt);
             }
         });
-        jPanel9.add(jButton5);
-        jButton5.setBounds(660, 430, 190, 40);
+        TestSelectPanelStudent.add(TestExecutionButton);
+        TestExecutionButton.setBounds(660, 430, 190, 40);
 
-        jLabel14.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(13, 85, 54));
-        jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel14.setText("TESTU SARAKSTS");
-        jPanel9.add(jLabel14);
-        jLabel14.setBounds(20, 20, 450, 50);
+        TestListLabel.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        TestListLabel.setForeground(new java.awt.Color(13, 85, 54));
+        TestListLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        TestListLabel.setText("TESTU SARAKSTS");
+        TestSelectPanelStudent.add(TestListLabel);
+        TestListLabel.setBounds(20, 20, 450, 50);
 
-        jList1.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jList1.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
-        jList1.setToolTipText("");
-        jScrollPane1.setViewportView(jList1);
+        TestList.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        TestList.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        TestList.setToolTipText("");
+        jScrollPane1.setViewportView(TestList);
 
-        jPanel9.add(jScrollPane1);
+        TestSelectPanelStudent.add(jScrollPane1);
         jScrollPane1.setBounds(20, 70, 450, 350);
 
         TestDescriptionTextArea.setEditable(false);
@@ -620,26 +621,26 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         TestDescriptionTextArea.setWrapStyleWord(true);
         jScrollPane2.setViewportView(TestDescriptionTextArea);
 
-        jPanel9.add(jScrollPane2);
+        TestSelectPanelStudent.add(jScrollPane2);
         jScrollPane2.setBounds(490, 70, 360, 350);
 
-        jLabel15.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(13, 85, 54));
-        jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel15.setText("TESTA APRAKSTS");
-        jPanel9.add(jLabel15);
-        jLabel15.setBounds(490, 20, 360, 50);
+        TestDescription.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        TestDescription.setForeground(new java.awt.Color(13, 85, 54));
+        TestDescription.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        TestDescription.setText("TESTA APRAKSTS");
+        TestSelectPanelStudent.add(TestDescription);
+        TestDescription.setBounds(490, 20, 360, 50);
 
-        jTabbedPane1.addTab("tab1", jPanel9);
+        jTabbedPaneStudent.addTab("tab1", TestSelectPanelStudent);
 
-        jPanel11.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel11.setToolTipText("Testa izvelēšanas logs");
-        jPanel11.setPreferredSize(new java.awt.Dimension(800, 500));
-        jPanel11.setLayout(null);
+        MarksPanelStudent.setBackground(new java.awt.Color(255, 255, 255));
+        MarksPanelStudent.setToolTipText("Testa izvelēšanas logs");
+        MarksPanelStudent.setPreferredSize(new java.awt.Dimension(800, 500));
+        MarksPanelStudent.setLayout(null);
 
-        jTable1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jTable1.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        MarksTable.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        MarksTable.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        MarksTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null},
                 {null, null}
@@ -656,85 +657,85 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        jTable1.setRowHeight(35);
-        jScrollPane3.setViewportView(jTable1);
-        jTable1.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
-        if (jTable1.getColumnModel().getColumnCount() > 0) {
-            jTable1.getColumnModel().getColumn(1).setMinWidth(100);
-            jTable1.getColumnModel().getColumn(1).setPreferredWidth(100);
-            jTable1.getColumnModel().getColumn(1).setMaxWidth(100);
+        MarksTable.setRowHeight(35);
+        jScrollPane3.setViewportView(MarksTable);
+        MarksTable.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        if (MarksTable.getColumnModel().getColumnCount() > 0) {
+            MarksTable.getColumnModel().getColumn(1).setMinWidth(100);
+            MarksTable.getColumnModel().getColumn(1).setPreferredWidth(100);
+            MarksTable.getColumnModel().getColumn(1).setMaxWidth(100);
         }
 
-        jPanel11.add(jScrollPane3);
+        MarksPanelStudent.add(jScrollPane3);
         jScrollPane3.setBounds(20, 70, 830, 400);
 
-        jLabel16.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(13, 85, 54));
-        jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel16.setText("ATZĪMJU TABULA");
-        jPanel11.add(jLabel16);
-        jLabel16.setBounds(10, 20, 850, 50);
+        MarksLabel.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        MarksLabel.setForeground(new java.awt.Color(13, 85, 54));
+        MarksLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        MarksLabel.setText("ATZĪMJU TABULA");
+        MarksPanelStudent.add(MarksLabel);
+        MarksLabel.setBounds(10, 20, 850, 50);
 
-        jTabbedPane1.addTab("tab2", jPanel11);
-        jPanel11.getAccessibleContext().setAccessibleName("CHOISE");
+        jTabbedPaneStudent.addTab("tab2", MarksPanelStudent);
+        MarksPanelStudent.getAccessibleContext().setAccessibleName("CHOISE");
 
-        jPanel7.add(jTabbedPane1);
-        jTabbedPane1.setBounds(200, -10, 870, 520);
+        GenralStudentPanel.add(jTabbedPaneStudent);
+        jTabbedPaneStudent.setBounds(200, -10, 870, 520);
 
         javax.swing.GroupLayout MainFrameStudentLayout = new javax.swing.GroupLayout(MainFrameStudent.getContentPane());
         MainFrameStudent.getContentPane().setLayout(MainFrameStudentLayout);
         MainFrameStudentLayout.setHorizontalGroup(
             MainFrameStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, 1067, Short.MAX_VALUE)
+            .addComponent(GenralStudentPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 1067, Short.MAX_VALUE)
         );
         MainFrameStudentLayout.setVerticalGroup(
             MainFrameStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, 473, Short.MAX_VALUE)
+            .addComponent(GenralStudentPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 473, Short.MAX_VALUE)
         );
 
         MainFrameTeacher.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         MainFrameTeacher.setTitle("Testēšanas sistēma");
         MainFrameTeacher.setResizable(false);
 
-        jPanel36.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel36.setToolTipText("Autorizācijas logs");
-        jPanel36.setPreferredSize(new java.awt.Dimension(800, 500));
-        jPanel36.setLayout(null);
+        GeneralTeacherPanel.setBackground(new java.awt.Color(255, 255, 255));
+        GeneralTeacherPanel.setToolTipText("Autorizācijas logs");
+        GeneralTeacherPanel.setPreferredSize(new java.awt.Dimension(800, 500));
+        GeneralTeacherPanel.setLayout(null);
 
-        jPanel37.setBackground(new java.awt.Color(13, 85, 54));
-        jPanel37.setForeground(new java.awt.Color(13, 85, 54));
+        NavigationPanelTeacher.setBackground(new java.awt.Color(13, 85, 54));
+        NavigationPanelTeacher.setForeground(new java.awt.Color(13, 85, 54));
 
-        jButton27.setBackground(new java.awt.Color(13, 85, 54));
-        jButton27.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton27.setForeground(new java.awt.Color(255, 255, 255));
-        jButton27.setText("Atzīmju saraksts");
-        jButton27.setToolTipText("");
-        jButton27.setBorder(null);
-        jButton27.addActionListener(new java.awt.event.ActionListener() {
+        MarksTableTeacherButton.setBackground(new java.awt.Color(13, 85, 54));
+        MarksTableTeacherButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        MarksTableTeacherButton.setForeground(new java.awt.Color(255, 255, 255));
+        MarksTableTeacherButton.setText("Atzīmju saraksts");
+        MarksTableTeacherButton.setToolTipText("");
+        MarksTableTeacherButton.setBorder(null);
+        MarksTableTeacherButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton27ActionPerformed(evt);
+                MarksTableTeacherButtonActionPerformed(evt);
             }
         });
 
-        jButton28.setBackground(new java.awt.Color(13, 85, 54));
-        jButton28.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton28.setForeground(new java.awt.Color(255, 255, 255));
-        jButton28.setText("Iziet no konta");
-        jButton28.setBorder(null);
-        jButton28.addActionListener(new java.awt.event.ActionListener() {
+        LoginOutTeacherButton.setBackground(new java.awt.Color(13, 85, 54));
+        LoginOutTeacherButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        LoginOutTeacherButton.setForeground(new java.awt.Color(255, 255, 255));
+        LoginOutTeacherButton.setText("Iziet no konta");
+        LoginOutTeacherButton.setBorder(null);
+        LoginOutTeacherButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton28ActionPerformed(evt);
+                LoginOutTeacherButtonActionPerformed(evt);
             }
         });
 
-        jButton29.setBackground(new java.awt.Color(13, 85, 54));
-        jButton29.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton29.setForeground(new java.awt.Color(255, 255, 255));
-        jButton29.setText("Testa Izvelne");
-        jButton29.setBorder(null);
-        jButton29.addActionListener(new java.awt.event.ActionListener() {
+        TestSelectPanelTeacherButton.setBackground(new java.awt.Color(13, 85, 54));
+        TestSelectPanelTeacherButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        TestSelectPanelTeacherButton.setForeground(new java.awt.Color(255, 255, 255));
+        TestSelectPanelTeacherButton.setText("Testa Izvelne");
+        TestSelectPanelTeacherButton.setBorder(null);
+        TestSelectPanelTeacherButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton29ActionPerformed(evt);
+                TestSelectPanelTeacherButtonActionPerformed(evt);
             }
         });
 
@@ -746,129 +747,129 @@ public class Logu_Redaktors extends javax.swing.JFrame {
 
         jSeparator14.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        jLabel21.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
-        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel21.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel21.setText("Labdien, ");
+        UserNameLabelTeacher.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
+        UserNameLabelTeacher.setForeground(new java.awt.Color(255, 255, 255));
+        UserNameLabelTeacher.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        UserNameLabelTeacher.setText("Labdien, ");
 
         jSeparator7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        jButton9.setBackground(new java.awt.Color(13, 85, 54));
-        jButton9.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton9.setForeground(new java.awt.Color(255, 255, 255));
-        jButton9.setText("Palidzība");
-        jButton9.setBorder(null);
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
+        HelpTeacherButton.setBackground(new java.awt.Color(13, 85, 54));
+        HelpTeacherButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        HelpTeacherButton.setForeground(new java.awt.Color(255, 255, 255));
+        HelpTeacherButton.setText("Palidzība");
+        HelpTeacherButton.setBorder(null);
+        HelpTeacherButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
+                HelpTeacherButtonActionPerformed(evt);
             }
         });
 
-        jButton31.setBackground(new java.awt.Color(13, 85, 54));
-        jButton31.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton31.setForeground(new java.awt.Color(255, 255, 255));
-        jButton31.setText("Studentu saraksts");
-        jButton31.setToolTipText("");
-        jButton31.setBorder(null);
-        jButton31.addActionListener(new java.awt.event.ActionListener() {
+        StudentTableTeacherButton.setBackground(new java.awt.Color(13, 85, 54));
+        StudentTableTeacherButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        StudentTableTeacherButton.setForeground(new java.awt.Color(255, 255, 255));
+        StudentTableTeacherButton.setText("Studentu saraksts");
+        StudentTableTeacherButton.setToolTipText("");
+        StudentTableTeacherButton.setBorder(null);
+        StudentTableTeacherButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton31ActionPerformed(evt);
+                StudentTableTeacherButtonActionPerformed(evt);
             }
         });
 
         jSeparator15.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        javax.swing.GroupLayout jPanel37Layout = new javax.swing.GroupLayout(jPanel37);
-        jPanel37.setLayout(jPanel37Layout);
-        jPanel37Layout.setHorizontalGroup(
-            jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jButton27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jButton29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jButton28, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jButton9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jButton31, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(jPanel37Layout.createSequentialGroup()
+        javax.swing.GroupLayout NavigationPanelTeacherLayout = new javax.swing.GroupLayout(NavigationPanelTeacher);
+        NavigationPanelTeacher.setLayout(NavigationPanelTeacherLayout);
+        NavigationPanelTeacherLayout.setHorizontalGroup(
+            NavigationPanelTeacherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(MarksTableTeacherButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(TestSelectPanelTeacherButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(UserNameLabelTeacher, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(LoginOutTeacherButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(HelpTeacherButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(StudentTableTeacherButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(NavigationPanelTeacherLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(NavigationPanelTeacherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jSeparator15)
                     .addComponent(jSeparator13)
                     .addComponent(jSeparator6, javax.swing.GroupLayout.DEFAULT_SIZE, 188, Short.MAX_VALUE)
                     .addComponent(jSeparator12)
                     .addComponent(jSeparator14))
                 .addContainerGap())
-            .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel37Layout.createSequentialGroup()
+            .addGroup(NavigationPanelTeacherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(NavigationPanelTeacherLayout.createSequentialGroup()
                     .addContainerGap()
                     .addComponent(jSeparator7)
                     .addContainerGap()))
         );
-        jPanel37Layout.setVerticalGroup(
-            jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel37Layout.createSequentialGroup()
+        NavigationPanelTeacherLayout.setVerticalGroup(
+            NavigationPanelTeacherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(NavigationPanelTeacherLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(UserNameLabelTeacher, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jButton29, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(TestSelectPanelTeacherButton, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jSeparator6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jButton27, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(MarksTableTeacherButton, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jSeparator12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jButton31, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(StudentTableTeacherButton, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jSeparator15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(181, 181, 181)
-                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(HelpTeacherButton, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jSeparator13, javax.swing.GroupLayout.PREFERRED_SIZE, 4, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jButton28, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(LoginOutTeacherButton, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel37Layout.createSequentialGroup()
+            .addGroup(NavigationPanelTeacherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, NavigationPanelTeacherLayout.createSequentialGroup()
                     .addContainerGap(371, Short.MAX_VALUE)
                     .addComponent(jSeparator7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addContainerGap(106, Short.MAX_VALUE)))
         );
 
-        jPanel36.add(jPanel37);
-        jPanel37.setBounds(0, 0, 200, 480);
+        GeneralTeacherPanel.add(NavigationPanelTeacher);
+        NavigationPanelTeacher.setBounds(0, 0, 200, 480);
 
-        jTabbedPane2.setTabPlacement(javax.swing.JTabbedPane.BOTTOM);
+        jTabbedPaneTeacher.setTabPlacement(javax.swing.JTabbedPane.BOTTOM);
 
-        jPanel38.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel38.setLayout(null);
+        TestSelectPanelTeacher.setBackground(new java.awt.Color(255, 255, 255));
+        TestSelectPanelTeacher.setLayout(null);
 
-        jButton30.setBackground(new java.awt.Color(13, 85, 54));
-        jButton30.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton30.setForeground(new java.awt.Color(255, 255, 255));
-        jButton30.setText("Izdzēst testu");
-        jButton30.addActionListener(new java.awt.event.ActionListener() {
+        TestDeleteButton.setBackground(new java.awt.Color(13, 85, 54));
+        TestDeleteButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        TestDeleteButton.setForeground(new java.awt.Color(255, 255, 255));
+        TestDeleteButton.setText("Izdzēst testu");
+        TestDeleteButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton30ActionPerformed(evt);
+                TestDeleteButtonActionPerformed(evt);
             }
         });
-        jPanel38.add(jButton30);
-        jButton30.setBounds(410, 430, 210, 40);
+        TestSelectPanelTeacher.add(TestDeleteButton);
+        TestDeleteButton.setBounds(410, 430, 210, 40);
 
-        jLabel22.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
-        jLabel22.setForeground(new java.awt.Color(13, 85, 54));
-        jLabel22.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel22.setText("TESTU SARAKSTS");
-        jPanel38.add(jLabel22);
-        jLabel22.setBounds(20, 20, 450, 50);
+        TestListLabelTeacher.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        TestListLabelTeacher.setForeground(new java.awt.Color(13, 85, 54));
+        TestListLabelTeacher.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        TestListLabelTeacher.setText("TESTU SARAKSTS");
+        TestSelectPanelTeacher.add(TestListLabelTeacher);
+        TestListLabelTeacher.setBounds(20, 20, 450, 50);
 
-        jList2.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jList2.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
-        jList2.setToolTipText("");
-        jScrollPane9.setViewportView(jList2);
+        TestListTeacher.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        TestListTeacher.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        TestListTeacher.setToolTipText("");
+        jScrollPane9.setViewportView(TestListTeacher);
 
-        jPanel38.add(jScrollPane9);
+        TestSelectPanelTeacher.add(jScrollPane9);
         jScrollPane9.setBounds(20, 70, 450, 350);
 
         TestDescriptionTextArea1.setEditable(false);
@@ -880,38 +881,38 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         TestDescriptionTextArea1.setWrapStyleWord(true);
         jScrollPane10.setViewportView(TestDescriptionTextArea1);
 
-        jPanel38.add(jScrollPane10);
+        TestSelectPanelTeacher.add(jScrollPane10);
         jScrollPane10.setBounds(490, 70, 360, 350);
 
-        jLabel23.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
-        jLabel23.setForeground(new java.awt.Color(13, 85, 54));
-        jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel23.setText("TESTA APRAKSTS");
-        jPanel38.add(jLabel23);
-        jLabel23.setBounds(490, 20, 360, 50);
+        TestDesctiptionLabelTeacher.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        TestDesctiptionLabelTeacher.setForeground(new java.awt.Color(13, 85, 54));
+        TestDesctiptionLabelTeacher.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        TestDesctiptionLabelTeacher.setText("TESTA APRAKSTS");
+        TestSelectPanelTeacher.add(TestDesctiptionLabelTeacher);
+        TestDesctiptionLabelTeacher.setBounds(490, 20, 360, 50);
 
-        jButton34.setBackground(new java.awt.Color(13, 85, 54));
-        jButton34.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton34.setForeground(new java.awt.Color(255, 255, 255));
-        jButton34.setText("Izveidot jaunu testu");
-        jButton34.addActionListener(new java.awt.event.ActionListener() {
+        NewTestButton.setBackground(new java.awt.Color(13, 85, 54));
+        NewTestButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        NewTestButton.setForeground(new java.awt.Color(255, 255, 255));
+        NewTestButton.setText("Izveidot jaunu testu");
+        NewTestButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton34ActionPerformed(evt);
+                NewTestButtonActionPerformed(evt);
             }
         });
-        jPanel38.add(jButton34);
-        jButton34.setBounds(640, 430, 210, 40);
+        TestSelectPanelTeacher.add(NewTestButton);
+        NewTestButton.setBounds(640, 430, 210, 40);
 
-        jTabbedPane2.addTab("tab1", jPanel38);
+        jTabbedPaneTeacher.addTab("tab1", TestSelectPanelTeacher);
 
-        jPanel39.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel39.setToolTipText("Testa izvelēšanas logs");
-        jPanel39.setPreferredSize(new java.awt.Dimension(800, 500));
-        jPanel39.setLayout(null);
+        MarksPanelTeacher.setBackground(new java.awt.Color(255, 255, 255));
+        MarksPanelTeacher.setToolTipText("Testa izvelēšanas logs");
+        MarksPanelTeacher.setPreferredSize(new java.awt.Dimension(800, 500));
+        MarksPanelTeacher.setLayout(null);
 
-        jTable4.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jTable4.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTable4.setModel(new javax.swing.table.DefaultTableModel(
+        MarksTableTeacher.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        MarksTableTeacher.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        MarksTableTeacher.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
@@ -927,66 +928,66 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        jTable4.setRowHeight(35);
-        jScrollPane11.setViewportView(jTable4);
-        jTable4.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
-        if (jTable4.getColumnModel().getColumnCount() > 0) {
-            jTable4.getColumnModel().getColumn(1).setMinWidth(100);
-            jTable4.getColumnModel().getColumn(1).setPreferredWidth(100);
-            jTable4.getColumnModel().getColumn(1).setMaxWidth(100);
+        MarksTableTeacher.setRowHeight(35);
+        jScrollPane11.setViewportView(MarksTableTeacher);
+        MarksTableTeacher.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        if (MarksTableTeacher.getColumnModel().getColumnCount() > 0) {
+            MarksTableTeacher.getColumnModel().getColumn(1).setMinWidth(100);
+            MarksTableTeacher.getColumnModel().getColumn(1).setPreferredWidth(100);
+            MarksTableTeacher.getColumnModel().getColumn(1).setMaxWidth(100);
         }
 
-        jPanel39.add(jScrollPane11);
+        MarksPanelTeacher.add(jScrollPane11);
         jScrollPane11.setBounds(20, 70, 830, 350);
 
-        jLabel24.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
-        jLabel24.setForeground(new java.awt.Color(13, 85, 54));
-        jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel24.setText("STUDENTU ATZĪMJU TABULA");
-        jPanel39.add(jLabel24);
-        jLabel24.setBounds(10, 20, 850, 50);
+        MarksTeacherLabel.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        MarksTeacherLabel.setForeground(new java.awt.Color(13, 85, 54));
+        MarksTeacherLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        MarksTeacherLabel.setText("STUDENTU ATZĪMJU TABULA");
+        MarksPanelTeacher.add(MarksTeacherLabel);
+        MarksTeacherLabel.setBounds(10, 20, 850, 50);
 
-        jButton32.setBackground(new java.awt.Color(13, 85, 54));
-        jButton32.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton32.setForeground(new java.awt.Color(255, 255, 255));
-        jButton32.setText("Saglabāt");
-        jButton32.setBorder(null);
-        jButton32.addActionListener(new java.awt.event.ActionListener() {
+        MarksTableSaveButton.setBackground(new java.awt.Color(13, 85, 54));
+        MarksTableSaveButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        MarksTableSaveButton.setForeground(new java.awt.Color(255, 255, 255));
+        MarksTableSaveButton.setText("Saglabāt");
+        MarksTableSaveButton.setBorder(null);
+        MarksTableSaveButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton32ActionPerformed(evt);
+                MarksTableSaveButtonActionPerformed(evt);
             }
         });
-        jPanel39.add(jButton32);
-        jButton32.setBounds(690, 430, 160, 40);
+        MarksPanelTeacher.add(MarksTableSaveButton);
+        MarksTableSaveButton.setBounds(690, 430, 160, 40);
 
-        jButton33.setBackground(new java.awt.Color(13, 85, 54));
-        jButton33.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton33.setForeground(new java.awt.Color(255, 255, 255));
-        jButton33.setText("Izdzēst atzīmi");
-        jButton33.setBorder(null);
-        jButton33.addActionListener(new java.awt.event.ActionListener() {
+        DeleteMarkButton.setBackground(new java.awt.Color(13, 85, 54));
+        DeleteMarkButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        DeleteMarkButton.setForeground(new java.awt.Color(255, 255, 255));
+        DeleteMarkButton.setText("Izdzēst atzīmi");
+        DeleteMarkButton.setBorder(null);
+        DeleteMarkButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton33ActionPerformed(evt);
+                DeleteMarkButtonActionPerformed(evt);
             }
         });
-        jPanel39.add(jButton33);
-        jButton33.setBounds(510, 430, 160, 40);
+        MarksPanelTeacher.add(DeleteMarkButton);
+        DeleteMarkButton.setBounds(510, 430, 160, 40);
 
-        jTabbedPane2.addTab("tab2", jPanel39);
+        jTabbedPaneTeacher.addTab("tab2", MarksPanelTeacher);
 
-        jPanel13.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel13.setLayout(null);
+        StudentPanelTeacher.setBackground(new java.awt.Color(255, 255, 255));
+        StudentPanelTeacher.setLayout(null);
 
-        jLabel25.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
-        jLabel25.setForeground(new java.awt.Color(13, 85, 54));
-        jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel25.setText("STUDENTU TABULA");
-        jPanel13.add(jLabel25);
-        jLabel25.setBounds(10, 20, 850, 50);
+        StudentTableLabel.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        StudentTableLabel.setForeground(new java.awt.Color(13, 85, 54));
+        StudentTableLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        StudentTableLabel.setText("STUDENTU TABULA");
+        StudentPanelTeacher.add(StudentTableLabel);
+        StudentTableLabel.setBounds(10, 20, 850, 50);
 
-        jTable5.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jTable5.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTable5.setModel(new javax.swing.table.DefaultTableModel(
+        StudentTableTeacher.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        StudentTableTeacher.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        StudentTableTeacher.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
@@ -994,187 +995,154 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 "Studenta vārds", "Studenta uzvārds", "Studenta lietotājvārds", "Studenta parole"
             }
         ));
-        jTable5.setRowHeight(35);
-        jScrollPane12.setViewportView(jTable5);
-        jTable5.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
-        if (jTable5.getColumnModel().getColumnCount() > 0) {
-            jTable5.getColumnModel().getColumn(1).setMinWidth(100);
-            jTable5.getColumnModel().getColumn(1).setPreferredWidth(100);
-            jTable5.getColumnModel().getColumn(1).setMaxWidth(100);
+        StudentTableTeacher.setRowHeight(35);
+        jScrollPane12.setViewportView(StudentTableTeacher);
+        StudentTableTeacher.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        if (StudentTableTeacher.getColumnModel().getColumnCount() > 0) {
+            StudentTableTeacher.getColumnModel().getColumn(1).setMinWidth(100);
+            StudentTableTeacher.getColumnModel().getColumn(1).setPreferredWidth(100);
+            StudentTableTeacher.getColumnModel().getColumn(1).setMaxWidth(100);
         }
 
-        jPanel13.add(jScrollPane12);
+        StudentPanelTeacher.add(jScrollPane12);
         jScrollPane12.setBounds(20, 70, 830, 350);
 
-        jButton35.setBackground(new java.awt.Color(13, 85, 54));
-        jButton35.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton35.setForeground(new java.awt.Color(255, 255, 255));
-        jButton35.setText("Pievienot jaunu studentu");
-        jButton35.setBorder(null);
-        jButton35.addActionListener(new java.awt.event.ActionListener() {
+        NewStudentButton.setBackground(new java.awt.Color(13, 85, 54));
+        NewStudentButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        NewStudentButton.setForeground(new java.awt.Color(255, 255, 255));
+        NewStudentButton.setText("Pievienot jaunu studentu");
+        NewStudentButton.setBorder(null);
+        NewStudentButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton35ActionPerformed(evt);
+                NewStudentButtonActionPerformed(evt);
             }
         });
-        jPanel13.add(jButton35);
-        jButton35.setBounds(500, 430, 170, 40);
+        StudentPanelTeacher.add(NewStudentButton);
+        NewStudentButton.setBounds(500, 430, 170, 40);
 
-        jButton36.setBackground(new java.awt.Color(13, 85, 54));
-        jButton36.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton36.setForeground(new java.awt.Color(255, 255, 255));
-        jButton36.setText("Izdzēst studentu");
-        jButton36.setBorder(null);
-        jButton36.addActionListener(new java.awt.event.ActionListener() {
+        DeleteStudentButton.setBackground(new java.awt.Color(13, 85, 54));
+        DeleteStudentButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        DeleteStudentButton.setForeground(new java.awt.Color(255, 255, 255));
+        DeleteStudentButton.setText("Izdzēst studentu");
+        DeleteStudentButton.setBorder(null);
+        DeleteStudentButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton36ActionPerformed(evt);
+                DeleteStudentButtonActionPerformed(evt);
             }
         });
-        jPanel13.add(jButton36);
-        jButton36.setBounds(320, 430, 160, 40);
+        StudentPanelTeacher.add(DeleteStudentButton);
+        DeleteStudentButton.setBounds(320, 430, 160, 40);
 
-        jButton37.setBackground(new java.awt.Color(13, 85, 54));
-        jButton37.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton37.setForeground(new java.awt.Color(255, 255, 255));
-        jButton37.setText("Saglabāt");
-        jButton37.setBorder(null);
-        jButton37.addActionListener(new java.awt.event.ActionListener() {
+        SaveStudentsTableButton.setBackground(new java.awt.Color(13, 85, 54));
+        SaveStudentsTableButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        SaveStudentsTableButton.setForeground(new java.awt.Color(255, 255, 255));
+        SaveStudentsTableButton.setText("Saglabāt");
+        SaveStudentsTableButton.setBorder(null);
+        SaveStudentsTableButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton37ActionPerformed(evt);
+                SaveStudentsTableButtonActionPerformed(evt);
             }
         });
-        jPanel13.add(jButton37);
-        jButton37.setBounds(690, 430, 160, 40);
+        StudentPanelTeacher.add(SaveStudentsTableButton);
+        SaveStudentsTableButton.setBounds(690, 430, 160, 40);
 
-        jTabbedPane2.addTab("tab3", jPanel13);
+        jTabbedPaneTeacher.addTab("tab3", StudentPanelTeacher);
 
-        jPanel36.add(jTabbedPane2);
-        jTabbedPane2.setBounds(200, -10, 870, 520);
+        GeneralTeacherPanel.add(jTabbedPaneTeacher);
+        jTabbedPaneTeacher.setBounds(200, -10, 870, 520);
 
         javax.swing.GroupLayout MainFrameTeacherLayout = new javax.swing.GroupLayout(MainFrameTeacher.getContentPane());
         MainFrameTeacher.getContentPane().setLayout(MainFrameTeacherLayout);
         MainFrameTeacherLayout.setHorizontalGroup(
             MainFrameTeacherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel36, javax.swing.GroupLayout.DEFAULT_SIZE, 1067, Short.MAX_VALUE)
+            .addComponent(GeneralTeacherPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 1067, Short.MAX_VALUE)
         );
         MainFrameTeacherLayout.setVerticalGroup(
             MainFrameTeacherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel36, javax.swing.GroupLayout.DEFAULT_SIZE, 472, Short.MAX_VALUE)
+            .addComponent(GeneralTeacherPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 472, Short.MAX_VALUE)
         );
 
         TestFrame.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         TestFrame.setTitle("Testēšanas sistēma");
         TestFrame.setResizable(false);
 
-        jPanel15.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel15.setLayout(null);
+        GeneralTestPanel.setBackground(new java.awt.Color(255, 255, 255));
+        GeneralTestPanel.setLayout(null);
 
-        jPanel16.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel16.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel16.setLayout(null);
-
-        QuestionLabel2.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
-        QuestionLabel2.setText("Testa Jautājums 2");
-        jPanel16.add(QuestionLabel2);
-        QuestionLabel2.setBounds(6, 6, 580, 22);
-
-        Answer21.setBackground(new java.awt.Color(255, 255, 255));
-        AnswerGroup2.add(Answer21);
-        Answer21.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        Answer21.setText("Atbilde №1");
-        jPanel16.add(Answer21);
-        Answer21.setBounds(12, 28, 570, 27);
-
-        Answer22.setBackground(new java.awt.Color(255, 255, 255));
-        AnswerGroup2.add(Answer22);
-        Answer22.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        Answer22.setText("Atbilde №2");
-        jPanel16.add(Answer22);
-        Answer22.setBounds(12, 55, 570, 27);
-
-        Answer23.setBackground(new java.awt.Color(255, 255, 255));
-        AnswerGroup2.add(Answer23);
-        Answer23.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        Answer23.setText("Atbilde №3");
-        jPanel16.add(Answer23);
-        Answer23.setBounds(12, 82, 570, 27);
-
-        jPanel15.add(jPanel16);
-        jPanel16.setBounds(10, 250, 600, 120);
-
-        jPanel17.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel17.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel17.setLayout(null);
+        Question1Panel.setBackground(new java.awt.Color(255, 255, 255));
+        Question1Panel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        Question1Panel.setLayout(null);
 
         QuestionLabel1.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
         QuestionLabel1.setText("Testa Jautājums 1");
         QuestionLabel1.setToolTipText("");
-        jPanel17.add(QuestionLabel1);
+        Question1Panel.add(QuestionLabel1);
         QuestionLabel1.setBounds(6, 6, 580, 22);
 
         Answer11.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup1.add(Answer11);
         Answer11.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         Answer11.setText("Atbilde №1");
-        jPanel17.add(Answer11);
+        Question1Panel.add(Answer11);
         Answer11.setBounds(12, 28, 570, 27);
 
         Answer12.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup1.add(Answer12);
         Answer12.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         Answer12.setText("Atbilde №2");
-        jPanel17.add(Answer12);
+        Question1Panel.add(Answer12);
         Answer12.setBounds(12, 55, 570, 27);
 
         Answer13.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup1.add(Answer13);
         Answer13.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         Answer13.setText("Atbilde №3");
-        jPanel17.add(Answer13);
+        Question1Panel.add(Answer13);
         Answer13.setBounds(12, 82, 570, 27);
 
-        jPanel15.add(jPanel17);
-        jPanel17.setBounds(10, 120, 600, 120);
+        GeneralTestPanel.add(Question1Panel);
+        Question1Panel.setBounds(10, 120, 600, 120);
 
-        jPanel18.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel18.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel18.setLayout(null);
+        Question2Panel.setBackground(new java.awt.Color(255, 255, 255));
+        Question2Panel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        Question2Panel.setLayout(null);
 
-        QuestionLabel5.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
-        QuestionLabel5.setText("Testa Jautājums 5");
-        jPanel18.add(QuestionLabel5);
-        QuestionLabel5.setBounds(6, 6, 580, 22);
+        QuestionLabel2.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
+        QuestionLabel2.setText("Testa Jautājums 2");
+        Question2Panel.add(QuestionLabel2);
+        QuestionLabel2.setBounds(6, 6, 580, 22);
 
-        Answer51.setBackground(new java.awt.Color(255, 255, 255));
-        AnswerGroup5.add(Answer51);
-        Answer51.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        Answer51.setText("Atbilde №1");
-        jPanel18.add(Answer51);
-        Answer51.setBounds(12, 28, 570, 27);
+        Answer21.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup2.add(Answer21);
+        Answer21.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        Answer21.setText("Atbilde №1");
+        Question2Panel.add(Answer21);
+        Answer21.setBounds(12, 28, 570, 27);
 
-        Answer52.setBackground(new java.awt.Color(255, 255, 255));
-        AnswerGroup5.add(Answer52);
-        Answer52.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        Answer52.setText("Atbilde №2");
-        jPanel18.add(Answer52);
-        Answer52.setBounds(12, 55, 570, 27);
+        Answer22.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup2.add(Answer22);
+        Answer22.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        Answer22.setText("Atbilde №2");
+        Question2Panel.add(Answer22);
+        Answer22.setBounds(12, 55, 570, 27);
 
-        Answer53.setBackground(new java.awt.Color(255, 255, 255));
-        AnswerGroup5.add(Answer53);
-        Answer53.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        Answer53.setText("Atbilde №3");
-        jPanel18.add(Answer53);
-        Answer53.setBounds(12, 82, 570, 27);
+        Answer23.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup2.add(Answer23);
+        Answer23.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        Answer23.setText("Atbilde №3");
+        Question2Panel.add(Answer23);
+        Answer23.setBounds(12, 82, 570, 27);
 
-        jPanel15.add(jPanel18);
-        jPanel18.setBounds(10, 640, 600, 120);
+        GeneralTestPanel.add(Question2Panel);
+        Question2Panel.setBounds(10, 250, 600, 120);
 
-        jPanel19.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel19.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel19.setLayout(null);
+        Question3Panel.setBackground(new java.awt.Color(255, 255, 255));
+        Question3Panel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        Question3Panel.setLayout(null);
 
         QuestionLabel3.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
         QuestionLabel3.setText("Testa Jautājums 3");
-        jPanel19.add(QuestionLabel3);
+        Question3Panel.add(QuestionLabel3);
         QuestionLabel3.setBounds(6, 6, 580, 22);
 
         Answer31.setBackground(new java.awt.Color(255, 255, 255));
@@ -1182,396 +1150,429 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         Answer31.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         Answer31.setText("Atbilde №1");
         Answer31.setToolTipText("");
-        jPanel19.add(Answer31);
+        Question3Panel.add(Answer31);
         Answer31.setBounds(12, 28, 570, 27);
 
         Answer32.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup3.add(Answer32);
         Answer32.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         Answer32.setText("Atbilde №2");
-        jPanel19.add(Answer32);
+        Question3Panel.add(Answer32);
         Answer32.setBounds(12, 55, 570, 27);
 
         Answer33.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup3.add(Answer33);
         Answer33.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         Answer33.setText("Atbilde №3");
-        jPanel19.add(Answer33);
+        Question3Panel.add(Answer33);
         Answer33.setBounds(12, 82, 570, 27);
 
-        jPanel15.add(jPanel19);
-        jPanel19.setBounds(10, 380, 600, 120);
+        GeneralTestPanel.add(Question3Panel);
+        Question3Panel.setBounds(10, 380, 600, 120);
 
-        jPanel20.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel20.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel20.setLayout(null);
+        Question4Panel.setBackground(new java.awt.Color(255, 255, 255));
+        Question4Panel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        Question4Panel.setLayout(null);
 
         QuestionLabel4.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
         QuestionLabel4.setText("Testa Jautājums 4");
-        jPanel20.add(QuestionLabel4);
+        Question4Panel.add(QuestionLabel4);
         QuestionLabel4.setBounds(6, 6, 590, 22);
 
         Answer41.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup4.add(Answer41);
         Answer41.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         Answer41.setText("Atbilde №1");
-        jPanel20.add(Answer41);
+        Question4Panel.add(Answer41);
         Answer41.setBounds(12, 28, 570, 27);
 
         Answer42.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup4.add(Answer42);
         Answer42.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         Answer42.setText("Atbilde №2");
-        jPanel20.add(Answer42);
+        Question4Panel.add(Answer42);
         Answer42.setBounds(12, 55, 570, 27);
 
         Answer43.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup4.add(Answer43);
         Answer43.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         Answer43.setText("Atbilde №3");
-        jPanel20.add(Answer43);
+        Question4Panel.add(Answer43);
         Answer43.setBounds(12, 82, 570, 27);
 
-        jPanel15.add(jPanel20);
-        jPanel20.setBounds(10, 510, 600, 120);
+        GeneralTestPanel.add(Question4Panel);
+        Question4Panel.setBounds(10, 510, 600, 120);
 
-        jButton15.setBackground(new java.awt.Color(13, 85, 54));
-        jButton15.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton15.setForeground(new java.awt.Color(255, 255, 255));
-        jButton15.setText("Iziet");
-        jButton15.setToolTipText("");
-        jButton15.setBorder(null);
-        jButton15.addActionListener(new java.awt.event.ActionListener() {
+        Question5Panel.setBackground(new java.awt.Color(255, 255, 255));
+        Question5Panel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        Question5Panel.setLayout(null);
+
+        QuestionLabel5.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
+        QuestionLabel5.setText("Testa Jautājums 5");
+        Question5Panel.add(QuestionLabel5);
+        QuestionLabel5.setBounds(6, 6, 580, 22);
+
+        Answer51.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup5.add(Answer51);
+        Answer51.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        Answer51.setText("Atbilde №1");
+        Question5Panel.add(Answer51);
+        Answer51.setBounds(12, 28, 570, 27);
+
+        Answer52.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup5.add(Answer52);
+        Answer52.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        Answer52.setText("Atbilde №2");
+        Question5Panel.add(Answer52);
+        Answer52.setBounds(12, 55, 570, 27);
+
+        Answer53.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup5.add(Answer53);
+        Answer53.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        Answer53.setText("Atbilde №3");
+        Question5Panel.add(Answer53);
+        Answer53.setBounds(12, 82, 570, 27);
+
+        GeneralTestPanel.add(Question5Panel);
+        Question5Panel.setBounds(10, 640, 600, 120);
+
+        TestOutButton.setBackground(new java.awt.Color(13, 85, 54));
+        TestOutButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        TestOutButton.setForeground(new java.awt.Color(255, 255, 255));
+        TestOutButton.setText("Iziet");
+        TestOutButton.setToolTipText("");
+        TestOutButton.setBorder(null);
+        TestOutButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton15ActionPerformed(evt);
+                TestOutButtonActionPerformed(evt);
             }
         });
-        jPanel15.add(jButton15);
-        jButton15.setBounds(10, 770, 70, 40);
+        GeneralTestPanel.add(TestOutButton);
+        TestOutButton.setBounds(10, 770, 70, 40);
 
-        jButton16.setBackground(new java.awt.Color(13, 85, 54));
-        jButton16.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton16.setForeground(new java.awt.Color(255, 255, 255));
-        jButton16.setText("Nodot darbu");
-        jButton16.setToolTipText("");
-        jButton16.setBorder(null);
-        jButton16.addActionListener(new java.awt.event.ActionListener() {
+        TestSubmitButton.setBackground(new java.awt.Color(13, 85, 54));
+        TestSubmitButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        TestSubmitButton.setForeground(new java.awt.Color(255, 255, 255));
+        TestSubmitButton.setText("Nodot darbu");
+        TestSubmitButton.setToolTipText("");
+        TestSubmitButton.setBorder(null);
+        TestSubmitButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton16ActionPerformed(evt);
+                TestSubmitButtonActionPerformed(evt);
             }
         });
-        jPanel15.add(jButton16);
-        jButton16.setBounds(440, 770, 170, 40);
+        GeneralTestPanel.add(TestSubmitButton);
+        TestSubmitButton.setBounds(440, 770, 170, 40);
 
-        jPanel21.setBackground(new java.awt.Color(13, 85, 54));
-        jPanel21.setForeground(new java.awt.Color(13, 85, 54));
-        jPanel21.setLayout(null);
+        TestLabelPanel.setBackground(new java.awt.Color(13, 85, 54));
+        TestLabelPanel.setForeground(new java.awt.Color(13, 85, 54));
+        TestLabelPanel.setLayout(null);
 
         TestNameLabel.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
         TestNameLabel.setForeground(new java.awt.Color(255, 255, 255));
         TestNameLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         TestNameLabel.setText("TESTA PIEMĒRS");
-        jPanel21.add(TestNameLabel);
+        TestLabelPanel.add(TestNameLabel);
         TestNameLabel.setBounds(0, 20, 630, 70);
 
-        jPanel15.add(jPanel21);
-        jPanel21.setBounds(0, 0, 630, 100);
+        GeneralTestPanel.add(TestLabelPanel);
+        TestLabelPanel.setBounds(0, 0, 630, 100);
 
-        jButton25.setBackground(new java.awt.Color(13, 85, 54));
-        jButton25.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton25.setForeground(new java.awt.Color(255, 255, 255));
-        jButton25.setText("Izdzēst visas atbildes");
-        jButton25.setToolTipText("");
-        jButton25.setBorder(null);
-        jButton25.addActionListener(new java.awt.event.ActionListener() {
+        DeleteAllAnswersButton.setBackground(new java.awt.Color(13, 85, 54));
+        DeleteAllAnswersButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        DeleteAllAnswersButton.setForeground(new java.awt.Color(255, 255, 255));
+        DeleteAllAnswersButton.setText("Izdzēst visas atbildes");
+        DeleteAllAnswersButton.setToolTipText("");
+        DeleteAllAnswersButton.setBorder(null);
+        DeleteAllAnswersButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton25ActionPerformed(evt);
+                DeleteAllAnswersButtonActionPerformed(evt);
             }
         });
-        jPanel15.add(jButton25);
-        jButton25.setBounds(250, 770, 170, 40);
+        GeneralTestPanel.add(DeleteAllAnswersButton);
+        DeleteAllAnswersButton.setBounds(250, 770, 170, 40);
 
         javax.swing.GroupLayout TestFrameLayout = new javax.swing.GroupLayout(TestFrame.getContentPane());
         TestFrame.getContentPane().setLayout(TestFrameLayout);
         TestFrameLayout.setHorizontalGroup(
             TestFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, 626, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(GeneralTestPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 626, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         TestFrameLayout.setVerticalGroup(
             TestFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel15, javax.swing.GroupLayout.DEFAULT_SIZE, 820, Short.MAX_VALUE)
+            .addComponent(GeneralTestPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 820, Short.MAX_VALUE)
         );
 
         NewTestFrame.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         NewTestFrame.setTitle("Testēšanas sistēma");
         NewTestFrame.setResizable(false);
 
-        jPanel24.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel24.setLayout(null);
+        GeneralNewTestPanel.setBackground(new java.awt.Color(255, 255, 255));
+        GeneralNewTestPanel.setLayout(null);
 
-        jPanel25.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel25.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel25.setLayout(null);
-
-        RadioButton21.setBackground(new java.awt.Color(255, 255, 255));
-        AnswerGroup2.add(RadioButton21);
-        RadioButton21.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel25.add(RadioButton21);
-        RadioButton21.setBounds(20, 40, 19, 20);
-
-        RadioButton22.setBackground(new java.awt.Color(255, 255, 255));
-        AnswerGroup2.add(RadioButton22);
-        RadioButton22.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel25.add(RadioButton22);
-        RadioButton22.setBounds(20, 70, 20, 20);
-
-        RadioButton23.setBackground(new java.awt.Color(255, 255, 255));
-        AnswerGroup2.add(RadioButton23);
-        RadioButton23.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel25.add(RadioButton23);
-        RadioButton23.setBounds(20, 100, 20, 20);
-
-        NewQuestionField2.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        NewQuestionField2.setText("2. Ievadiet jautājumu");
-        NewQuestionField2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel25.add(NewQuestionField2);
-        NewQuestionField2.setBounds(10, 10, 570, 26);
-
-        NewAnswerField21.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        NewAnswerField21.setText("Ievadiet atbildi");
-        NewAnswerField21.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel25.add(NewAnswerField21);
-        NewAnswerField21.setBounds(50, 40, 530, 26);
-
-        NewAnswerField22.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        NewAnswerField22.setText("Ievadiet atbildi");
-        NewAnswerField22.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel25.add(NewAnswerField22);
-        NewAnswerField22.setBounds(50, 70, 530, 26);
-
-        NewAnswerField23.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        NewAnswerField23.setText("Ievadiet atbildi");
-        NewAnswerField23.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel25.add(NewAnswerField23);
-        NewAnswerField23.setBounds(50, 100, 530, 26);
-
-        jPanel24.add(jPanel25);
-        jPanel25.setBounds(10, 300, 600, 130);
-
-        jPanel26.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel26.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel26.setLayout(null);
+        NewQuestion1Panel.setBackground(new java.awt.Color(255, 255, 255));
+        NewQuestion1Panel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        NewQuestion1Panel.setLayout(null);
 
         RadioButton11.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup1.add(RadioButton11);
         RadioButton11.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel26.add(RadioButton11);
+        NewQuestion1Panel.add(RadioButton11);
         RadioButton11.setBounds(20, 40, 20, 20);
 
         RadioButton12.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup1.add(RadioButton12);
         RadioButton12.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel26.add(RadioButton12);
+        NewQuestion1Panel.add(RadioButton12);
         RadioButton12.setBounds(20, 70, 20, 20);
 
         RadioButton13.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup1.add(RadioButton13);
         RadioButton13.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel26.add(RadioButton13);
+        NewQuestion1Panel.add(RadioButton13);
         RadioButton13.setBounds(20, 100, 19, 20);
 
         NewQuestionField1.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         NewQuestionField1.setText("1. Ievadiet jautājumu");
         NewQuestionField1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel26.add(NewQuestionField1);
+        NewQuestion1Panel.add(NewQuestionField1);
         NewQuestionField1.setBounds(10, 10, 570, 26);
 
         NewAnswerField11.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         NewAnswerField11.setText("Ievadiet atbildi");
         NewAnswerField11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel26.add(NewAnswerField11);
+        NewQuestion1Panel.add(NewAnswerField11);
         NewAnswerField11.setBounds(50, 40, 530, 26);
 
         NewAnswerField12.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         NewAnswerField12.setText("Ievadiet atbildi");
         NewAnswerField12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel26.add(NewAnswerField12);
+        NewQuestion1Panel.add(NewAnswerField12);
         NewAnswerField12.setBounds(50, 70, 530, 26);
 
         NewAnswerField13.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         NewAnswerField13.setText("Ievadiet atbildi");
         NewAnswerField13.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel26.add(NewAnswerField13);
+        NewQuestion1Panel.add(NewAnswerField13);
         NewAnswerField13.setBounds(50, 100, 530, 26);
 
-        jPanel24.add(jPanel26);
-        jPanel26.setBounds(10, 160, 600, 130);
+        GeneralNewTestPanel.add(NewQuestion1Panel);
+        NewQuestion1Panel.setBounds(10, 160, 600, 130);
 
-        jPanel27.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel27.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel27.setLayout(null);
+        NewQuestion2Panel.setBackground(new java.awt.Color(255, 255, 255));
+        NewQuestion2Panel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        NewQuestion2Panel.setLayout(null);
 
-        RadioButton51.setBackground(new java.awt.Color(255, 255, 255));
-        NewAnswerGroup5.add(RadioButton51);
-        RadioButton51.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel27.add(RadioButton51);
-        RadioButton51.setBounds(20, 40, 20, 20);
+        RadioButton21.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup2.add(RadioButton21);
+        RadioButton21.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewQuestion2Panel.add(RadioButton21);
+        RadioButton21.setBounds(20, 40, 19, 20);
 
-        RadioButton52.setBackground(new java.awt.Color(255, 255, 255));
-        NewAnswerGroup5.add(RadioButton52);
-        RadioButton52.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel27.add(RadioButton52);
-        RadioButton52.setBounds(20, 70, 19, 20);
+        RadioButton22.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup2.add(RadioButton22);
+        RadioButton22.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewQuestion2Panel.add(RadioButton22);
+        RadioButton22.setBounds(20, 70, 20, 20);
 
-        RadioButton53.setBackground(new java.awt.Color(255, 255, 255));
-        NewAnswerGroup5.add(RadioButton53);
-        RadioButton53.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel27.add(RadioButton53);
-        RadioButton53.setBounds(20, 100, 19, 20);
+        RadioButton23.setBackground(new java.awt.Color(255, 255, 255));
+        AnswerGroup2.add(RadioButton23);
+        RadioButton23.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewQuestion2Panel.add(RadioButton23);
+        RadioButton23.setBounds(20, 100, 20, 20);
 
-        NewQuestionField5.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        NewQuestionField5.setText("5. Ievadiet jautājumu");
-        NewQuestionField5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel27.add(NewQuestionField5);
-        NewQuestionField5.setBounds(10, 10, 570, 26);
+        NewQuestionField2.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewQuestionField2.setText("2. Ievadiet jautājumu");
+        NewQuestionField2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        NewQuestion2Panel.add(NewQuestionField2);
+        NewQuestionField2.setBounds(10, 10, 570, 26);
 
-        NewAnswerField51.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        NewAnswerField51.setText("Ievadiet atbildi");
-        NewAnswerField51.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel27.add(NewAnswerField51);
-        NewAnswerField51.setBounds(50, 40, 530, 26);
+        NewAnswerField21.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField21.setText("Ievadiet atbildi");
+        NewAnswerField21.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        NewQuestion2Panel.add(NewAnswerField21);
+        NewAnswerField21.setBounds(50, 40, 530, 26);
 
-        NewAnswerField52.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        NewAnswerField52.setText("Ievadiet atbildi");
-        NewAnswerField52.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel27.add(NewAnswerField52);
-        NewAnswerField52.setBounds(50, 70, 530, 26);
+        NewAnswerField22.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField22.setText("Ievadiet atbildi");
+        NewAnswerField22.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        NewQuestion2Panel.add(NewAnswerField22);
+        NewAnswerField22.setBounds(50, 70, 530, 26);
 
-        NewAnswerField53.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        NewAnswerField53.setText("Ievadiet atbildi");
-        NewAnswerField53.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel27.add(NewAnswerField53);
-        NewAnswerField53.setBounds(50, 100, 530, 26);
+        NewAnswerField23.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField23.setText("Ievadiet atbildi");
+        NewAnswerField23.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        NewQuestion2Panel.add(NewAnswerField23);
+        NewAnswerField23.setBounds(50, 100, 530, 26);
 
-        jPanel24.add(jPanel27);
-        jPanel27.setBounds(10, 720, 600, 130);
+        GeneralNewTestPanel.add(NewQuestion2Panel);
+        NewQuestion2Panel.setBounds(10, 300, 600, 130);
 
-        jPanel28.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel28.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel28.setLayout(null);
+        NewQuestion3Panel.setBackground(new java.awt.Color(255, 255, 255));
+        NewQuestion3Panel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        NewQuestion3Panel.setLayout(null);
 
         RadioButton31.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup3.add(RadioButton31);
         RadioButton31.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         RadioButton31.setToolTipText("");
-        jPanel28.add(RadioButton31);
+        NewQuestion3Panel.add(RadioButton31);
         RadioButton31.setBounds(20, 40, 20, 20);
 
         RadioButton32.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup3.add(RadioButton32);
         RadioButton32.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel28.add(RadioButton32);
+        NewQuestion3Panel.add(RadioButton32);
         RadioButton32.setBounds(20, 70, 20, 20);
 
         RadioButton33.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup3.add(RadioButton33);
         RadioButton33.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel28.add(RadioButton33);
+        NewQuestion3Panel.add(RadioButton33);
         RadioButton33.setBounds(20, 100, 19, 20);
 
         NewQuestionField3.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         NewQuestionField3.setText("3. Ievadiet jautājumu");
         NewQuestionField3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel28.add(NewQuestionField3);
+        NewQuestion3Panel.add(NewQuestionField3);
         NewQuestionField3.setBounds(10, 10, 570, 26);
 
         NewAnswerField31.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         NewAnswerField31.setText("Ievadiet atbildi");
         NewAnswerField31.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel28.add(NewAnswerField31);
+        NewQuestion3Panel.add(NewAnswerField31);
         NewAnswerField31.setBounds(50, 40, 530, 26);
 
         NewAnswerField32.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         NewAnswerField32.setText("Ievadiet atbildi");
         NewAnswerField32.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel28.add(NewAnswerField32);
+        NewQuestion3Panel.add(NewAnswerField32);
         NewAnswerField32.setBounds(50, 70, 530, 26);
 
         NewAnswerField33.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         NewAnswerField33.setText("Ievadiet atbildi");
         NewAnswerField33.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel28.add(NewAnswerField33);
+        NewQuestion3Panel.add(NewAnswerField33);
         NewAnswerField33.setBounds(50, 100, 530, 26);
 
-        jPanel24.add(jPanel28);
-        jPanel28.setBounds(10, 440, 600, 130);
+        GeneralNewTestPanel.add(NewQuestion3Panel);
+        NewQuestion3Panel.setBounds(10, 440, 600, 130);
 
-        jPanel29.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel29.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel29.setLayout(null);
+        NewQuestion4Panel.setBackground(new java.awt.Color(255, 255, 255));
+        NewQuestion4Panel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        NewQuestion4Panel.setLayout(null);
 
         RadioButton41.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup4.add(RadioButton41);
         RadioButton41.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel29.add(RadioButton41);
+        NewQuestion4Panel.add(RadioButton41);
         RadioButton41.setBounds(20, 40, 20, 20);
 
         RadioButton42.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup4.add(RadioButton42);
         RadioButton42.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel29.add(RadioButton42);
+        NewQuestion4Panel.add(RadioButton42);
         RadioButton42.setBounds(20, 70, 19, 20);
 
         RadioButton43.setBackground(new java.awt.Color(255, 255, 255));
         AnswerGroup4.add(RadioButton43);
         RadioButton43.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jPanel29.add(RadioButton43);
+        NewQuestion4Panel.add(RadioButton43);
         RadioButton43.setBounds(20, 100, 19, 20);
 
         NewQuestionField4.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         NewQuestionField4.setText("4. Ievadiet jautājumu");
         NewQuestionField4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel29.add(NewQuestionField4);
+        NewQuestion4Panel.add(NewQuestionField4);
         NewQuestionField4.setBounds(10, 10, 570, 26);
 
         NewAnswerField41.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         NewAnswerField41.setText("Ievadiet atbildi");
         NewAnswerField41.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel29.add(NewAnswerField41);
+        NewQuestion4Panel.add(NewAnswerField41);
         NewAnswerField41.setBounds(50, 40, 530, 26);
 
         NewAnswerField42.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         NewAnswerField42.setText("Ievadiet atbildi");
         NewAnswerField42.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel29.add(NewAnswerField42);
+        NewQuestion4Panel.add(NewAnswerField42);
         NewAnswerField42.setBounds(50, 70, 530, 26);
 
         NewAnswerField43.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         NewAnswerField43.setText("Ievadiet atbildi");
         NewAnswerField43.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel29.add(NewAnswerField43);
+        NewQuestion4Panel.add(NewAnswerField43);
         NewAnswerField43.setBounds(50, 100, 530, 26);
 
-        jPanel24.add(jPanel29);
-        jPanel29.setBounds(10, 580, 600, 130);
+        GeneralNewTestPanel.add(NewQuestion4Panel);
+        NewQuestion4Panel.setBounds(10, 580, 600, 130);
 
-        jButton19.setBackground(new java.awt.Color(13, 85, 54));
-        jButton19.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton19.setForeground(new java.awt.Color(255, 255, 255));
-        jButton19.setText("Saglabāt testu");
-        jButton19.setToolTipText("");
-        jButton19.setBorder(null);
-        jButton19.addActionListener(new java.awt.event.ActionListener() {
+        NewQuestion5Panel.setBackground(new java.awt.Color(255, 255, 255));
+        NewQuestion5Panel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        NewQuestion5Panel.setLayout(null);
+
+        RadioButton51.setBackground(new java.awt.Color(255, 255, 255));
+        NewAnswerGroup5.add(RadioButton51);
+        RadioButton51.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewQuestion5Panel.add(RadioButton51);
+        RadioButton51.setBounds(20, 40, 20, 20);
+
+        RadioButton52.setBackground(new java.awt.Color(255, 255, 255));
+        NewAnswerGroup5.add(RadioButton52);
+        RadioButton52.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewQuestion5Panel.add(RadioButton52);
+        RadioButton52.setBounds(20, 70, 19, 20);
+
+        RadioButton53.setBackground(new java.awt.Color(255, 255, 255));
+        NewAnswerGroup5.add(RadioButton53);
+        RadioButton53.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewQuestion5Panel.add(RadioButton53);
+        RadioButton53.setBounds(20, 100, 19, 20);
+
+        NewQuestionField5.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewQuestionField5.setText("5. Ievadiet jautājumu");
+        NewQuestionField5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        NewQuestion5Panel.add(NewQuestionField5);
+        NewQuestionField5.setBounds(10, 10, 570, 26);
+
+        NewAnswerField51.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField51.setText("Ievadiet atbildi");
+        NewAnswerField51.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        NewQuestion5Panel.add(NewAnswerField51);
+        NewAnswerField51.setBounds(50, 40, 530, 26);
+
+        NewAnswerField52.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField52.setText("Ievadiet atbildi");
+        NewAnswerField52.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        NewQuestion5Panel.add(NewAnswerField52);
+        NewAnswerField52.setBounds(50, 70, 530, 26);
+
+        NewAnswerField53.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewAnswerField53.setText("Ievadiet atbildi");
+        NewAnswerField53.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        NewQuestion5Panel.add(NewAnswerField53);
+        NewAnswerField53.setBounds(50, 100, 530, 26);
+
+        GeneralNewTestPanel.add(NewQuestion5Panel);
+        NewQuestion5Panel.setBounds(10, 720, 600, 130);
+
+        SaveTestButton.setBackground(new java.awt.Color(13, 85, 54));
+        SaveTestButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        SaveTestButton.setForeground(new java.awt.Color(255, 255, 255));
+        SaveTestButton.setText("Saglabāt testu");
+        SaveTestButton.setToolTipText("");
+        SaveTestButton.setBorder(null);
+        SaveTestButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton19ActionPerformed(evt);
+                SaveTestButtonActionPerformed(evt);
             }
         });
-        jPanel24.add(jButton19);
-        jButton19.setBounds(440, 940, 170, 40);
+        GeneralNewTestPanel.add(SaveTestButton);
+        SaveTestButton.setBounds(440, 940, 170, 40);
 
-        jPanel30.setBackground(new java.awt.Color(13, 85, 54));
-        jPanel30.setForeground(new java.awt.Color(13, 85, 54));
-        jPanel30.setLayout(null);
+        NewTestLabelPanel.setBackground(new java.awt.Color(13, 85, 54));
+        NewTestLabelPanel.setForeground(new java.awt.Color(13, 85, 54));
+        NewTestLabelPanel.setLayout(null);
 
         TestNameField.setBackground(new java.awt.Color(13, 85, 54));
         TestNameField.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
@@ -1579,21 +1580,21 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         TestNameField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         TestNameField.setText("Ievadiet testa nosaukumu");
         TestNameField.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel30.add(TestNameField);
+        NewTestLabelPanel.add(TestNameField);
         TestNameField.setBounds(80, 20, 470, 60);
 
-        jPanel24.add(jPanel30);
-        jPanel30.setBounds(0, 0, 630, 100);
+        GeneralNewTestPanel.add(NewTestLabelPanel);
+        NewTestLabelPanel.setBounds(0, 0, 630, 100);
 
         jScrollPane8.setBorder(null);
         jScrollPane8.setToolTipText("");
 
-        jTextPane1.setBorder(null);
-        jTextPane1.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jTextPane1.setText("Noteikti aizpildiet visus lodziņus un neaizmirstiet atzīmēt pareizo atbildi.   Pareizā atbilde tiek izvēlēta, izmantojot blakus atbildēm esošo radio pogu.");
-        jScrollPane8.setViewportView(jTextPane1);
+        NewTestAdvice.setBorder(null);
+        NewTestAdvice.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewTestAdvice.setText("Noteikti aizpildiet visus lodziņus un neaizmirstiet atzīmēt pareizo atbildi.   Pareizā atbilde tiek izvēlēta, izmantojot blakus atbildēm esošo radio pogu.");
+        jScrollPane8.setViewportView(NewTestAdvice);
 
-        jPanel24.add(jScrollPane8);
+        GeneralNewTestPanel.add(jScrollPane8);
         jScrollPane8.setBounds(60, 110, 520, 50);
 
         NewTestDesriptionField.setColumns(20);
@@ -1602,94 +1603,94 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         NewTestDesriptionField.setRows(5);
         jScrollPane4.setViewportView(NewTestDesriptionField);
 
-        jPanel24.add(jScrollPane4);
+        GeneralNewTestPanel.add(jScrollPane4);
         jScrollPane4.setBounds(10, 890, 600, 40);
 
-        jLabel17.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jLabel17.setText("Testa apraksts");
-        jPanel24.add(jLabel17);
-        jLabel17.setBounds(10, 860, 110, 22);
+        NewTestDescriptionLabel.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        NewTestDescriptionLabel.setText("Testa apraksts");
+        GeneralNewTestPanel.add(NewTestDescriptionLabel);
+        NewTestDescriptionLabel.setBounds(10, 860, 110, 22);
 
-        jButton22.setBackground(new java.awt.Color(13, 85, 54));
-        jButton22.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton22.setForeground(new java.awt.Color(255, 255, 255));
-        jButton22.setText("Iziet");
-        jButton22.setToolTipText("");
-        jButton22.setBorder(null);
-        jButton22.addActionListener(new java.awt.event.ActionListener() {
+        NewTestOutButton.setBackground(new java.awt.Color(13, 85, 54));
+        NewTestOutButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        NewTestOutButton.setForeground(new java.awt.Color(255, 255, 255));
+        NewTestOutButton.setText("Iziet");
+        NewTestOutButton.setToolTipText("");
+        NewTestOutButton.setBorder(null);
+        NewTestOutButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton22ActionPerformed(evt);
+                NewTestOutButtonActionPerformed(evt);
             }
         });
-        jPanel24.add(jButton22);
-        jButton22.setBounds(10, 940, 70, 40);
+        GeneralNewTestPanel.add(NewTestOutButton);
+        NewTestOutButton.setBounds(10, 940, 70, 40);
 
         javax.swing.GroupLayout NewTestFrameLayout = new javax.swing.GroupLayout(NewTestFrame.getContentPane());
         NewTestFrame.getContentPane().setLayout(NewTestFrameLayout);
         NewTestFrameLayout.setHorizontalGroup(
             NewTestFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel24, javax.swing.GroupLayout.PREFERRED_SIZE, 626, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(GeneralNewTestPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 626, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         NewTestFrameLayout.setVerticalGroup(
             NewTestFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel24, javax.swing.GroupLayout.DEFAULT_SIZE, 990, Short.MAX_VALUE)
+            .addComponent(GeneralNewTestPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 990, Short.MAX_VALUE)
         );
 
         ErrorFrame.setTitle("Kļudas logs");
         ErrorFrame.setFocusable(false);
         ErrorFrame.setResizable(false);
 
-        jPanel31.setBackground(new java.awt.Color(255, 255, 255));
+        ErrorPanel.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel28.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
-        jLabel28.setText("Kļūda ir notikusi!");
+        StaticLabelError.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
+        StaticLabelError.setText("Kļūda ir notikusi!");
 
-        jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/erroricon1.png"))); // NOI18N
+        ErrorImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/erroricon1.png"))); // NOI18N
 
         ErrorLabel.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         ErrorLabel.setText("Kļūdas apraksts");
         ErrorLabel.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
-        jButton18.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
-        jButton18.setText("OK");
-        jButton18.addActionListener(new java.awt.event.ActionListener() {
+        ErrorOutButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
+        ErrorOutButton.setText("OK");
+        ErrorOutButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton18ActionPerformed(evt);
+                ErrorOutButtonActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel31Layout = new javax.swing.GroupLayout(jPanel31);
-        jPanel31.setLayout(jPanel31Layout);
-        jPanel31Layout.setHorizontalGroup(
-            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel31Layout.createSequentialGroup()
+        javax.swing.GroupLayout ErrorPanelLayout = new javax.swing.GroupLayout(ErrorPanel);
+        ErrorPanel.setLayout(ErrorPanelLayout);
+        ErrorPanelLayout.setHorizontalGroup(
+            ErrorPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ErrorPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel31Layout.createSequentialGroup()
-                        .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel31Layout.createSequentialGroup()
+                .addGroup(ErrorPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(ErrorOutButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(ErrorPanelLayout.createSequentialGroup()
+                        .addComponent(ErrorImage, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(ErrorPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(ErrorPanelLayout.createSequentialGroup()
                                 .addGap(18, 18, 18)
                                 .addComponent(ErrorLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGroup(jPanel31Layout.createSequentialGroup()
+                            .addGroup(ErrorPanelLayout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel28, javax.swing.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)))))
+                                .addComponent(StaticLabelError, javax.swing.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)))))
                 .addContainerGap())
         );
-        jPanel31Layout.setVerticalGroup(
-            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel31Layout.createSequentialGroup()
+        ErrorPanelLayout.setVerticalGroup(
+            ErrorPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ErrorPanelLayout.createSequentialGroup()
                 .addGap(14, 14, 14)
-                .addGroup(jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel31Layout.createSequentialGroup()
+                .addGroup(ErrorPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(ErrorImage, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(ErrorPanelLayout.createSequentialGroup()
                         .addGap(2, 2, 2)
-                        .addComponent(jLabel28)
+                        .addComponent(StaticLabelError)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(ErrorLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(6, 6, 6)
-                .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(ErrorOutButton, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(16, Short.MAX_VALUE))
         );
 
@@ -1697,143 +1698,143 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         ErrorFrame.getContentPane().setLayout(ErrorFrameLayout);
         ErrorFrameLayout.setHorizontalGroup(
             ErrorFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel31, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(ErrorPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         ErrorFrameLayout.setVerticalGroup(
             ErrorFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel31, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(ErrorPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         SuccessFrame.setTitle("Veiksmīgas darbības logs");
         SuccessFrame.setFocusable(false);
         SuccessFrame.setResizable(false);
 
-        jPanel32.setBackground(new java.awt.Color(255, 255, 255));
+        SuccessPanel.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel33.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
-        jLabel33.setText("Operācija tika veikta veiksmīgi!");
+        StaticLabelSuccess.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
+        StaticLabelSuccess.setText("Operācija tika veikta veiksmīgi!");
 
-        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/successicon1.png"))); // NOI18N
+        SuccessImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/successicon1.png"))); // NOI18N
 
         SuccessLabel.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         SuccessLabel.setText("Paziņojuma apraksts");
         SuccessLabel.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
-        jButton21.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
-        jButton21.setText("OK");
-        jButton21.addActionListener(new java.awt.event.ActionListener() {
+        SuccessOutButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
+        SuccessOutButton.setText("OK");
+        SuccessOutButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton21ActionPerformed(evt);
+                SuccessOutButtonActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
-        jPanel32.setLayout(jPanel32Layout);
-        jPanel32Layout.setHorizontalGroup(
-            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel32Layout.createSequentialGroup()
+        javax.swing.GroupLayout SuccessPanelLayout = new javax.swing.GroupLayout(SuccessPanel);
+        SuccessPanel.setLayout(SuccessPanelLayout);
+        SuccessPanelLayout.setHorizontalGroup(
+            SuccessPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SuccessPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel32Layout.createSequentialGroup()
-                        .addComponent(jLabel34, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(jPanel32Layout.createSequentialGroup()
+                .addGroup(SuccessPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(SuccessOutButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(SuccessPanelLayout.createSequentialGroup()
+                        .addComponent(SuccessImage, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(SuccessPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(SuccessPanelLayout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel33))
-                            .addGroup(jPanel32Layout.createSequentialGroup()
+                                .addComponent(StaticLabelSuccess))
+                            .addGroup(SuccessPanelLayout.createSequentialGroup()
                                 .addGap(18, 18, 18)
                                 .addComponent(SuccessLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
                 .addContainerGap())
         );
-        jPanel32Layout.setVerticalGroup(
-            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel32Layout.createSequentialGroup()
+        SuccessPanelLayout.setVerticalGroup(
+            SuccessPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SuccessPanelLayout.createSequentialGroup()
                 .addGap(14, 14, 14)
-                .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel34, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel32Layout.createSequentialGroup()
+                .addGroup(SuccessPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(SuccessImage, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(SuccessPanelLayout.createSequentialGroup()
                         .addGap(2, 2, 2)
-                        .addComponent(jLabel33)
+                        .addComponent(StaticLabelSuccess)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(SuccessLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(6, 6, 6)
-                .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(SuccessOutButton, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(16, Short.MAX_VALUE))
         );
 
-        jLabel33.getAccessibleContext().setAccessibleName("");
+        StaticLabelSuccess.getAccessibleContext().setAccessibleName("");
 
         javax.swing.GroupLayout SuccessFrameLayout = new javax.swing.GroupLayout(SuccessFrame.getContentPane());
         SuccessFrame.getContentPane().setLayout(SuccessFrameLayout);
         SuccessFrameLayout.setHorizontalGroup(
             SuccessFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(SuccessFrameLayout.createSequentialGroup()
-                .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(SuccessPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         SuccessFrameLayout.setVerticalGroup(
             SuccessFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(SuccessPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         InfoFrame.setTitle("Ziņas logs");
         InfoFrame.setFocusable(false);
         InfoFrame.setResizable(false);
 
-        jPanel33.setBackground(new java.awt.Color(255, 255, 255));
+        InfoPanel.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel35.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
-        jLabel35.setText("Jūs esat informēts!");
+        StaticLabelInfo.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
+        StaticLabelInfo.setText("Jūs esat informēts!");
 
-        jLabel36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/infoicon1.png"))); // NOI18N
+        InfoImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/infoicon1.png"))); // NOI18N
 
         InfoLabel.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
         InfoLabel.setText("Paziņojuma apraksts");
         InfoLabel.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
-        jButton23.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
-        jButton23.setText("OK");
-        jButton23.addActionListener(new java.awt.event.ActionListener() {
+        InfoOutButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
+        InfoOutButton.setText("OK");
+        InfoOutButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton23ActionPerformed(evt);
+                InfoOutButtonActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel33Layout = new javax.swing.GroupLayout(jPanel33);
-        jPanel33.setLayout(jPanel33Layout);
-        jPanel33Layout.setHorizontalGroup(
-            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel33Layout.createSequentialGroup()
+        javax.swing.GroupLayout InfoPanelLayout = new javax.swing.GroupLayout(InfoPanel);
+        InfoPanel.setLayout(InfoPanelLayout);
+        InfoPanelLayout.setHorizontalGroup(
+            InfoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(InfoPanelLayout.createSequentialGroup()
                 .addGap(14, 14, 14)
-                .addComponent(jLabel36)
-                .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel33Layout.createSequentialGroup()
+                .addComponent(InfoImage)
+                .addGroup(InfoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(InfoPanelLayout.createSequentialGroup()
                         .addGap(14, 14, 14)
-                        .addComponent(jLabel35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jPanel33Layout.createSequentialGroup()
+                        .addComponent(StaticLabelInfo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(InfoPanelLayout.createSequentialGroup()
                         .addGap(20, 20, 20)
                         .addComponent(InfoLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addGap(129, 129, 129))
-            .addGroup(jPanel33Layout.createSequentialGroup()
+            .addGroup(InfoPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(InfoOutButton, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel33Layout.setVerticalGroup(
-            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel33Layout.createSequentialGroup()
-                .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel33Layout.createSequentialGroup()
+        InfoPanelLayout.setVerticalGroup(
+            InfoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(InfoPanelLayout.createSequentialGroup()
+                .addGroup(InfoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(InfoPanelLayout.createSequentialGroup()
                         .addGap(16, 16, 16)
-                        .addComponent(jLabel35)
+                        .addComponent(StaticLabelInfo)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(InfoLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel33Layout.createSequentialGroup()
+                    .addGroup(InfoPanelLayout.createSequentialGroup()
                         .addGap(12, 12, 12)
-                        .addComponent(jLabel36, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(InfoImage, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(6, 6, 6)
-                .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(InfoOutButton, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(16, Short.MAX_VALUE))
         );
 
@@ -1841,36 +1842,36 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         InfoFrame.getContentPane().setLayout(InfoFrameLayout);
         InfoFrameLayout.setHorizontalGroup(
             InfoFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(InfoPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         InfoFrameLayout.setVerticalGroup(
             InfoFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(InfoPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         ResultFrame.setTitle("Rezultāta logs");
         ResultFrame.setResizable(false);
 
-        jPanel34.setBackground(new java.awt.Color(255, 255, 255));
+        GeneralResultPanel.setBackground(new java.awt.Color(255, 255, 255));
 
-        jPanel35.setBackground(new java.awt.Color(13, 85, 54));
+        ResultLabelPanel.setBackground(new java.awt.Color(13, 85, 54));
 
-        NameLabel.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
-        NameLabel.setForeground(new java.awt.Color(255, 255, 255));
-        NameLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        NameLabel.setText("Apsveicām, ");
+        ResultLabel.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        ResultLabel.setForeground(new java.awt.Color(255, 255, 255));
+        ResultLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        ResultLabel.setText("Apsveicām, ");
 
-        javax.swing.GroupLayout jPanel35Layout = new javax.swing.GroupLayout(jPanel35);
-        jPanel35.setLayout(jPanel35Layout);
-        jPanel35Layout.setHorizontalGroup(
-            jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(NameLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 512, Short.MAX_VALUE)
+        javax.swing.GroupLayout ResultLabelPanelLayout = new javax.swing.GroupLayout(ResultLabelPanel);
+        ResultLabelPanel.setLayout(ResultLabelPanelLayout);
+        ResultLabelPanelLayout.setHorizontalGroup(
+            ResultLabelPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(ResultLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 512, Short.MAX_VALUE)
         );
-        jPanel35Layout.setVerticalGroup(
-            jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel35Layout.createSequentialGroup()
+        ResultLabelPanelLayout.setVerticalGroup(
+            ResultLabelPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ResultLabelPanelLayout.createSequentialGroup()
                 .addGap(15, 15, 15)
-                .addComponent(NameLabel)
+                .addComponent(ResultLabel)
                 .addContainerGap(18, Short.MAX_VALUE))
         );
 
@@ -1883,39 +1884,39 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         MarkLabel.setText("Jūsu atzīme ir _");
         MarkLabel.setToolTipText("");
 
-        jButton26.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
-        jButton26.setText("Labi");
-        jButton26.addActionListener(new java.awt.event.ActionListener() {
+        ResultOutLabel.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
+        ResultOutLabel.setText("Labi");
+        ResultOutLabel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton26ActionPerformed(evt);
+                ResultOutLabelActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel34Layout = new javax.swing.GroupLayout(jPanel34);
-        jPanel34.setLayout(jPanel34Layout);
-        jPanel34Layout.setHorizontalGroup(
-            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout GeneralResultPanelLayout = new javax.swing.GroupLayout(GeneralResultPanel);
+        GeneralResultPanel.setLayout(GeneralResultPanelLayout);
+        GeneralResultPanelLayout.setHorizontalGroup(
+            GeneralResultPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(PercentLabel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel34Layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, GeneralResultPanelLayout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jPanel35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jPanel34Layout.createSequentialGroup()
+                .addComponent(ResultLabelPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(GeneralResultPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(GeneralResultPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(MarkLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(ResultOutLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
-        jPanel34Layout.setVerticalGroup(
-            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel34Layout.createSequentialGroup()
-                .addComponent(jPanel35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        GeneralResultPanelLayout.setVerticalGroup(
+            GeneralResultPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(GeneralResultPanelLayout.createSequentialGroup()
+                .addComponent(ResultLabelPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(PercentLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(MarkLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
-                .addComponent(jButton26, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(ResultOutLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
@@ -1923,11 +1924,11 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         ResultFrame.getContentPane().setLayout(ResultFrameLayout);
         ResultFrameLayout.setHorizontalGroup(
             ResultFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(GeneralResultPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         ResultFrameLayout.setVerticalGroup(
             ResultFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(GeneralResultPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         ResultFrame.getAccessibleContext().setAccessibleName("");
@@ -1935,219 +1936,234 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         HelpFrame.setTitle("Palidzības logs");
         HelpFrame.setResizable(false);
 
-        jPanel12.setBackground(new java.awt.Color(13, 85, 54));
+        HelpFrameLabelPanel.setBackground(new java.awt.Color(13, 85, 54));
 
-        jLabel18.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel18.setText("PALIDZĪBAS LOGS");
+        HelpLabel.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        HelpLabel.setForeground(new java.awt.Color(255, 255, 255));
+        HelpLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        HelpLabel.setText("PALIDZĪBAS LOGS");
 
-        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
-        jPanel12.setLayout(jPanel12Layout);
-        jPanel12Layout.setHorizontalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel18, javax.swing.GroupLayout.DEFAULT_SIZE, 700, Short.MAX_VALUE)
+        javax.swing.GroupLayout HelpFrameLabelPanelLayout = new javax.swing.GroupLayout(HelpFrameLabelPanel);
+        HelpFrameLabelPanel.setLayout(HelpFrameLabelPanelLayout);
+        HelpFrameLabelPanelLayout.setHorizontalGroup(
+            HelpFrameLabelPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(HelpLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 559, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
-        jPanel12Layout.setVerticalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
+        HelpFrameLabelPanelLayout.setVerticalGroup(
+            HelpFrameLabelPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HelpFrameLabelPanelLayout.createSequentialGroup()
                 .addContainerGap(17, Short.MAX_VALUE)
-                .addComponent(jLabel18)
+                .addComponent(HelpLabel)
                 .addGap(15, 15, 15))
         );
 
-        jPanel10.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel10.setLayout(null);
+        HelpTextPanel.setBackground(new java.awt.Color(255, 255, 255));
+        HelpTextPanel.setLayout(null);
 
         jScrollPane5.setBackground(new java.awt.Color(255, 255, 255));
         jScrollPane5.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane5.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
-        jPanel14.setBackground(new java.awt.Color(255, 255, 255));
+        HelpTextPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/help.jpg"))); // NOI18N
+        HelpTextLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/help.jpg"))); // NOI18N
 
-        jButton17.setBackground(new java.awt.Color(13, 85, 54));
-        jButton17.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton17.setForeground(new java.awt.Color(255, 255, 255));
-        jButton17.setText("Iziet");
-        jButton17.setToolTipText("");
-        jButton17.setBorder(null);
-        jButton17.addActionListener(new java.awt.event.ActionListener() {
+        HelpOutButton.setBackground(new java.awt.Color(13, 85, 54));
+        HelpOutButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        HelpOutButton.setForeground(new java.awt.Color(255, 255, 255));
+        HelpOutButton.setText("Iziet");
+        HelpOutButton.setToolTipText("");
+        HelpOutButton.setBorder(null);
+        HelpOutButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton17ActionPerformed(evt);
+                HelpOutButtonActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
-        jPanel14.setLayout(jPanel14Layout);
-        jPanel14Layout.setHorizontalGroup(
-            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel14Layout.createSequentialGroup()
-                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel14Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel14Layout.createSequentialGroup()
-                        .addGap(24, 24, 24)
-                        .addComponent(jLabel19)))
-                .addContainerGap(46, Short.MAX_VALUE))
-        );
-        jPanel14Layout.setVerticalGroup(
-            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
+        javax.swing.GroupLayout HelpTextPanel1Layout = new javax.swing.GroupLayout(HelpTextPanel1);
+        HelpTextPanel1.setLayout(HelpTextPanel1Layout);
+        HelpTextPanel1Layout.setHorizontalGroup(
+            HelpTextPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HelpTextPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 2280, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(HelpTextPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(HelpTextLabel)
+                    .addComponent(HelpOutButton, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(146, Short.MAX_VALUE))
+        );
+        HelpTextPanel1Layout.setVerticalGroup(
+            HelpTextPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HelpTextPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(HelpTextLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 2365, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(HelpOutButton, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(15, Short.MAX_VALUE))
         );
 
-        jScrollPane5.setViewportView(jPanel14);
+        jScrollPane5.setViewportView(HelpTextPanel1);
 
-        jPanel10.add(jScrollPane5);
-        jScrollPane5.setBounds(0, 0, 700, 410);
+        HelpTextPanel.add(jScrollPane5);
+        jScrollPane5.setBounds(0, 0, 560, 410);
 
         javax.swing.GroupLayout HelpFrameLayout = new javax.swing.GroupLayout(HelpFrame.getContentPane());
         HelpFrame.getContentPane().setLayout(HelpFrameLayout);
         HelpFrameLayout.setHorizontalGroup(
             HelpFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, 700, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(HelpFrameLabelPanel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(HelpTextPanel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 558, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         HelpFrameLayout.setVerticalGroup(
             HelpFrameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(HelpFrameLayout.createSequentialGroup()
-                .addGap(79, 79, 79)
-                .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, 410, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(HelpFrameLabelPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(HelpTextPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 410, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Testēšanas sistēma");
+        setAlwaysOnTop(true);
         setBackground(new java.awt.Color(255, 255, 255));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setForeground(java.awt.Color.white);
         setPreferredSize(new java.awt.Dimension(805, 540));
         setResizable(false);
 
-        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel3.setToolTipText("Autorizācijas logs");
-        jPanel3.setPreferredSize(new java.awt.Dimension(800, 500));
-        jPanel3.setLayout(null);
+        GeneralLoginPanel.setBackground(new java.awt.Color(255, 255, 255));
+        GeneralLoginPanel.setToolTipText("Autorizācijas logs");
+        GeneralLoginPanel.setPreferredSize(new java.awt.Dimension(800, 500));
+        GeneralLoginPanel.setLayout(null);
 
-        jPanel1.setBackground(new java.awt.Color(13, 85, 54));
-        jPanel1.setMinimumSize(new java.awt.Dimension(400, 500));
-        jPanel1.setPreferredSize(new java.awt.Dimension(400, 500));
-        jPanel1.setRequestFocusEnabled(false);
-        jPanel1.setLayout(null);
+        LoginImagePanel.setBackground(new java.awt.Color(13, 85, 54));
+        LoginImagePanel.setMinimumSize(new java.awt.Dimension(400, 500));
+        LoginImagePanel.setPreferredSize(new java.awt.Dimension(400, 500));
+        LoginImagePanel.setRequestFocusEnabled(false);
+        LoginImagePanel.setLayout(null);
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/regicon1.jpg"))); // NOI18N
-        jLabel5.setText("jLabel5");
-        jPanel1.add(jLabel5);
-        jLabel5.setBounds(-180, 0, 980, 510);
+        LoginImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/regicon1.jpg"))); // NOI18N
+        LoginImage.setText("jLabel5");
+        LoginImagePanel.add(LoginImage);
+        LoginImage.setBounds(-180, 0, 980, 510);
 
-        jPanel3.add(jPanel1);
-        jPanel1.setBounds(0, 0, 450, 500);
+        GeneralLoginPanel.add(LoginImagePanel);
+        LoginImagePanel.setBounds(0, 0, 450, 500);
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel2.setPreferredSize(new java.awt.Dimension(380, 480));
+        LoginDataPanel.setBackground(new java.awt.Color(255, 255, 255));
+        LoginDataPanel.setPreferredSize(new java.awt.Dimension(380, 480));
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(13, 85, 54));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("AUTORIZĀCIJA");
+        LoginLabel.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
+        LoginLabel.setForeground(new java.awt.Color(13, 85, 54));
+        LoginLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        LoginLabel.setText("AUTORIZĀCIJA");
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jLabel2.setText("Lietotājvārds");
+        UsernameLabel.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        UsernameLabel.setText("Lietotājvārds");
 
         UsernameField.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
-        jLabel3.setText("Parole");
+        PasswordLabel.setFont(new java.awt.Font("Segoe UI Semilight", 0, 16)); // NOI18N
+        PasswordLabel.setText("Parole");
 
-        jButton2.setBackground(new java.awt.Color(13, 85, 54));
-        jButton2.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("Ielogoties");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        LoginButton.setBackground(new java.awt.Color(13, 85, 54));
+        LoginButton.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        LoginButton.setForeground(new java.awt.Color(255, 255, 255));
+        LoginButton.setText("Ielogoties");
+        LoginButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                LoginButtonActionPerformed(evt);
             }
         });
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI Semilight", 0, 12)); // NOI18N
-        jLabel4.setText("Nav izveidots konts?");
+        RegisterQuestionLabel.setFont(new java.awt.Font("Segoe UI Semilight", 0, 12)); // NOI18N
+        RegisterQuestionLabel.setText("Nav izveidots konts?");
 
-        jButton3.setFont(new java.awt.Font("Segoe UI Semilight", 0, 12)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(13, 85, 54));
-        jButton3.setText("Reģistrēties");
-        jButton3.setBorder(null);
-        jButton3.setBorderPainted(false);
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        RegisterFrameButton.setFont(new java.awt.Font("Segoe UI Semilight", 0, 12)); // NOI18N
+        RegisterFrameButton.setForeground(new java.awt.Color(13, 85, 54));
+        RegisterFrameButton.setText("Reģistrēties");
+        RegisterFrameButton.setBorder(null);
+        RegisterFrameButton.setBorderPainted(false);
+        RegisterFrameButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                RegisterFrameButtonActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jLabel4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton3))
-                    .addComponent(UsernameField, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3)
-                    .addComponent(PasswordField, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+        HelpLoginButton.setFont(new java.awt.Font("Segoe UI Semilight", 0, 12)); // NOI18N
+        HelpLoginButton.setForeground(new java.awt.Color(13, 85, 54));
+        HelpLoginButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/helpbutton.jpg"))); // NOI18N
+        HelpLoginButton.setText("Palidzība");
+        HelpLoginButton.setBorder(null);
+        HelpLoginButton.setBorderPainted(false);
+        HelpLoginButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                HelpLoginButtonActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout LoginDataPanelLayout = new javax.swing.GroupLayout(LoginDataPanel);
+        LoginDataPanel.setLayout(LoginDataPanelLayout);
+        LoginDataPanelLayout.setHorizontalGroup(
+            LoginDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(LoginDataPanelLayout.createSequentialGroup()
+                .addComponent(LoginLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(LoginDataPanelLayout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addGroup(LoginDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(UsernameField, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(UsernameLabel)
+                    .addComponent(PasswordLabel)
+                    .addComponent(LoginButton, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(LoginDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(LoginDataPanelLayout.createSequentialGroup()
+                            .addComponent(RegisterQuestionLabel)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(RegisterFrameButton)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(HelpLoginButton))
+                        .addComponent(PasswordField, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        LoginDataPanelLayout.setVerticalGroup(
+            LoginDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(LoginDataPanelLayout.createSequentialGroup()
                 .addGap(34, 34, 34)
-                .addComponent(jLabel1)
+                .addComponent(LoginLabel)
                 .addGap(32, 32, 32)
-                .addComponent(jLabel2)
+                .addComponent(UsernameLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(UsernameField, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jLabel3)
+                .addComponent(PasswordLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(PasswordField, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(34, 34, 34)
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 117, Short.MAX_VALUE)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4)
-                    .addComponent(jButton3))
-                .addGap(11, 11, 11))
+                .addComponent(LoginButton, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 114, Short.MAX_VALUE)
+                .addGroup(LoginDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(HelpLoginButton)
+                    .addGroup(LoginDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(RegisterQuestionLabel)
+                        .addComponent(RegisterFrameButton)))
+                .addGap(14, 14, 14))
         );
 
-        jPanel3.add(jPanel2);
-        jPanel2.setBounds(450, 0, 350, 500);
+        GeneralLoginPanel.add(LoginDataPanel);
+        LoginDataPanel.setBounds(450, 0, 350, 500);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(GeneralLoginPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(GeneralLoginPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
-        jPanel3.getAccessibleContext().setAccessibleName("");
+        GeneralLoginPanel.getAccessibleContext().setAccessibleName("");
 
         getAccessibleContext().setAccessibleName("");
 
@@ -2155,15 +2171,15 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     // Ienākšana reģistrācijas logā
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void RegisterFrameButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegisterFrameButtonActionPerformed
+        this.dispose();
         RegisterFrame.setVisible(true);
         RegisterFrame.pack();
         RegisterFrame.setLocationRelativeTo(null);
-        this.dispose();
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_RegisterFrameButtonActionPerformed
 
     // Reģistrēšanas funkcija
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void RegisterButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegisterButtonActionPerformed
 
         String passwordRepeat = RegPasswordRepeatField.getText();
         String usertype = "";
@@ -2212,10 +2228,10 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             }
         }
 
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_RegisterButtonActionPerformed
 
     // Ielogošanas funkcija
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void LoginButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LoginButtonActionPerformed
         DataBase db = new DataBase();
         String username = UsernameField.getText();
         String password = PasswordField.getText();
@@ -2231,14 +2247,14 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                         MainFrameTeacher.setVisible(true);
                         MainFrameTeacher.pack();
                         MainFrameTeacher.setLocationRelativeTo(null);
-                        jLabel21.setText("Labdien, " + FirstName);
+                        UserNameLabelTeacher.setText("Labdien, " + FirstName);
                         currentUser = new Teacher(FirstName, username, password, userType);
                     } else {
                         MainFrameStudent.setVisible(true);
                         MainFrameStudent.pack();
                         MainFrameStudent.setLocationRelativeTo(null);
                         // Izmainisīm tekstu uz saveicinājumu ar lietotāju
-                        jLabel13.setText("Labdien, " + FirstName);
+                        UserNameLabelStudent.setText("Labdien, " + FirstName);
                         currentUser = new Student(FirstName, username, password, userType);
                     }
                     this.dispose();
@@ -2253,51 +2269,52 @@ public class Logu_Redaktors extends javax.swing.JFrame {
             UsernameField.setText("");
             PasswordField.setText("");
         }
-        test.addListSelectionListeners(jList1, jList2, TestDescriptionTextArea, TestDescriptionTextArea1);
-        test.loadTests(jList1, jList2);
-    }//GEN-LAST:event_jButton2ActionPerformed
+        test.addListSelectionListeners(TestList, TestListTeacher, TestDescriptionTextArea, TestDescriptionTextArea1);
+        test.loadTests(TestList, TestListTeacher);
+    }//GEN-LAST:event_LoginButtonActionPerformed
 
     // Funkcija rezultātu lejupielādei no datubāzes
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        jTabbedPane1.setSelectedIndex(1);
+    private void MarksTablePanelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MarksTablePanelButtonActionPerformed
+        jTabbedPaneStudent.setSelectedIndex(1);
         if (currentUser instanceof Student) {
-            ((Student) currentUser).displayMarks(jTable1);
+            ((Student) currentUser).displayMarks(MarksTable);
         }
-    }//GEN-LAST:event_jButton7ActionPerformed
+    }//GEN-LAST:event_MarksTablePanelButtonActionPerformed
 
     // Funkcija rezultātu lejupielādei no datubāzes
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        jTabbedPane1.setSelectedIndex(0);
-    }//GEN-LAST:event_jButton8ActionPerformed
+    private void TestSelectPanelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TestSelectPanelButtonActionPerformed
+        jTabbedPaneStudent.setSelectedIndex(0);
+    }//GEN-LAST:event_TestSelectPanelButtonActionPerformed
 
     // Konta izrakstīšanās funkcija
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void LoginOutStudentButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LoginOutStudentButtonActionPerformed
+        currentUser = null;
         LoginFrame.setVisible(true);
         MainFrameStudent.dispose();
         TestDescriptionTextArea.setText("");
-        jTabbedPane1.setSelectedIndex(0);
-    }//GEN-LAST:event_jButton1ActionPerformed
+        jTabbedPaneStudent.setSelectedIndex(0);
+    }//GEN-LAST:event_LoginOutStudentButtonActionPerformed
 
     // Kļūdu loga aizvēršanas funkcija  
-    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+    private void ErrorOutButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ErrorOutButtonActionPerformed
         ErrorFrame.dispose();
-    }//GEN-LAST:event_jButton18ActionPerformed
+    }//GEN-LAST:event_ErrorOutButtonActionPerformed
 
-    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+    private void LoginFrameButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LoginFrameButtonActionPerformed
         LoginFrame.setVisible(true);
         RegisterFrame.dispose();
-    }//GEN-LAST:event_jButton20ActionPerformed
+    }//GEN-LAST:event_LoginFrameButtonActionPerformed
 
-    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+    private void SuccessOutButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SuccessOutButtonActionPerformed
         SuccessFrame.dispose();
-    }//GEN-LAST:event_jButton21ActionPerformed
+    }//GEN-LAST:event_SuccessOutButtonActionPerformed
 
     // Testa pieladēšana no Datu bāzes
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void TestExecutionButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TestExecutionButtonActionPerformed
         DataBase db = new DataBase();
         ResultSet rs = null;
         PreparedStatement pst = null;
-        String testName = jList1.getSelectedValue();
+        String testName = TestList.getSelectedValue();
 
         JLabel[] questionLabels = {QuestionLabel1, QuestionLabel2, QuestionLabel3, QuestionLabel4, QuestionLabel5};
         JRadioButton[][] answerButtons = {
@@ -2338,12 +2355,12 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         }
         
 
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_TestExecutionButtonActionPerformed
 
     // Testu atbilžu ielādēšana un pārbaude
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+    private void TestSubmitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TestSubmitButtonActionPerformed
         ButtonGroup[] answerGroups = {AnswerGroup1, AnswerGroup2, AnswerGroup3, AnswerGroup4, AnswerGroup5};
-        String testName = jList1.getSelectedValue();
+        String testName = TestList.getSelectedValue();
         TestFrame.dispose();
         if (currentUser instanceof Student) {
             float[] Marks = ((Student) currentUser).submitTest(answerGroups, testName, currentUser);
@@ -2356,20 +2373,20 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 showError("Jūms jau ir atzīme par šo testu!");
             }
         }
-    }//GEN-LAST:event_jButton16ActionPerformed
+    }//GEN-LAST:event_TestSubmitButtonActionPerformed
 
     // Dzēst visas atlasītās atbildes
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+    private void TestOutButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TestOutButtonActionPerformed
         TestFrame.dispose();
         MainFrameStudent.show();
         ButtonGroup[] answerGroups = {AnswerGroup1, AnswerGroup2, AnswerGroup3, AnswerGroup4, AnswerGroup5};
         for (ButtonGroup currentGroup : answerGroups) {
             currentGroup.clearSelection();
         }
-    }//GEN-LAST:event_jButton15ActionPerformed
+    }//GEN-LAST:event_TestOutButtonActionPerformed
 
     // Dzēst visas atlasītās atbildes
-    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
+    private void ResultOutLabelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ResultOutLabelActionPerformed
         ButtonGroup[] answerGroups = {AnswerGroup1, AnswerGroup2, AnswerGroup3, AnswerGroup4, AnswerGroup5};
         for (ButtonGroup currentGroup : answerGroups) {
             currentGroup.clearSelection();
@@ -2377,75 +2394,76 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         TestFrame.dispose();
         ResultFrame.dispose();
         MainFrameStudent.show();
-    }//GEN-LAST:event_jButton26ActionPerformed
+    }//GEN-LAST:event_ResultOutLabelActionPerformed
 
     // Dzēst visas atlasītās atbildes
-    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+    private void DeleteAllAnswersButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DeleteAllAnswersButtonActionPerformed
         ButtonGroup[] answerGroups = {AnswerGroup1, AnswerGroup2, AnswerGroup3, AnswerGroup4, AnswerGroup5};
         for (ButtonGroup currentGroup : answerGroups) {
             currentGroup.clearSelection();
         }
-    }//GEN-LAST:event_jButton25ActionPerformed
+    }//GEN-LAST:event_DeleteAllAnswersButtonActionPerformed
 
     // Vērtēšanas tabulas aizpildīšanas funkcija
-    private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
-        jTabbedPane2.setSelectedIndex(1);
+    private void MarksTableTeacherButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MarksTableTeacherButtonActionPerformed
+        jTabbedPaneTeacher.setSelectedIndex(1);
         if (currentUser instanceof Teacher) {
-            ((Teacher) currentUser).populateMarksTable(jTable4);
+            ((Teacher) currentUser).populateMarksTable(MarksTableTeacher);
         }
 
-    }//GEN-LAST:event_jButton27ActionPerformed
+    }//GEN-LAST:event_MarksTableTeacherButtonActionPerformed
 
     // Konta izrakstīšanās funkcija
-    private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
+    private void LoginOutTeacherButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LoginOutTeacherButtonActionPerformed
+        currentUser = null;
         LoginFrame.setVisible(true);
         MainFrameTeacher.dispose();
         TestDescriptionTextArea1.setText("");
-        jTabbedPane2.setSelectedIndex(0);
-    }//GEN-LAST:event_jButton28ActionPerformed
+        jTabbedPaneTeacher.setSelectedIndex(0);
+    }//GEN-LAST:event_LoginOutTeacherButtonActionPerformed
 
     // Funkcijas atkārtošana testa saraksta ielādei
-    private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
-        test.addListSelectionListeners(jList1, jList2, TestDescriptionTextArea, TestDescriptionTextArea1);
-        test.loadTests(jList1, jList2);
-        jTabbedPane2.setSelectedIndex(0);
-    }//GEN-LAST:event_jButton29ActionPerformed
+    private void TestSelectPanelTeacherButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TestSelectPanelTeacherButtonActionPerformed
+        test.addListSelectionListeners(TestList, TestListTeacher, TestDescriptionTextArea, TestDescriptionTextArea1);
+        test.loadTests(TestList, TestListTeacher);
+        jTabbedPaneTeacher.setSelectedIndex(0);
+    }//GEN-LAST:event_TestSelectPanelTeacherButtonActionPerformed
 
     // Testa izdzēšanas funkcija
-    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
+    private void TestDeleteButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TestDeleteButtonActionPerformed
         if (currentUser instanceof Teacher) {
-            ((Teacher) currentUser).deleteTest(jList2, TestDescriptionTextArea1);
+            ((Teacher) currentUser).deleteTest(TestListTeacher, TestDescriptionTextArea1);
         }
 
-    }//GEN-LAST:event_jButton30ActionPerformed
+    }//GEN-LAST:event_TestDeleteButtonActionPerformed
 
     // Atzīmes labošanas funkcija
-    private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
-        if (jTable4.isEditing()) {
-            jTable4.getCellEditor().stopCellEditing();
+    private void MarksTableSaveButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MarksTableSaveButtonActionPerformed
+        if (MarksTableTeacher.isEditing()) {
+            MarksTableTeacher.getCellEditor().stopCellEditing();
         }
         if (currentUser instanceof Teacher) {
-            ((Teacher) currentUser).saveNewMarks(jTable4);
+            ((Teacher) currentUser).saveNewMarks(MarksTableTeacher);
         }
 
-    }//GEN-LAST:event_jButton32ActionPerformed
+    }//GEN-LAST:event_MarksTableSaveButtonActionPerformed
 
     // Atzīmes izdzēšanas funkcija
-    private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
+    private void DeleteMarkButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DeleteMarkButtonActionPerformed
         if (currentUser instanceof Teacher) {
-            ((Teacher) currentUser).deleteMark(jTable4);
+            ((Teacher) currentUser).deleteMark(MarksTableTeacher);
         }
-    }//GEN-LAST:event_jButton33ActionPerformed
+    }//GEN-LAST:event_DeleteMarkButtonActionPerformed
 
-    private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
+    private void NewTestButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NewTestButtonActionPerformed
         NewTestFrame.setVisible(true);
         NewTestFrame.pack();
         NewTestFrame.setLocationRelativeTo(null);
         MainFrameTeacher.dispose();
-    }//GEN-LAST:event_jButton34ActionPerformed
+    }//GEN-LAST:event_NewTestButtonActionPerformed
 
     // Jauna testa pievienošana
-    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+    private void SaveTestButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SaveTestButtonActionPerformed
         DataBase db = new DataBase();
         Connection con = null;
         PreparedStatement pst = null;
@@ -2499,80 +2517,91 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         } catch (Exception e) {
             System.out.println("Radās kļūda: " + e.getMessage());
         }
-        test.loadTests(jList1, jList2);
+        test.loadTests(TestList, TestListTeacher);
 
 
-    }//GEN-LAST:event_jButton19ActionPerformed
+    }//GEN-LAST:event_SaveTestButtonActionPerformed
 
-    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+    private void NewTestOutButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NewTestOutButtonActionPerformed
         NewTestFrame.dispose();
         MainFrameTeacher.setVisible(true);
         MainFrameTeacher.pack();
         MainFrameTeacher.setLocationRelativeTo(null);
-    }//GEN-LAST:event_jButton22ActionPerformed
+    }//GEN-LAST:event_NewTestOutButtonActionPerformed
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+    private void HelpStudentButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HelpStudentButtonActionPerformed
         MainFrameStudent.dispose();
         HelpFrame.setVisible(true);
         HelpFrame.pack();
         HelpFrame.setLocationRelativeTo(null);
-    }//GEN-LAST:event_jButton6ActionPerformed
+    }//GEN-LAST:event_HelpStudentButtonActionPerformed
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+    private void HelpTeacherButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HelpTeacherButtonActionPerformed
         MainFrameTeacher.dispose();
         HelpFrame.setVisible(true);
         HelpFrame.pack();
         HelpFrame.setLocationRelativeTo(null);
-    }//GEN-LAST:event_jButton9ActionPerformed
+    }//GEN-LAST:event_HelpTeacherButtonActionPerformed
 
-    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+    private void HelpOutButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HelpOutButtonActionPerformed
         jScrollPane5.getVerticalScrollBar().setValue(0);
         HelpFrame.dispose();
-        if ("teacher".equals(currentUser.usertype)) {
+        if(currentUser == null){
+            LoginFrame.setVisible(true);
+            LoginFrame.pack();
+            LoginFrame.setLocationRelativeTo(null);
+        } else if ("teacher".equals(currentUser.usertype)) {
             MainFrameTeacher.setVisible(true);
             MainFrameTeacher.pack();
             MainFrameTeacher.setLocationRelativeTo(null);
-        } else {
+        } else if ("student".equals(currentUser.usertype)){
             MainFrameStudent.setVisible(true);
             MainFrameStudent.pack();
             MainFrameStudent.setLocationRelativeTo(null);
-        }
-    }//GEN-LAST:event_jButton17ActionPerformed
+        } 
+    }//GEN-LAST:event_HelpOutButtonActionPerformed
 
     // Jauna studenta pievienošana
-    private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
-        DefaultTableModel model = (DefaultTableModel) jTable5.getModel();
+    private void NewStudentButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NewStudentButtonActionPerformed
+        DefaultTableModel model = (DefaultTableModel) StudentTableTeacher.getModel();
         model.addRow(new Object[]{"", "", "", ""});
-    }//GEN-LAST:event_jButton35ActionPerformed
+    }//GEN-LAST:event_NewStudentButtonActionPerformed
 
     // Studenta izdzēšanas funkcija
-    private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
+    private void DeleteStudentButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DeleteStudentButtonActionPerformed
         if (currentUser instanceof Teacher) {
-            ((Teacher) currentUser).deleteStudent(jTable5);
+            ((Teacher) currentUser).deleteStudent(StudentTableTeacher);
         }
-    }//GEN-LAST:event_jButton36ActionPerformed
+    }//GEN-LAST:event_DeleteStudentButtonActionPerformed
 
     // Studenta tabulas aizpildīšanas funkcija
-    private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
-        jTabbedPane2.setSelectedIndex(2);
+    private void StudentTableTeacherButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StudentTableTeacherButtonActionPerformed
+        jTabbedPaneTeacher.setSelectedIndex(2);
         if (currentUser instanceof Teacher) {
-            ((Teacher) currentUser).populateStudentTable(jTable5);
+            ((Teacher) currentUser).populateStudentTable(StudentTableTeacher);
         }
-    }//GEN-LAST:event_jButton31ActionPerformed
+    }//GEN-LAST:event_StudentTableTeacherButtonActionPerformed
 
     // Studentu saraksta saglabāšanas funkcija
-    private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
-        if (jTable5.isEditing()) {
-            jTable5.getCellEditor().stopCellEditing();
+    private void SaveStudentsTableButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SaveStudentsTableButtonActionPerformed
+        if (StudentTableTeacher.isEditing()) {
+            StudentTableTeacher.getCellEditor().stopCellEditing();
         }
         if (currentUser instanceof Teacher) {
-            ((Teacher) currentUser).saveNewStudent(jTable5);
+            ((Teacher) currentUser).saveNewStudent(StudentTableTeacher);
         }
-    }//GEN-LAST:event_jButton37ActionPerformed
+    }//GEN-LAST:event_SaveStudentsTableButtonActionPerformed
 
-    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+    private void InfoOutButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InfoOutButtonActionPerformed
         InfoFrame.dispose();
-    }//GEN-LAST:event_jButton23ActionPerformed
+    }//GEN-LAST:event_InfoOutButtonActionPerformed
+
+    private void HelpLoginButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HelpLoginButtonActionPerformed
+        this.dispose();
+        HelpFrame.setVisible(true);
+        HelpFrame.pack();
+        HelpFrame.setLocationRelativeTo(null);        
+    }//GEN-LAST:event_HelpLoginButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2609,8 +2638,8 @@ public class Logu_Redaktors extends javax.swing.JFrame {
         ResultFrame.setVisible(true);
         ResultFrame.pack();
         ResultFrame.setLocationRelativeTo(null);
-        NameLabel.setText("Apsveicām, " + currentUser.name);
-        PercentLabel.setText("Par testu \"" + jList1.getSelectedValue() + "\" jūs ieguvāt " + String.format("%.2f", percent) + "% ");
+        ResultLabel.setText("Apsveicām, " + currentUser.name);
+        PercentLabel.setText("Par testu \"" + TestList.getSelectedValue() + "\" jūs ieguvāt " + String.format("%.2f", percent) + "% ");
         MarkLabel.setText("Jūsu atzīme ir " + mark + "!");
     }
 
@@ -2674,15 +2703,59 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.ButtonGroup AnswerGroup3;
     private javax.swing.ButtonGroup AnswerGroup4;
     private javax.swing.ButtonGroup AnswerGroup5;
+    private javax.swing.JButton DeleteAllAnswersButton;
+    private javax.swing.JButton DeleteMarkButton;
+    private javax.swing.JButton DeleteStudentButton;
     private javax.swing.JDialog ErrorFrame;
+    private javax.swing.JLabel ErrorImage;
     private javax.swing.JLabel ErrorLabel;
+    private javax.swing.JButton ErrorOutButton;
+    private javax.swing.JPanel ErrorPanel;
+    private javax.swing.JPanel GeneralLoginPanel;
+    private javax.swing.JPanel GeneralNewTestPanel;
+    private javax.swing.JPanel GeneralRegisterPanel;
+    private javax.swing.JPanel GeneralResultPanel;
+    private javax.swing.JPanel GeneralTeacherPanel;
+    private javax.swing.JPanel GeneralTestPanel;
+    private javax.swing.JPanel GenralStudentPanel;
     private javax.swing.JDialog HelpFrame;
+    private javax.swing.JPanel HelpFrameLabelPanel;
+    private javax.swing.JLabel HelpLabel;
+    private javax.swing.JButton HelpLoginButton;
+    private javax.swing.JButton HelpOutButton;
+    private javax.swing.JButton HelpStudentButton;
+    private javax.swing.JButton HelpTeacherButton;
+    private javax.swing.JLabel HelpTextLabel;
+    private javax.swing.JPanel HelpTextPanel;
+    private javax.swing.JPanel HelpTextPanel1;
     private javax.swing.JDialog InfoFrame;
+    private javax.swing.JLabel InfoImage;
     private javax.swing.JLabel InfoLabel;
+    private javax.swing.JButton InfoOutButton;
+    private javax.swing.JPanel InfoPanel;
+    private javax.swing.JButton LoginButton;
+    private javax.swing.JPanel LoginDataPanel;
+    private javax.swing.JButton LoginFrameButton;
+    private javax.swing.JLabel LoginImage;
+    private javax.swing.JPanel LoginImagePanel;
+    private javax.swing.JLabel LoginLabel;
+    private javax.swing.JButton LoginOutStudentButton;
+    private javax.swing.JButton LoginOutTeacherButton;
+    private javax.swing.JLabel LoginQuestionLabel;
     private javax.swing.JDialog MainFrameStudent;
     private javax.swing.JDialog MainFrameTeacher;
     private javax.swing.JLabel MarkLabel;
-    private javax.swing.JLabel NameLabel;
+    private javax.swing.JLabel MarksLabel;
+    private javax.swing.JPanel MarksPanelStudent;
+    private javax.swing.JPanel MarksPanelTeacher;
+    private javax.swing.JTable MarksTable;
+    private javax.swing.JButton MarksTablePanelButton;
+    private javax.swing.JButton MarksTableSaveButton;
+    private javax.swing.JTable MarksTableTeacher;
+    private javax.swing.JButton MarksTableTeacherButton;
+    private javax.swing.JLabel MarksTeacherLabel;
+    private javax.swing.JPanel NavigationPanelStudent;
+    private javax.swing.JPanel NavigationPanelTeacher;
     private javax.swing.JTextField NewAnswerField11;
     private javax.swing.JTextField NewAnswerField12;
     private javax.swing.JTextField NewAnswerField13;
@@ -2703,15 +2776,32 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.ButtonGroup NewAnswerGroup3;
     private javax.swing.ButtonGroup NewAnswerGroup4;
     private javax.swing.ButtonGroup NewAnswerGroup5;
+    private javax.swing.JPanel NewQuestion1Panel;
+    private javax.swing.JPanel NewQuestion2Panel;
+    private javax.swing.JPanel NewQuestion3Panel;
+    private javax.swing.JPanel NewQuestion4Panel;
+    private javax.swing.JPanel NewQuestion5Panel;
     private javax.swing.JTextField NewQuestionField1;
     private javax.swing.JTextField NewQuestionField2;
     private javax.swing.JTextField NewQuestionField3;
     private javax.swing.JTextField NewQuestionField4;
     private javax.swing.JTextField NewQuestionField5;
+    private javax.swing.JButton NewStudentButton;
+    private javax.swing.JTextPane NewTestAdvice;
+    private javax.swing.JButton NewTestButton;
+    private javax.swing.JLabel NewTestDescriptionLabel;
     private javax.swing.JTextArea NewTestDesriptionField;
     private javax.swing.JDialog NewTestFrame;
+    private javax.swing.JPanel NewTestLabelPanel;
+    private javax.swing.JButton NewTestOutButton;
     private javax.swing.JPasswordField PasswordField;
+    private javax.swing.JLabel PasswordLabel;
     private javax.swing.JLabel PercentLabel;
+    private javax.swing.JPanel Question1Panel;
+    private javax.swing.JPanel Question2Panel;
+    private javax.swing.JPanel Question3Panel;
+    private javax.swing.JPanel Question4Panel;
+    private javax.swing.JPanel Question5Panel;
     private javax.swing.JLabel QuestionLabel1;
     private javax.swing.JLabel QuestionLabel2;
     private javax.swing.JLabel QuestionLabel3;
@@ -2733,126 +2823,70 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JRadioButton RadioButton52;
     private javax.swing.JRadioButton RadioButton53;
     private javax.swing.JTextField RegNameField;
+    private javax.swing.JLabel RegNameLabel;
     private javax.swing.JPasswordField RegPasswordField;
+    private javax.swing.JLabel RegPasswordLabel;
     private javax.swing.JPasswordField RegPasswordRepeatField;
+    private javax.swing.JLabel RegPasswordRepeatLabel;
     private javax.swing.JTextField RegSurnameField;
+    private javax.swing.JLabel RegSurnameLabel;
+    private javax.swing.JLabel RegUserTypeField;
     private javax.swing.JTextField RegUsernameField;
+    private javax.swing.JLabel RegUsernameLabel;
+    private javax.swing.JButton RegisterButton;
+    private javax.swing.JPanel RegisterDataPanel;
     private javax.swing.JDialog RegisterFrame;
+    private javax.swing.JButton RegisterFrameButton;
+    private javax.swing.JLabel RegisterImage;
+    private javax.swing.JPanel RegisterImagePanel;
+    private javax.swing.JLabel RegisterLabel;
+    private javax.swing.JLabel RegisterQuestionLabel;
     private javax.swing.JDialog ResultFrame;
+    private javax.swing.JLabel ResultLabel;
+    private javax.swing.JPanel ResultLabelPanel;
+    private javax.swing.JButton ResultOutLabel;
+    private javax.swing.JButton SaveStudentsTableButton;
+    private javax.swing.JButton SaveTestButton;
+    private javax.swing.JLabel StaticLabelError;
+    private javax.swing.JLabel StaticLabelInfo;
+    private javax.swing.JLabel StaticLabelSuccess;
+    private javax.swing.JPanel StudentPanelTeacher;
+    private javax.swing.JLabel StudentTableLabel;
+    private javax.swing.JTable StudentTableTeacher;
+    private javax.swing.JButton StudentTableTeacherButton;
     private javax.swing.JRadioButton StudentTypeRadioButton;
     private javax.swing.JDialog SuccessFrame;
+    private javax.swing.JLabel SuccessImage;
     private javax.swing.JLabel SuccessLabel;
+    private javax.swing.JButton SuccessOutButton;
+    private javax.swing.JPanel SuccessPanel;
     private javax.swing.JRadioButton TeacherTypeRadioButton;
+    private javax.swing.JButton TestDeleteButton;
+    private javax.swing.JLabel TestDescription;
     private javax.swing.JTextArea TestDescriptionTextArea;
     private javax.swing.JTextArea TestDescriptionTextArea1;
+    private javax.swing.JLabel TestDesctiptionLabelTeacher;
+    private javax.swing.JButton TestExecutionButton;
     private javax.swing.JDialog TestFrame;
+    private javax.swing.JPanel TestLabelPanel;
+    private javax.swing.JList<String> TestList;
+    private javax.swing.JLabel TestListLabel;
+    private javax.swing.JLabel TestListLabelTeacher;
+    private javax.swing.JList<String> TestListTeacher;
     private javax.swing.JTextField TestNameField;
     private javax.swing.JLabel TestNameLabel;
+    private javax.swing.JButton TestOutButton;
+    private javax.swing.JButton TestSelectPanelButton;
+    private javax.swing.JPanel TestSelectPanelStudent;
+    private javax.swing.JPanel TestSelectPanelTeacher;
+    private javax.swing.JButton TestSelectPanelTeacherButton;
+    private javax.swing.JButton TestSubmitButton;
+    private javax.swing.JLabel UserNameLabelStudent;
+    private javax.swing.JLabel UserNameLabelTeacher;
     private javax.swing.JTextField UsernameField;
+    private javax.swing.JLabel UsernameLabel;
     private javax.swing.ButtonGroup buttonGroup6;
     private javax.swing.ButtonGroup buttonGroup7;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton25;
-    private javax.swing.JButton jButton26;
-    private javax.swing.JButton jButton27;
-    private javax.swing.JButton jButton28;
-    private javax.swing.JButton jButton29;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton30;
-    private javax.swing.JButton jButton31;
-    private javax.swing.JButton jButton32;
-    private javax.swing.JButton jButton33;
-    private javax.swing.JButton jButton34;
-    private javax.swing.JButton jButton35;
-    private javax.swing.JButton jButton36;
-    private javax.swing.JButton jButton37;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
-    private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel36;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JList<String> jList1;
-    private javax.swing.JList<String> jList2;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel11;
-    private javax.swing.JPanel jPanel12;
-    private javax.swing.JPanel jPanel13;
-    private javax.swing.JPanel jPanel14;
-    private javax.swing.JPanel jPanel15;
-    private javax.swing.JPanel jPanel16;
-    private javax.swing.JPanel jPanel17;
-    private javax.swing.JPanel jPanel18;
-    private javax.swing.JPanel jPanel19;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel20;
-    private javax.swing.JPanel jPanel21;
-    private javax.swing.JPanel jPanel24;
-    private javax.swing.JPanel jPanel25;
-    private javax.swing.JPanel jPanel26;
-    private javax.swing.JPanel jPanel27;
-    private javax.swing.JPanel jPanel28;
-    private javax.swing.JPanel jPanel29;
-    private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel30;
-    private javax.swing.JPanel jPanel31;
-    private javax.swing.JPanel jPanel32;
-    private javax.swing.JPanel jPanel33;
-    private javax.swing.JPanel jPanel34;
-    private javax.swing.JPanel jPanel35;
-    private javax.swing.JPanel jPanel36;
-    private javax.swing.JPanel jPanel37;
-    private javax.swing.JPanel jPanel38;
-    private javax.swing.JPanel jPanel39;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
@@ -2874,11 +2908,7 @@ public class Logu_Redaktors extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator5;
     private javax.swing.JSeparator jSeparator6;
     private javax.swing.JSeparator jSeparator7;
-    private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTabbedPane jTabbedPane2;
-    private javax.swing.JTable jTable1;
-    private javax.swing.JTable jTable4;
-    private javax.swing.JTable jTable5;
-    private javax.swing.JTextPane jTextPane1;
+    private javax.swing.JTabbedPane jTabbedPaneStudent;
+    private javax.swing.JTabbedPane jTabbedPaneTeacher;
     // End of variables declaration//GEN-END:variables
 }
