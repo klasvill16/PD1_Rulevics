@@ -2141,11 +2141,11 @@ public class Logu_Redaktors extends javax.swing.JFrame {
                 .addGap(34, 34, 34)
                 .addComponent(LoginButton, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 114, Short.MAX_VALUE)
-                .addGroup(LoginDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(HelpLoginButton)
+                .addGroup(LoginDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(LoginDataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(RegisterQuestionLabel)
-                        .addComponent(RegisterFrameButton)))
+                        .addComponent(RegisterFrameButton))
+                    .addComponent(HelpLoginButton))
                 .addGap(14, 14, 14))
         );
 

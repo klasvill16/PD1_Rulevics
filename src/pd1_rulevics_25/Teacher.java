@@ -261,7 +261,7 @@ public class Teacher extends User {
 
         try {
             con = db.connect();
-            con.setAutoCommit(false);  // Begin transaction
+            con.setAutoCommit(false);  
 
             for (int i = 0; i < rowCount; i++) {
                 String firstName = (String) model.getValueAt(i, 0);
@@ -269,7 +269,6 @@ public class Teacher extends User {
                 String userName = (String) model.getValueAt(i, 2);
                 String password = (String) model.getValueAt(i, 3);
 
-                // Check if the user already exists
                 String checkSql = "SELECT COUNT(*) FROM users WHERE UserName=?";
                 pst = con.prepareStatement(checkSql);
                 pst.setString(1, userName);
@@ -289,7 +288,6 @@ public class Teacher extends User {
                     pst.executeUpdate();
                     pst.close();
                 } else {
-                    // User does not exist, insert a new record
                     String insertSql = "INSERT INTO users (FirstName, LastName, UserName, Password, UserType) VALUES (?, ?, ?, ?, ?)";
                     pst = con.prepareStatement(insertSql);
                     pst.setString(1, firstName);

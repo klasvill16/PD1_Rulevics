@@ -3966,12 +3966,12 @@
                       <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                       <Component id="LoginButton" min="-2" pref="40" max="-2" attributes="0"/>
                       <EmptySpace pref="114" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="HelpLoginButton" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Group type="103" alignment="3" groupAlignment="3" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                               <Component id="RegisterQuestionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="RegisterFrameButton" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
+                          <Component id="HelpLoginButton" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                   </Group>
