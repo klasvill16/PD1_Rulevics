@@ -1,4 +1,5 @@
 # Nikita Rulevics Projektu darbs Nr.1.
+# Prezentācija: https://failiem.lv/u/s6wsmk2qy7
 Testu tēma: skolas testi.
 
 Ja nevar izveidot savienojumu ar datubāzi, palīdzēs šis darbības protokols:
